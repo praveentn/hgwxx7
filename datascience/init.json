@@ -12,5 +12,27 @@
   'topic_name': 'Probability of sample means',
   'file_name': 'stats_probability_sample_mean_1.ipynb',
   'dataset': ''
+},
+{
+  'topic_name': 'P-value and Significane Levels',
+  'file_name': 'stats_pvalue_and_alpha_1.ipynb',
+  'dataset': ''
+},
+{
+  'topic_name': '',
+  'file_name': '',
+  'dataset': ''
+},
+{
+  'topic_name': '',
+  'file_name': '',
+  'dataset': ''
+},
+{
+  'topic_name': '',
+  'file_name': '',
+  'dataset': ''
 }
+
+
 
