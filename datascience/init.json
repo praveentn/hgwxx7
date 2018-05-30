@@ -4,7 +4,13 @@
   'dataset': 'Student_marks.csv'
 },
 {
-  'topic_name': 'Chi-square test',
-  'file_name': 'stats_chi_squared_test_1.ipynb',
-  'dataset': 'Student_marks.csv'
+  'topic_name': 'Probability calculation',
+  'file_name': 'stats_probability_calculation_1.ipynb',
+  'dataset': ''
+},
+{
+  'topic_name': 'Probability of sample means',
+  'file_name': 'stats_probability_sample_mean_1.ipynb',
+  'dataset': ''
 }
+
