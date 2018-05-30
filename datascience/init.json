@@ -1,8 +1,10 @@
 {
   'topic_name': 'Chi-square test',
-  'file_name': 'stats_chi_squared_test_1.ipynb'
+  'file_name': 'stats_chi_squared_test_1.ipynb',
+  'dataset': 'Student_marks.csv'
 },
 {
   'topic_name': 'Chi-square test',
-  'file_name': 'stats_chi_squared_test_1.ipynb' 
+  'file_name': 'stats_chi_squared_test_1.ipynb',
+  'dataset': 'Student_marks.csv'
 }
