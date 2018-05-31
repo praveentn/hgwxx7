@@ -6,11 +6,11 @@
 {
   topic: 'Natural Language Processing, nltk',
   file: 'ml_nlp_stopwords_1.ipynb',
-  dataset: 'nltk'
+  dataset: 'nltk, nlp_file.txt'
 },
 {
-  topic: '',
-  file: '',
+  topic: 'UNSUPERVISED LEARNING MODELS, REDUCING DIMENSIONS USING PCA, BUILDING A PIPELINE, MODEL PERSISTENCE',
+  file: 'ml_unsupervised_models_1.ipynb',
   dataset: ''
 },
 {
