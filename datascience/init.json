@@ -44,9 +44,9 @@
   'dataset': 'NY_house_.csv'
 },
 {
-  'topic_name': '',
-  'file_name': '',
-  'dataset': ''
+  'topic_name': '2 sample independent t test',
+  'file_name': 'stats_2_sample_independent_t_test_1.ipynb',
+  'dataset': 'Student_marks.csv'
 },
 {
   'topic_name': '',
