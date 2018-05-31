@@ -49,6 +49,16 @@
   'dataset': 'Student_marks.csv'
 },
 {
+  'topic_name': '2 sample dependent t test',
+  'file_name': 'stats_2_related_sample_t_test_1.ipynb',
+  'dataset': 'Student_marks.csv'
+},
+{
+  'topic_name': '',
+  'file_name': '',
+  'dataset': ''
+},
+{
   'topic_name': '',
   'file_name': '',
   'dataset': ''
