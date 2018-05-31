@@ -2,4 +2,29 @@
   topic: 'Train and Test models, Linear Regression, Polynomial Regression, KNN Classifier',
   file: 'ml_train_and_test_models_1.ipynb',
   dataset: ''
-}
+},
+{
+  topic: 'Natural Language Processing, nltk',
+  file: 'ml_nlp_stopwords_1.ipynb',
+  dataset: 'nltk'
+},
+{
+  topic: '',
+  file: '',
+  dataset: ''
+},
+{
+  topic: '',
+  file: '',
+  dataset: ''
+},
+{
+  topic: '',
+  file: '',
+  dataset: ''
+},
+{
+  topic: '',
+  file: '',
+  dataset: ''
+},
