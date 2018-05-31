@@ -14,9 +14,9 @@
   dataset: ''
 },
 {
-  topic: '',
-  file: '',
-  dataset: ''
+  topic: 'Building models, train and test, Logistic Regression, Predictions',
+  file: 'ml_building_models_and_predictions_1.ipynb',
+  dataset: 'Classification.csv'
 },
 {
   topic: '',
