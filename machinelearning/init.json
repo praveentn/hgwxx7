@@ -1,5 +1,5 @@
 {
-  topic: '',
-  file: '',
+  topic: 'Train and Test models, Linear Regression, Polynomial Regression, KNN Classifier',
+  file: 'ml_train_and_test_models_1.ipynb',
   dataset: ''
 }
