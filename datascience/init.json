@@ -54,9 +54,9 @@
   'dataset': 'Student_marks.csv'
 },
 {
-  'topic_name': '',
-  'file_name': '',
-  'dataset': ''
+  'topic_name': 'Basic stats operations using pandas',
+  'file_name': 'stats_basic_operations_1.ipynb',
+  'dataset': 'RealEstate.csv'
 },
 {
   'topic_name': '',
