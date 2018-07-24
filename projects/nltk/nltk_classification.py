@@ -131,7 +131,8 @@ for obj in test_pos:
 print('[Negative]: %s/%s '  % (len(test_neg),neg_cnt))        
 print('[Positive]: %s/%s '  % (len(test_pos),pos_cnt)) 
 
-
+# [Negative]: 1714/1617
+# [Positive]: 431/155
 
 
 
