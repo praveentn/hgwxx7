@@ -32,6 +32,7 @@ print(df)
 
 df = df.loc[df['switch_state']=='sw-off']
 df['count'] = df.groupby(['username','time'])['username'].transform('count')
+df = df.drop_duplicates(subset=['username', 'time'], keep='first')
 
 plt.scatter(df['time'], df['username'])
 plt.show()
