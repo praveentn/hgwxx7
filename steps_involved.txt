@@ -4,7 +4,8 @@
 2. Load data -> pandas + DataFrame
     - study the data
     - features and target(s)
-    - correlation
+    - correlation df.corr()
+    - distribution df.hist()
 3. Imputation
     - missing values
     - outliers
