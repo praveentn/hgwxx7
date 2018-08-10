@@ -1,0 +1,32 @@
+# Python | Data Science | Machine Learning
+
+1. Import required libraries
+2. Load data -> pandas + DataFrame
+    - study the data
+    - features and target(s)
+    - correlation
+3. Imputation
+    - missing values
+    - outliers
+4. Exploratory Data Analysis
+    - analyzing data sets to summarize their main characteristics, often with visual methods
+    - heatmap of correlation
+    - univariate analysis
+    - bivariate analysis
+    - multivariate analysis
+5. Statistical Modeling + Hypothesis Testing
+6. Feature reduction
+    - PCA
+    - SelectPercentile
+    - Combine features 
+    - Collinear features
+    - Ignore unwanted features
+7. Label encoding or One Hot encoding
+8. Train test split
+9. Algorithms
+10. Modeling
+    - Train and test
+    - Predict
+    - Measure Accuracy
+    - Parameter Tuning
+    - Retrain
