@@ -8,6 +8,7 @@
     - distribution -- df.hist()
     - density dist -- df.plot(kind='density', subplots=True, 
                             layout=(3,3), sharex=False)
+    - scatter matrix of df
 3. Imputation
     - missing values
         -- ffill, bfill, mean, map(key:value)
