@@ -22,11 +22,13 @@
     - multivariate analysis
 5. Statistical Modeling + Hypothesis Testing
 6. Feature reduction
-    - PCA
+    - PCA, ICA
     - SelectPercentile
     - Combine features 
     - Collinear features
     - Ignore unwanted features
+    - Data with low variance can't help in prediction
+        [1,2,1,1,3,1,1,2,1,2,1,1,2,1,1]
 7. Label encoding or One Hot encoding
 8. Train test split
 9. Algorithms
@@ -36,3 +38,14 @@
     - Measure Accuracy
     - Parameter Tuning
     - Retrain
+
+Consider
+1. Precision = TP / (TP + FP)
+2. Recall    = TP / (TP + FN)
+3. Confusion matrix 
+    PY   PN
+AY  [TP, FP]
+AN  [FN, TN]
+
+4. True +ve, False +ve
+
