@@ -51,7 +51,7 @@ AN  [FN, TN]
 4. True +ve, False +ve
 
 5. Standardization
-    - StandardScalar
+    - StandardScaler
 6. Normalization
 
 7. Model fit and transform
