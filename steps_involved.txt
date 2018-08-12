@@ -39,7 +39,8 @@
     - Parameter Tuning
     - Retrain
 
-Consider
+Also, consider
+
 1. Precision = TP / (TP + FP)
 2. Recall    = TP / (TP + FN)
 3. Confusion matrix 
@@ -48,4 +49,10 @@ AY  [TP, FP]
 AN  [FN, TN]
 
 4. True +ve, False +ve
+
+5. Standardization
+    - StandardScalar
+6. Normalization
+
+7. Model fit and transform
 
