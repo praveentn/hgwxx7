@@ -21,6 +21,7 @@
     - strategy for treating missing values
         -- ffill, bfill, mean, map(key:value)
     - strategy for handling outliers
+    	-- cause of outliers
         -- uni/bi variate outliers
         -- 2-3 times less or more than S.Dev
         -- 1.5-2 times IQR
@@ -74,6 +75,7 @@
     - Measure Accuracy
     - Parameter Tuning
     - Retrain
+    - 
 
 Also, note 
 
@@ -81,7 +83,7 @@ Also, note
 *  Precision = TP / (TP + FP)
 *  Recall    = TP / (TP + FN)
 *  Confusion matrix 
-		PY   PN
+	    PY   PN
 	AY  [TP, FP]
 	AN  [FN, TN]
  
@@ -96,4 +98,5 @@ Also, note
 *  Variable transformation
     - scale data
     - symmetric distribution
+    - complex non-linear relationships into linear relationships
     - 
