@@ -13,7 +13,12 @@
     - missing values
         -- ffill, bfill, mean, map(key:value)
     - outliers
+        -- uni/bi variate outliers
         -- 2-3 times less or more than S.Dev
+        -- 1.5-2 times IQR
+        -- exclude points below 5th percentiles & above 95th 
+        -- 
+        
 4. Exploratory Data Analysis
     - analyzing data sets to summarize their main characteristics, often with visual methods
     - heatmap of correlation
@@ -56,3 +61,7 @@ AN  [FN, TN]
 
 7. Model fit and transform
 
+8. Variable transformation
+    - scale data
+    - symmetric distribution
+    - 
