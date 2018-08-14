@@ -47,10 +47,12 @@
     - Ignore unwanted features
     - Data with low variance can't help in prediction
         [1,2,1,1,3,1,1,2,1,2,1,1,2,1,1]
-    - 
+    - Dimensionality reduction with t-SNE
+    	- t-Distributed Stochastic Neighbor Embedding (t-SNE)
+    -
     
 7. Label encoding or One Hot encoding
-    - classify label encoded data
+    - note label encoded data
     - 
     
 8. Train test split
@@ -73,6 +75,12 @@
     - Train and test
     - Predict
     - Measure Accuracy
+    	- mean_squared_error
+	- r2_score
+	- confusion_matrix
+	- 
+    - Cost function
+    	- Gradient Descent
     - Parameter Tuning
     - Retrain
     - 
