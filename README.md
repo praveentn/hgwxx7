@@ -30,6 +30,14 @@
 * plotly
 * 
 ---
+<b>Python</b>
+* collections
+* itertools
+* datetime
+* random
+* time
+* 
+
 <b>Text processing</b>
 * nltk
 * gensim
@@ -47,12 +55,44 @@
 <b>Miscellaneous</b>
 * os
 * sys
-* time
 * glob
-* datetime
+* inspect
+* tkinter
+* builtins
 * 
 
 ---
+
+#### sklearn
+  - svm
+  - tree
+  - utils
+  - metrics
+  - pipeline
+  - datasets
+  - manifold
+  - ensemble
+  - neighbors
+  - covariance
+  - naive_bayes
+  - linear_model
+  - preprocessing
+  - cross_validation
+  - model_selection
+  - 
+  
+### Algorithms
+
+* Linear Regression
+* Logistic Regression
+* k Nearest Neighbors
+* Support Vector Machine
+* k Means Clustering
+* Decision Trees
+* Random Forest
+* 
+
+
 
 Creation Date: 31/05/2018 <br/>
 Created By: Praveen T N <br/>
