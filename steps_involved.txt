@@ -10,7 +10,7 @@
     - study the data
     - whether adequate data is available
     - features and target(s)
-    - correlation -- df.corr()
+    - correlation -- df.corr() or seaborn heatmap
     - distribution -- df.hist()
     - density dist -- df.plot(kind='density', subplots=True, 
                             layout=(3,3), sharex=False)
@@ -40,6 +40,8 @@
     - 
     
 6. Feature reduction
+    - Standardization
+        - StandardScaler
     - PCA, ICA
     - SelectPercentile
     - Combine features 
@@ -97,8 +99,6 @@ Also, note
  
 *  True +ve, False +ve
 
-*  Standardization
-   - StandardScaler
 *  Normalization
  
 *  Model fit and transform
