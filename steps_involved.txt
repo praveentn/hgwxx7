@@ -1,18 +1,26 @@
 # Python | Data Science | Machine Learning
 
+### Type of the problem: 
+    - Whether regression, classification, clustering etc.
+    - supervised, unsupervised, reinforcement etc.
+    - 
+    
 1. Import required libraries
 2. Load data -> pandas + DataFrame
     - study the data
+    - whether adequate data is available
     - features and target(s)
     - correlation -- df.corr()
     - distribution -- df.hist()
     - density dist -- df.plot(kind='density', subplots=True, 
                             layout=(3,3), sharex=False)
     - scatter matrix of df
+    - 
+    
 3. Imputation
-    - missing values
+    - strategy for treating missing values
         -- ffill, bfill, mean, map(key:value)
-    - outliers
+    - strategy for handling outliers
         -- uni/bi variate outliers
         -- 2-3 times less or more than S.Dev
         -- 1.5-2 times IQR
@@ -25,7 +33,11 @@
     - univariate analysis
     - bivariate analysis
     - multivariate analysis
+    - 
 5. Statistical Modeling + Hypothesis Testing
+    - perform required statistical tests
+    - 
+    
 6. Feature reduction
     - PCA, ICA
     - SelectPercentile
@@ -34,9 +46,28 @@
     - Ignore unwanted features
     - Data with low variance can't help in prediction
         [1,2,1,1,3,1,1,2,1,2,1,1,2,1,1]
+    - 
+    
 7. Label encoding or One Hot encoding
+    - classify label encoded data
+    - 
+    
 8. Train test split
+    - random state
+    - test size
+    - cross validation cv
+        - shuffle split
+        - GridSearchCV
+        - cross_val_score
+        - 
+        
 9. Algorithms
+    - choice of algorithms
+    - advantages
+    - disadvantages
+    - calibration
+    - 
+    
 10. Modeling
     - Train and test
     - Predict
@@ -44,24 +75,25 @@
     - Parameter Tuning
     - Retrain
 
-Also, consider
+Also, note 
 
-1. Precision = TP / (TP + FP)
-2. Recall    = TP / (TP + FN)
-3. Confusion matrix 
-    PY   PN
-AY  [TP, FP]
-AN  [FN, TN]
+*  ROC curve
+*  Precision = TP / (TP + FP)
+*  Recall    = TP / (TP + FN)
+*  Confusion matrix 
+		PY   PN
+	AY  [TP, FP]
+	AN  [FN, TN]
+ 
+*  True +ve, False +ve
 
-4. True +ve, False +ve
-
-5. Standardization
-    - StandardScaler
-6. Normalization
-
-7. Model fit and transform
-
-8. Variable transformation
+*  Standardization
+   - StandardScaler
+*  Normalization
+ 
+*  Model fit and transform
+ 
+*  Variable transformation
     - scale data
     - symmetric distribution
     - 
