@@ -30,11 +30,18 @@
         
 4. Exploratory Data Analysis
     - analyzing data sets to summarize their main characteristics, often with visual methods
+    - central tendency
+    - measure of dispersion
+    - measure of spread (variance)
     - heatmap of correlation
     - univariate analysis
     - bivariate analysis
     - multivariate analysis
-    - 
+    - data cleaning and wrangling (tidying)
+    - summarization
+    - visualization
+    
+    
 5. Statistical Modeling + Hypothesis Testing
     - perform required statistical tests
     - 
