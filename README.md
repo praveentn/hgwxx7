@@ -17,6 +17,7 @@
 * numpy
 * scipy
 * sklearn
+* statsmodels
 * pickle
 * 
 
