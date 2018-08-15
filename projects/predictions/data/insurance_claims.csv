@@ -1,0 +1,1001 @@
+CustomerID,State,ClaimAmount,Education,Income,Gender,Policy,NumberOfPolicies,PolicyType,MonthsInstallment,VehicleType,TotalClaimAmount
+CID311,IA,59,High School,196419,M,Auto,4,Business,70,MUV,112.09
+CID838,PH,71,Professional,171186,F,Auto,4,Business,31,Medium sized,113.47
+CID607,PH,103,Graduate,285004,F,Auto,4,Self Auto,67,Sedan,113.86
+CID436,TX,103,Professional,181780,M,Auto,4,Corporate Auto,78,Medium sized,114.16
+CID018,PH,112,College,275022,F,Auto,3,Self Auto,21,Medium sized,116.19
+CID408,AL,119,College,36835,F,Auto,3,Self Auto,27,MUV,117.82
+CID447,TX,121,Professional,34815,M,Auto,1,Service,88,SUV,118.17
+CID706,PH,128,College,37797,F,Auto,4,Self Auto,72,SUV,118.51
+CID998,TX,130,Professional,217877,F,Auto,3,Business,95,Sedan,118.57
+CID041,AL,135,Graduate,35277,M,Auto,1,Corporate Auto,1,Sedan,111.2
+CID851,TX,139,Not specified,13091,F,Auto,2,Self Auto,86,MUV,11.71
+CID541,IA,145,Professional,101487,M,Auto,2,Business,49,Sedan,211.9
+CID345,OH,195,Professional,113176,F,Auto,3,Business,54,Medium sized,215.66
+CID860,IA,211,Graduate,237521,F,Auto,2,Service,70,Medium sized,215.82
+CID525,TX,213,Professional,242451,M,Auto,2,Service,77,Sedan,216.34
+CID317,PH,216,Professional,25374,F,Auto,2,Corporate Auto,75,Sedan,216.92
+CID947,TX,220,Not specified,65925,F,Auto,3,Service,11,MUV,217.77
+CID063,PH,221,Professional,276355,M,Auto,3,Service,40,MUV,218.39
+CID625,AL,251,High School,110332,F,Auto,4,Business,31,Medium sized,321.21
+CID984,OH,261,High School,211808,M,Auto,1,Service,21,SUV,421.78
+CID535,PH,281,Not specified,146962,F,Auto,4,Business,7,SUV,322.77
+CID312,PH,288,Not specified,62186,F,Auto,3,Business,77,Medium sized,427.02
+CID160,TX,298,High School,179376,M,Auto,3,Corporate Auto,33,SUV,427.89
+CID452,TX,325,High School,38535,F,Auto,3,Service,29,SUV,529.41
+CID118,PH,338,Not specified,213503,F,Auto,1,Self Auto,89,MUV,431.53
+CID271,TX,339,High School,72154,F,Auto,3,Business,6,SUV,335.18
+CID567,OH,343,High School,257318,M,Auto,2,Self Auto,36,SUV,439.84
+CID017,IA,360,Professional,148117,F,Auto,1,Self Auto,85,SUV,539.9
+CID779,TX,370,High School,2123,M,Auto,3,Service,6,SUV,442.23
+CID373,AL,379,Professional,39936,M,Auto,1,Business,3,Sedan,1042.72
+CID595,PH,387,Professional,11644,F,Auto,3,Self Auto,37,MUV,343.28
+CID904,PH,397,Not specified,298479,M,Auto,2,Service,29,SUV,443.89
+CID108,AL,409,Graduate,296177,M,Auto,2,Service,71,SUV,546.59
+CID072,TX,415,High School,88775,M,Auto,2,Service,94,SUV,650.7
+CID202,TX,427,Graduate,283746,M,Auto,4,Service,31,MUV,751.83
+CID249,AL,436,Not specified,73858,M,Auto,1,Corporate Auto,15,SUV,852.8
+CID897,OH,443,College,277633,M,Auto,4,Self Auto,16,MUV,755.27
+CID782,PH,444,Professional,267109,M,Auto,4,Business,31,MUV,657.31
+CID911,TX,444,Professional,267673,M,Auto,4,Self Auto,16,Sedan,558.99
+CID716,OH,462,Graduate,282904,F,Auto,3,Business,48,Medium sized,659.57
+CID322,PH,469,High School,222766,M,Auto,3,Self Auto,1,SUV,860.02
+CID579,IA,500,Graduate,53714,F,Auto,4,Corporate Auto,74,SUV,860.61
+CID088,OH,503,Not specified,173600,M,Auto,4,Service,37,SUV,860.7
+CID327,TX,532,Professional,110824,M,Auto,4,Service,63,SUV,861.14
+CID325,IA,533,Not specified,172893,F,Auto,2,Business,13,Medium sized,862.88
+CID487,PH,547,Not specified,124450,F,Auto,4,Self Auto,65,Medium sized,862.97
+CID565,PH,551,Graduate,276171,F,Auto,4,Service,76,MUV,865.24
+CID835,PH,551,Not specified,296131,M,Auto,3,Business,49,Medium sized,867.11
+CID748,OH,562,Graduate,154468,F,Auto,1,Service,89,Medium sized,869.34
+CID332,PH,601,High School,128407,M,Auto,1,Service,93,MUV,869.9
+CID151,AL,603,High School,67440,F,Auto,2,Service,96,MUV,870.16
+CID056,AL,627,College,138243,F,Auto,4,International,29,SUV,870.17
+CID775,OH,627,Graduate,281624,F,Auto,3,Service,54,Medium sized,871.67
+CID483,TX,631,Graduate,41519,M,Auto,4,Corporate Auto,26,SUV,872.37
+CID823,IA,639,Professional,67092,F,Auto,3,Corporate Auto,10,Medium sized,875.64
+CID321,IA,641,High School,61482,M,Auto,2,Business,31,Medium sized,876.12
+CID358,IA,641,High School,193742,F,Auto,3,Corporate Auto,36,SUV,877.3
+CID136,OH,643,Graduate,10248,F,Auto,4,Service,95,SUV,879.01
+CID233,TX,643,Professional,194718,F,Auto,4,Service,3,Medium sized,883.76
+CID092,PH,651,Graduate,222269,F,Auto,1,Business,88,Sedan,884.43
+CID394,IA,652,Graduate,122412,M,Auto,3,Corporate Auto,73,MUV,884.96
+CID645,AL,664,Professional,5106,M,Auto,2,Service,17,Sedan,885.32
+CID519,PH,676,Graduate,197411,M,Auto,1,Business,81,MUV,886.86
+CID600,AL,679,High School,33196,M,Auto,1,Self Auto,93,SUV,889.44
+CID184,AL,710,Professional,258815,F,Auto,1,Self Auto,50,MUV,890.93
+CID654,OH,726,Professional,54145,F,Auto,3,Service,22,MUV,891.16
+CID757,PH,734,Graduate,153784,M,Auto,2,Self Auto,41,MUV,892.74
+CID967,PH,747,Not specified,152436,F,Auto,3,Service,48,MUV,894.81
+CID099,IA,763,Not specified,12494,F,Auto,2,Service,17,SUV,895.5
+CID336,IA,765,Professional,63811,M,Auto,3,Corporate Auto,37,Sedan,897.8
+CID188,OH,770,Professional,121911,M,Auto,3,Service,79,Sedan,898.22
+CID698,TX,773,College,295029,F,Auto,1,Business,51,SUV,899.38
+CID499,TX,784,College,253632,M,Auto,4,Self Auto,94,MUV,1100.12
+CID166,OH,802,High School,69945,F,Auto,4,Service,24,SUV,1101.56
+CID403,AL,816,College,127989,M,Auto,4,International,70,SUV,1104.58
+CID769,PH,827,College,69186,M,Auto,4,Corporate Auto,62,Medium sized,1106.41
+CID064,TX,843,College,240607,M,Auto,3,Self Auto,62,SUV,1111.13
+CID976,AL,847,Graduate,130862,M,Auto,2,Self Auto,57,SUV,1111.47
+CID910,PH,849,Professional,229713,M,Auto,3,Self Auto,74,Medium sized,1111.52
+CID762,TX,852,Professional,262203,F,Auto,2,Service,80,MUV,1111.88
+CID994,PH,852,High School,278418,M,Auto,4,Self Auto,72,Sedan,1113.14
+CID774,TX,861,Graduate,216449,F,Auto,2,Business,65,Sedan,1113.91
+CID232,PH,867,High School,20551,M,Auto,4,Service,73,Sedan,1116.43
+CID476,TX,879,Graduate,251268,M,Auto,1,Corporate Auto,82,SUV,1116.9
+CID303,TX,889,Not specified,207105,M,Auto,4,International,86,Sedan,1116.93
+CID560,PH,901,Graduate,129123,M,Auto,4,Self Auto,35,MUV,1117.12
+CID298,PH,906,College,270555,M,Auto,1,Corporate Auto,80,MUV,1118.3
+CID751,PH,912,Professional,77826,F,Auto,3,Business,64,Medium sized,1624.76
+CID752,TX,916,High School,247322,M,Auto,4,Service,27,Sedan,1624.99
+CID951,IA,954,College,224760,M,Auto,2,Corporate Auto,91,Medium sized,1625.68
+CID011,PH,960,College,74181,F,Auto,2,Corporate Auto,55,Sedan,1630.47
+CID012,TX,976,College,31975,F,Auto,2,International,50,SUV,1634.07
+CID711,PH,988,Not specified,250798,M,Auto,4,Self Auto,14,Sedan,1636.37
+CID514,PH,994,College,278063,M,Auto,2,Corporate Auto,57,Sedan,1639.14
+CID168,IA,999,High School,106601,F,Auto,1,Self Auto,31,Sedan,1640.57
+CID393,AL,1004,Professional,8793,M,Auto,3,Service,76,Sedan,1641.03
+CID587,TX,1008,Professional,218381,M,Auto,1,Self Auto,33,Medium sized,1643.16
+CID187,TX,1012,Not specified,246528,M,Auto,4,Corporate Auto,19,MUV,1647.18
+CID809,TX,1035,Not specified,26263,M,Auto,4,Service,35,Sedan,1649.64
+CID605,AL,1039,Graduate,242133,F,Auto,3,Business,90,Sedan,1650.89
+CID014,TX,1040,Graduate,91130,M,Auto,4,Business,53,Sedan,1655.87
+CID380,PH,1073,Graduate,145873,F,Auto,3,Business,36,Medium sized,1656.07
+CID780,OH,1090,Not specified,179712,M,Auto,2,Service,52,SUV,1656.53
+CID872,OH,1095,College,53153,M,Auto,3,Corporate Auto,95,Medium sized,2157.73
+CID867,IA,1107,Not specified,223435,M,Auto,4,Self Auto,96,Medium sized,2158.57
+CID694,PH,1114,Graduate,260065,F,Auto,2,Self Auto,80,Medium sized,2160.23
+CID060,TX,1121,Not specified,102280,M,Auto,2,Corporate Auto,52,Medium sized,2162.58
+CID861,AL,1125,College,155770,M,Auto,2,Service,7,MUV,2164.36
+CID033,PH,1131,Not specified,173477,F,Auto,3,Self Auto,72,Sedan,2165.33
+CID744,AL,1133,Professional,239529,M,Auto,4,Service,86,Sedan,2166.23
+CID682,PH,1138,High School,15623,F,Auto,2,Corporate Auto,29,SUV,2166.58
+CID617,PH,1174,Not specified,169826,F,Auto,2,Corporate Auto,37,SUV,2167.77
+CID837,OH,1188,College,199010,F,Auto,3,Business,24,MUV,2168.4
+CID609,OH,1205,Professional,230096,M,Auto,4,Business,66,Sedan,2168.61
+CID460,TX,1221,Not specified,170127,F,Auto,4,Service,89,SUV,2170.27
+CID355,OH,1254,Professional,86318,M,Auto,1,Business,76,Sedan,2172.04
+CID870,OH,1255,Professional,32286,F,Auto,4,Self Auto,18,SUV,2173.72
+CID348,TX,1271,High School,276958,M,Auto,1,Business,8,SUV,2174.2
+CID139,AL,1272,Professional,34395,F,Auto,1,Self Auto,13,Medium sized,2175.41
+CID172,AL,1275,College,260794,M,Auto,2,Business,95,SUV,2175.53
+CID1000,TX,1298,High School,211743,M,Auto,3,International,83,Medium sized,2179.56
+CID253,OH,1308,High School,275093,F,Auto,4,Service,20,SUV,2180.43
+CID120,OH,1312,Graduate,117186,M,Auto,1,Corporate Auto,55,Medium sized,2181.57
+CID261,OH,1346,College,260723,M,Auto,1,Self Auto,75,Sedan,2182.68
+CID344,TX,1348,High School,5444,M,Auto,2,Corporate Auto,24,SUV,2184.2
+CID085,TX,1348,High School,250975,F,Auto,4,Service,67,Medium sized,2185.5
+CID318,TX,1353,Not specified,120038,F,Auto,1,Corporate Auto,29,Medium sized,2186.52
+CID554,OH,1381,Graduate,726,M,Auto,1,Corporate Auto,7,SUV,2186.77
+CID086,OH,1383,College,249949,F,Auto,3,Service,53,Sedan,2187.11
+CID740,PH,1389,High School,229700,F,Auto,2,Self Auto,77,SUV,2187.58
+CID378,AL,1402,High School,26998,M,Auto,4,Business,10,Sedan,2189.18
+CID296,AL,1417,College,103838,M,Auto,2,Service,5,MUV,2192.99
+CID382,OH,1420,Graduate,35760,M,Auto,4,Corporate Auto,51,SUV,2196.04
+CID968,OH,1436,College,144173,M,Auto,3,Self Auto,20,Sedan,2198.41
+CID692,AL,1442,High School,41929,F,Auto,3,Self Auto,33,Sedan,2198.59
+CID258,IA,1447,Graduate,205887,F,Auto,4,Business,18,Medium sized,2201.24
+CID485,AL,1462,Professional,71552,M,Auto,4,Service,16,MUV,2202.59
+CID002,IA,1468,Professional,106664,F,Auto,1,Self Auto,76,MUV,2202.82
+CID159,PH,1485,High School,93678,F,Auto,2,Self Auto,30,Sedan,2205.5
+CID413,AL,1510,Graduate,132714,M,Auto,3,International,3,Medium sized,2207.06
+CID966,OH,1522,Graduate,299783,M,Auto,3,Service,54,SUV,2207.46
+CID539,AL,1535,High School,164506,F,Auto,1,Business,56,Sedan,2210.99
+CID492,TX,1538,Professional,161727,M,Auto,4,Self Auto,69,Sedan,2211.49
+CID825,TX,1561,College,182248,M,Auto,3,Business,82,Sedan,2211.51
+CID240,IA,1594,College,154535,M,Auto,3,Service,3,SUV,2211.93
+CID095,TX,1598,High School,108367,M,Auto,1,Corporate Auto,61,MUV,2212.01
+CID688,PH,1605,Professional,154379,M,Auto,3,Business,47,MUV,2214.16
+CID588,AL,1610,College,38036,F,Auto,1,Corporate Auto,96,Medium sized,2219.61
+CID454,TX,1625,High School,85380,M,Auto,1,Service,4,Medium sized,2222.73
+CID859,IA,1630,College,96448,F,Auto,3,Self Auto,28,MUV,2227.69
+CID938,TX,1635,High School,109941,F,Auto,1,Self Auto,25,SUV,2228.47
+CID648,TX,1652,Graduate,203476,M,Auto,4,Service,96,Medium sized,2228.51
+CID257,AL,1657,College,130133,F,Auto,4,Self Auto,45,Sedan,2230.11
+CID037,PH,1673,Professional,133899,F,Auto,2,Self Auto,28,Sedan,2230.83
+CID670,AL,1680,Professional,105569,F,Auto,2,Business,8,Sedan,2230.96
+CID132,TX,1708,Graduate,228055,M,Auto,2,Corporate Auto,7,MUV,2232.27
+CID993,IA,1722,College,3565,F,Auto,3,Business,77,MUV,2233.83
+CID309,OH,1723,Graduate,11458,M,Auto,1,Self Auto,17,MUV,2234.62
+CID657,PH,1726,Graduate,180105,F,Auto,3,Service,30,MUV,2237.66
+CID424,IA,1730,Professional,136816,F,Auto,4,Business,27,Sedan,2239.14
+CID152,AL,1736,High School,238359,M,Auto,2,Business,49,MUV,2239.9
+CID490,OH,1736,Professional,87880,F,Auto,4,International,12,Medium sized,2241.36
+CID482,PH,1737,Not specified,118339,F,Auto,2,Business,84,Sedan,2247.97
+CID914,PH,1755,Professional,118225,M,Auto,2,Service,72,SUV,2248.68
+CID442,TX,1755,Graduate,291167,M,Auto,2,Business,13,MUV,2249.13
+CID905,TX,1758,Not specified,250007,M,Auto,3,Corporate Auto,54,MUV,2250.5
+CID096,OH,1759,Graduate,42356,F,Auto,2,Service,20,Sedan,2250.53
+CID772,IA,1761,Not specified,187413,F,Auto,1,Corporate Auto,35,Sedan,2250.54
+CID129,AL,1778,Graduate,14768,F,Auto,3,Corporate Auto,81,Medium sized,2251.72
+CID031,AL,1778,Professional,88532,F,Auto,2,Service,61,SUV,2252.77
+CID639,OH,1789,High School,15784,M,Auto,4,Business,3,Medium sized,2254.16
+CID592,OH,1795,College,248232,F,Auto,2,Corporate Auto,88,Sedan,2254.7
+CID695,AL,1807,Professional,87862,F,Auto,1,Business,36,Sedan,2256.01
+CID724,PH,1844,Not specified,277261,F,Auto,3,Business,93,MUV,2256.04
+CID073,OH,1846,High School,248974,M,Auto,1,Business,21,MUV,2256.46
+CID423,AL,1848,Graduate,273658,F,Auto,4,Self Auto,68,Medium sized,2257.37
+CID123,AL,1867,High School,144909,M,Auto,2,Service,72,MUV,2257.38
+CID848,TX,1876,College,195811,F,Auto,2,International,31,Sedan,2258.14
+CID494,PH,1880,Graduate,78987,F,Auto,1,Service,38,Medium sized,2258.51
+CID847,PH,1892,Professional,27406,M,Auto,1,Corporate Auto,31,Sedan,2264.39
+CID749,AL,1916,High School,98483,F,Auto,2,Self Auto,19,Sedan,2265.98
+CID800,OH,1943,Professional,110816,F,Auto,1,Business,10,MUV,2267.23
+CID803,PH,1946,High School,266510,M,Auto,1,Service,84,SUV,2268.63
+CID865,OH,1984,Professional,130480,M,Auto,2,Service,85,Sedan,2269.26
+CID457,IA,1984,Professional,262392,F,Auto,3,Business,25,SUV,2273.22
+CID842,TX,2007,Not specified,23221,F,Auto,2,International,46,SUV,2274.82
+CID970,TX,2012,College,113262,F,Auto,3,Service,49,Medium sized,2275.53
+CID003,PH,2013,College,113473,F,Auto,2,Business,61,Medium sized,2277.08
+CID816,PH,2016,College,64358,M,Auto,3,Business,18,Medium sized,2277.13
+CID890,PH,2037,High School,138463,F,Auto,1,Self Auto,73,SUV,2278.59
+CID469,OH,2047,Graduate,221643,M,Auto,4,Business,47,SUV,2278.84
+CID439,IA,2047,Not specified,184051,F,Auto,2,Corporate Auto,48,Medium sized,2279.3
+CID991,OH,2051,Professional,127770,F,Auto,3,Business,27,Sedan,2279.58
+CID362,OH,2052,Graduate,28493,M,Auto,3,Business,7,Sedan,2279.99
+CID906,OH,2087,Not specified,254682,F,Auto,4,Corporate Auto,57,Sedan,2280.09
+CID521,OH,2098,College,258675,M,Auto,2,Business,89,Sedan,2280.44
+CID797,TX,2103,College,296060,M,Auto,4,Self Auto,15,MUV,2280.6
+CID584,OH,2115,High School,290062,F,Auto,3,Self Auto,17,Sedan,2280.7
+CID495,PH,2123,High School,288674,M,Auto,3,Self Auto,36,SUV,2283.01
+CID429,TX,2139,High School,204857,F,Auto,1,Service,90,MUV,2283.42
+CID581,TX,2144,Not specified,27996,F,Auto,2,Corporate Auto,80,MUV,2283.7
+CID817,TX,2169,College,208479,M,Auto,4,Self Auto,68,MUV,2284.77
+CID524,TX,2172,Not specified,245498,F,Auto,2,Corporate Auto,38,MUV,2286.57
+CID753,OH,2187,High School,10638,F,Auto,3,Self Auto,56,SUV,2287.93
+CID310,AL,2205,College,153538,F,Auto,1,Corporate Auto,80,Medium sized,2289.57
+CID689,AL,2213,Graduate,296180,F,Auto,4,Business,52,Sedan,2291.91
+CID217,TX,2213,College,162341,F,Auto,2,Service,44,Sedan,2293.59
+CID384,IA,2223,High School,270850,F,Auto,2,Self Auto,75,Medium sized,2299.06
+CID331,PH,2227,High School,207449,M,Auto,3,Business,37,Medium sized,2299.18
+CID359,OH,2258,Professional,14902,F,Auto,2,Corporate Auto,28,SUV,2301.54
+CID338,TX,2299,High School,241665,M,Auto,1,Service,1,Medium sized,2303.06
+CID075,OH,2299,Professional,235052,F,Auto,3,Service,6,Medium sized,2307.54
+CID944,AL,2313,Professional,289018,M,Auto,2,Corporate Auto,93,SUV,2307.82
+CID337,PH,2331,Professional,289181,F,Auto,4,Business,37,Medium sized,2308.56
+CID575,PH,2336,Graduate,80775,F,Auto,3,Self Auto,18,MUV,2309.24
+CID846,OH,2343,Graduate,15813,F,Auto,4,Self Auto,49,MUV,2309.83
+CID930,PH,2347,Not specified,111015,F,Auto,3,Service,52,Medium sized,2310.74
+CID432,IA,2360,Graduate,271725,F,Auto,3,Corporate Auto,61,SUV,2312.51
+CID314,OH,2383,High School,248147,M,Auto,4,Business,60,SUV,2313.11
+CID845,TX,2399,Graduate,260929,F,Auto,1,International,72,Sedan,2313.97
+CID808,PH,2429,Graduate,2289,F,Auto,2,Service,96,Sedan,2314.41
+CID767,AL,2440,Graduate,140947,F,Auto,1,Service,95,Medium sized,2315.07
+CID299,TX,2448,Graduate,244882,F,Auto,3,Business,81,Sedan,2319.92
+CID690,IA,2450,College,141052,M,Auto,4,Self Auto,15,Medium sized,2321.56
+CID398,AL,2463,Not specified,46714,F,Auto,3,International,65,Sedan,2323.01
+CID339,OH,2467,Professional,163617,F,Auto,2,Business,36,Sedan,2326.62
+CID053,OH,2469,Not specified,230144,M,Auto,4,Self Auto,21,Medium sized,2326.84
+CID697,TX,2483,Professional,164485,F,Auto,3,Corporate Auto,68,Sedan,2327.51
+CID306,IA,2485,Not specified,34867,M,Auto,3,Service,81,Sedan,2328.06
+CID538,AL,2494,College,199667,F,Auto,1,Business,46,Medium sized,2329.63
+CID665,AL,2498,High School,213781,M,Auto,1,Self Auto,20,SUV,2329.89
+CID628,TX,2498,Not specified,296564,M,Auto,3,Service,13,MUV,2331.57
+CID385,PH,2499,Not specified,186656,F,Auto,2,Business,45,MUV,2387.76
+CID415,PH,2502,Professional,154729,F,Auto,2,Corporate Auto,58,Sedan,2392.17
+CID936,PH,2505,Graduate,41653,M,Auto,1,Self Auto,56,MUV,2403.29
+CID319,OH,2506,Professional,47664,M,Auto,4,Service,8,SUV,2479.41
+CID106,TX,2513,Graduate,277307,F,Auto,3,Service,7,Medium sized,2497.88
+CID109,IA,2537,Professional,207137,M,Auto,2,Business,95,MUV,2537.2
+CID533,AL,2537,Not specified,290524,F,Auto,2,Corporate Auto,96,Medium sized,2583.31
+CID850,PH,2545,High School,232308,F,Auto,3,Service,15,Sedan,2591.03
+CID834,IA,2579,Not specified,168717,M,Auto,3,International,93,MUV,2598.31
+CID886,IA,2598,High School,26029,F,Auto,1,Corporate Auto,1,Sedan,2614.3
+CID062,PH,2608,Professional,7335,M,Auto,4,Corporate Auto,38,MUV,2655.13
+CID776,AL,2633,Professional,23554,F,Auto,2,Self Auto,48,MUV,2666.59
+CID113,TX,2637,Graduate,6200,F,Auto,3,Business,36,Sedan,2716.13
+CID974,TX,2656,College,259000,M,Auto,3,Self Auto,64,Medium sized,2754.48
+CID629,OH,2668,Graduate,131856,M,Auto,4,Corporate Auto,72,Medium sized,2758.81
+CID785,TX,2686,College,66031,F,Auto,4,Business,59,MUV,2773.29
+CID532,OH,2686,College,208177,F,Auto,4,Corporate Auto,53,Sedan,2851.08
+CID973,IA,2693,High School,179772,M,Auto,4,Self Auto,28,MUV,2963.23
+CID996,OH,2703,College,32847,M,Auto,2,Service,8,MUV,1017.12
+CID526,PH,2703,Graduate,84598,F,Auto,4,Corporate Auto,35,MUV,1058.5
+CID259,PH,2721,College,84613,M,Auto,2,Self Auto,27,Sedan,1103.41
+CID297,IA,2721,Not specified,171249,F,Auto,1,Business,53,MUV,1154.52
+CID932,TX,2731,Not specified,202876,M,Auto,4,Business,83,MUV,1171.96
+CID781,TX,2739,High School,174782,M,Auto,1,Business,16,MUV,1183.13
+CID866,AL,2744,College,118737,M,Auto,1,Corporate Auto,86,Medium sized,1227.76
+CID326,PH,2746,Not specified,143912,M,Auto,2,Service,88,SUV,1252.26
+CID135,TX,2750,Professional,295955,F,Auto,2,Business,73,Medium sized,1257.91
+CID131,PH,2750,Professional,174834,M,Auto,2,Self Auto,13,SUV,1276.08
+CID126,PH,2767,Not specified,158583,F,Auto,2,Business,26,Medium sized,1284
+CID562,OH,2773,High School,173217,M,Auto,1,Corporate Auto,62,SUV,1303.17
+CID819,IA,2783,Graduate,111450,F,Auto,3,Corporate Auto,54,Medium sized,1309.98
+CID459,OH,2785,College,145103,M,Auto,2,Business,15,Sedan,1375.69
+CID084,PH,2789,Professional,4848,M,Auto,2,Service,25,MUV,1386.02
+CID445,IA,2789,Professional,271885,F,Auto,4,Business,11,Medium sized,1502.31
+CID799,TX,2794,Graduate,185246,M,Auto,1,Service,87,SUV,1529.28
+CID005,OH,2806,Graduate,213409,M,Auto,3,Self Auto,52,Medium sized,1556
+CID074,TX,2851,High School,297748,F,Auto,1,Service,4,MUV,1567.82
+CID134,PH,2869,Professional,163669,M,Auto,4,Corporate Auto,63,SUV,1656.78
+CID377,OH,2872,Graduate,267280,M,Auto,1,Corporate Auto,16,Sedan,1670.06
+CID884,OH,2902,College,246501,M,Auto,2,Business,57,SUV,1671.57
+CID219,AL,2923,College,123960,F,Auto,3,Self Auto,86,Medium sized,1679.58
+CID585,AL,2925,Not specified,109144,F,Auto,1,Business,71,SUV,1687.51
+CID140,AL,2931,Professional,101760,M,Auto,4,Self Auto,66,SUV,1727.79
+CID545,PH,2968,High School,163286,F,Auto,3,Service,86,Sedan,1757.11
+CID868,PH,2975,Not specified,259290,M,Auto,2,Business,43,MUV,1805.54
+CID707,PH,2977,Graduate,110121,F,Auto,4,Self Auto,4,Medium sized,1873.29
+CID940,IA,2980,High School,100358,F,Auto,2,Self Auto,34,MUV,1886.6
+CID461,AL,2987,Graduate,134586,M,Auto,3,Self Auto,80,SUV,1955.59
+CID632,PH,3004,Graduate,30144,F,Auto,1,International,15,Medium sized,2043.48
+CID255,IA,3017,Graduate,211330,F,Auto,3,Corporate Auto,75,Sedan,2072.9
+CID366,TX,3018,Not specified,193568,F,Auto,4,Self Auto,71,Sedan,2077.27
+CID570,AL,3031,High School,136937,F,Auto,2,Corporate Auto,16,Sedan,2077.84
+CID371,TX,3034,Not specified,297930,M,Auto,3,Self Auto,35,Medium sized,2131
+CID631,IA,3060,College,213038,F,Auto,3,Service,41,Medium sized,2141.97
+CID223,AL,3063,Graduate,293618,M,Auto,1,Corporate Auto,57,MUV,2142.32
+CID027,OH,3087,Not specified,206504,F,Auto,4,Self Auto,38,Medium sized,2196.4
+CID523,IA,3089,Graduate,194671,M,Auto,3,Self Auto,15,Sedan,2196.71
+CID520,TX,3090,Not specified,243612,M,Auto,4,Corporate Auto,93,Medium sized,2223.43
+CID154,PH,3105,Graduate,58442,M,Auto,1,Self Auto,49,Sedan,2248.92
+CID666,IA,3121,Not specified,95946,F,Auto,4,Self Auto,16,MUV,2264.36
+CID034,PH,3128,Not specified,40109,M,Auto,4,Self Auto,20,MUV,2271.47
+CID915,TX,3128,Graduate,80845,F,Auto,1,Business,3,MUV,2277.79
+CID475,AL,3142,High School,158448,M,Auto,4,Service,92,Medium sized,2288.79
+CID501,AL,3142,Professional,3529,M,Auto,1,Business,56,SUV,2291.58
+CID036,OH,3142,College,226099,F,Auto,3,Self Auto,18,MUV,2295.98
+CID701,AL,3145,Professional,156442,F,Auto,1,Self Auto,63,SUV,2324.44
+CID980,AL,3156,College,69820,F,Auto,4,Self Auto,88,Sedan,2355.09
+CID214,AL,3157,High School,108745,M,Auto,1,Corporate Auto,54,Medium sized,2361.89
+CID500,OH,3167,Professional,181605,M,Auto,3,Corporate Auto,25,Medium sized,2384.37
+CID863,PH,3167,Not specified,82421,M,Auto,1,Self Auto,95,Medium sized,2391.4
+CID347,PH,3174,Not specified,144995,M,Auto,2,Self Auto,61,Medium sized,2480.89
+CID211,PH,3178,Graduate,41224,M,Auto,3,Self Auto,73,MUV,2485.72
+CID637,PH,3182,College,144600,F,Auto,2,Self Auto,43,Medium sized,2521.37
+CID589,IA,3193,Not specified,19642,M,Auto,2,Self Auto,64,MUV,2542.04
+CID788,OH,3194,Graduate,105148,M,Auto,3,Corporate Auto,5,Medium sized,2597.62
+CID784,OH,3214,Professional,222675,M,Auto,2,Service,57,Sedan,2619.04
+CID285,OH,3220,Not specified,103768,M,Auto,2,International,62,SUV,2645.87
+CID510,PH,3225,College,25540,M,Auto,1,Corporate Auto,32,SUV,2649.61
+CID599,PH,3232,Professional,242162,M,Auto,3,Corporate Auto,8,Medium sized,2699.94
+CID807,IA,3237,Not specified,167181,M,Auto,3,Self Auto,50,SUV,2710.87
+CID274,TX,3243,College,288196,M,Auto,4,Service,75,MUV,2738.16
+CID013,OH,3247,Not specified,172133,M,Auto,1,Business,82,Sedan,2772.14
+CID281,AL,3253,Professional,170068,F,Auto,3,Business,4,Sedan,2776.53
+CID292,IA,3258,College,70936,M,Auto,4,Self Auto,49,MUV,2868.81
+CID537,OH,3263,High School,258407,M,Auto,1,Business,76,SUV,2988.71
+CID563,AL,3271,Graduate,2705,F,Auto,3,Self Auto,21,MUV,3004.864
+CID878,OH,3275,Graduate,258871,F,Auto,4,Corporate Auto,54,Medium sized,3005.6
+CID750,IA,3277,High School,42491,M,Auto,3,Self Auto,22,Sedan,3005.718
+CID405,PH,3286,High School,263890,M,Auto,3,Business,75,Sedan,3006.428
+CID693,IA,3294,Not specified,188505,F,Auto,3,Corporate Auto,38,Medium sized,3006.734
+CID564,IA,3298,Not specified,246425,F,Auto,2,Service,11,Medium sized,3006.883
+CID174,IA,3311,Professional,266258,F,Auto,2,Self Auto,61,SUV,3013.331
+CID659,TX,3314,Not specified,260557,M,Auto,4,Self Auto,42,Sedan,3013.423
+CID820,PH,3331,College,139315,F,Auto,1,Service,10,MUV,3015.352
+CID590,PH,3385,College,136246,M,Auto,3,Business,30,MUV,3016.78
+CID270,PH,3394,Not specified,150847,F,Auto,2,Service,74,Medium sized,3028.331
+CID770,TX,3406,Professional,146721,F,Auto,3,Business,88,Sedan,3028.393
+CID315,AL,3414,Not specified,55591,M,Auto,3,Corporate Auto,11,SUV,3030.898
+CID754,TX,3415,Graduate,51153,M,Auto,1,Business,6,Medium sized,3036.42
+CID206,PH,3422,High School,190706,M,Auto,3,Self Auto,87,Sedan,3046.052
+CID497,IA,3432,Not specified,159747,F,Auto,4,Self Auto,39,Sedan,3049.352
+CID773,PH,3432,Professional,23510,F,Auto,3,Corporate Auto,89,Medium sized,3052.233
+CID671,IA,3450,Professional,32304,F,Auto,1,Service,15,SUV,3054.666
+CID044,TX,3470,Not specified,69651,M,Auto,2,Corporate Auto,16,Sedan,3056.42
+CID087,TX,3470,High School,215611,M,Auto,3,Self Auto,65,SUV,3057.69
+CID422,OH,3478,Graduate,126246,M,Auto,2,Corporate Auto,3,Sedan,3057.992
+CID624,OH,3481,Not specified,130033,M,Auto,2,Self Auto,59,MUV,3066.551
+CID577,OH,3489,College,281085,F,Auto,3,Business,22,Sedan,3070.566
+CID717,AL,3506,High School,70677,M,Auto,4,Self Auto,14,MUV,3071.11
+CID633,PH,3509,Not specified,161068,F,Auto,1,Self Auto,12,Sedan,3071.333
+CID810,OH,3522,Not specified,108857,M,Auto,1,Business,80,SUV,3082.458
+CID546,TX,3528,Not specified,239369,M,Auto,2,Business,66,MUV,3094.149
+CID264,PH,3542,Not specified,268567,F,Auto,3,Self Auto,2,SUV,3106.677
+CID010,PH,3552,Professional,239179,F,Auto,2,Business,56,SUV,3107.933
+CID427,IA,3571,Graduate,38462,F,Auto,3,Service,33,SUV,3110.607
+CID573,AL,3577,Professional,196722,F,Auto,3,Corporate Auto,22,Sedan,3116.704
+CID956,IA,3577,High School,192572,F,Auto,2,Self Auto,61,Sedan,3119.264
+CID302,PH,3625,Graduate,106354,F,Auto,3,Self Auto,30,SUV,3134.49
+CID675,AL,3635,College,27662,M,Auto,2,Service,28,SUV,3134.501
+CID200,IA,3635,Not specified,38052,M,Auto,4,Self Auto,3,Medium sized,3134.988
+CID416,TX,3646,Graduate,280878,M,Auto,2,Service,68,MUV,3138.309
+CID888,AL,3654,Not specified,17872,M,Auto,2,Service,44,Medium sized,3146.106
+CID045,OH,3665,College,292919,F,Auto,3,Self Auto,59,Medium sized,3158.481
+CID821,TX,3668,Professional,164550,F,Auto,4,Business,79,Medium sized,3158.714
+CID102,OH,3689,College,245813,F,Auto,1,Business,33,Medium sized,3163.946
+CID414,IA,3690,Graduate,56799,F,Auto,4,International,82,SUV,3166.074
+CID572,TX,3698,High School,161133,M,Auto,3,Corporate Auto,72,Medium sized,3166.362
+CID054,TX,3708,Not specified,256833,F,Auto,1,Business,57,MUV,3172.771
+CID196,AL,3735,Graduate,5524,F,Auto,4,Service,41,Sedan,3175.56
+CID395,PH,3745,Not specified,93467,M,Auto,2,Service,57,SUV,3182.26
+CID171,OH,3766,Professional,58975,M,Auto,4,Service,64,Sedan,3186.709
+CID685,PH,3771,Not specified,226515,F,Auto,1,Business,95,Medium sized,3189.104
+CID614,OH,3772,High School,46804,M,Auto,3,Self Auto,65,SUV,3192.288
+CID473,TX,3775,Professional,288996,M,Auto,2,Self Auto,38,Sedan,3196.906
+CID026,TX,3809,College,239980,F,Auto,3,Service,88,SUV,3199.273
+CID879,AL,3819,College,115812,F,Auto,1,Corporate Auto,55,Sedan,3204.729
+CID213,OH,3827,College,119062,F,Auto,1,Service,12,Medium sized,3211.73
+CID718,IA,3827,Graduate,249469,F,Auto,1,Corporate Auto,42,Medium sized,3212.18
+CID969,IA,3831,Graduate,105187,F,Auto,2,Business,58,Medium sized,3219.322
+CID502,IA,3847,Not specified,220967,M,Auto,3,Business,22,SUV,3228.122
+CID943,OH,3852,High School,243748,M,Auto,1,Self Auto,92,Sedan,3229.224
+CID893,AL,3852,College,111990,M,Auto,3,Self Auto,16,MUV,3235.884
+CID275,TX,3856,High School,174459,M,Auto,1,Corporate Auto,23,SUV,3237.217
+CID350,AL,3858,Professional,34969,M,Auto,1,Business,50,SUV,3251.18
+CID130,IA,3862,Professional,37071,M,Auto,3,Self Auto,23,Medium sized,3255.95
+CID561,TX,3866,Professional,249131,F,Auto,3,Corporate Auto,85,Sedan,3257.001
+CID491,IA,3866,Graduate,222813,M,Auto,2,Service,2,Medium sized,3258.107
+CID643,TX,3901,Professional,262387,M,Auto,2,Self Auto,26,MUV,3259.486
+CID805,OH,3906,Professional,2359,M,Auto,4,Self Auto,63,Medium sized,3260.946
+CID157,AL,3906,High School,138746,F,Auto,1,Self Auto,15,Medium sized,3265.361
+CID043,PH,3913,High School,274798,M,Auto,4,Corporate Auto,51,SUV,3265.564
+CID110,PH,3921,Professional,144655,M,Auto,1,Business,2,MUV,3266.439
+CID282,IA,3929,Graduate,237939,M,Auto,4,Corporate Auto,5,Medium sized,3283.559
+CID456,TX,3938,Professional,223566,M,Auto,1,Self Auto,72,MUV,3289.149
+CID745,IA,3942,Graduate,246501,M,Auto,2,Corporate Auto,9,SUV,3290.18
+CID346,AL,3967,High School,35393,F,Auto,3,Corporate Auto,32,SUV,3297.762
+CID727,IA,3967,College,61643,F,Auto,3,Self Auto,61,Medium sized,3308.544
+CID046,TX,3970,High School,198016,F,Auto,1,Corporate Auto,55,Sedan,3315.007
+CID051,PH,3972,Not specified,14468,F,Auto,3,International,54,Sedan,3317.03
+CID760,IA,3975,Not specified,240081,M,Auto,1,Business,36,Sedan,3332.913
+CID125,IA,3980,Not specified,235917,F,Auto,3,Service,90,SUV,3338.146
+CID777,IA,4003,Graduate,28165,F,Auto,2,Service,30,Medium sized,3341.1
+CID651,TX,4008,Not specified,93829,F,Auto,3,Self Auto,65,MUV,3344.52
+CID272,OH,4015,High School,41504,F,Auto,3,International,40,Sedan,3347.543
+CID999,TX,4018,High School,195359,M,Auto,2,Business,55,MUV,3356.474
+CID527,PH,4033,Professional,142210,M,Auto,1,Business,34,SUV,3361.017
+CID725,TX,4037,High School,209498,M,Auto,1,Self Auto,67,MUV,3361.401
+CID979,AL,4056,Not specified,121178,M,Auto,2,Self Auto,24,Sedan,3367.89
+CID262,AL,4065,Professional,257304,M,Auto,4,Business,14,MUV,3375.302
+CID795,TX,4066,Graduate,99187,F,Auto,2,Service,42,SUV,3382.896
+CID227,PH,4086,College,66599,F,Auto,1,Corporate Auto,92,SUV,3387.69
+CID489,OH,4102,College,67582,F,Auto,1,Self Auto,84,MUV,3388.316
+CID549,IA,4105,Not specified,163369,M,Auto,1,Self Auto,13,Medium sized,3395.59
+CID668,TX,4107,Not specified,12112,M,Auto,4,Business,8,SUV,3398.96
+CID245,IA,4125,Professional,215608,M,Auto,2,Corporate Auto,24,MUV,3401.61
+CID472,IA,4132,Not specified,225597,F,Auto,4,Business,70,Sedan,3408.294
+CID313,TX,4155,Not specified,292158,F,Auto,2,Corporate Auto,82,Sedan,3414.86
+CID252,TX,4165,College,268375,M,Auto,2,Self Auto,6,Medium sized,3432.859
+CID207,TX,4175,Graduate,254479,F,Auto,1,Service,42,MUV,3452.32
+CID660,AL,4183,Graduate,279400,M,Auto,2,Service,83,MUV,3461.897
+CID107,OH,4184,Professional,120425,M,Auto,3,Service,29,Sedan,3466.57
+CID856,PH,4200,Graduate,191814,M,Auto,3,Self Auto,94,SUV,3466.91
+CID928,AL,4207,Professional,236235,F,Auto,2,Corporate Auto,45,MUV,3487.996
+CID869,TX,4213,Not specified,269131,M,Auto,2,Corporate Auto,45,Medium sized,3492.469
+CID945,IA,4214,Professional,43865,M,Auto,1,Self Auto,35,Medium sized,3498.49
+CID101,TX,4230,Graduate,103963,M,Auto,3,Self Auto,57,Medium sized,3558.136
+CID279,TX,4265,College,184591,F,Auto,4,Corporate Auto,49,MUV,3585.829
+CID185,IA,4289,Professional,107584,F,Auto,1,Corporate Auto,21,Sedan,3589.24
+CID877,IA,4289,Graduate,20552,M,Auto,3,Service,11,Medium sized,3590.98
+CID269,IA,4295,College,252712,M,Auto,3,Business,82,MUV,3608.679
+CID250,IA,4300,Graduate,226464,M,Auto,4,Service,89,Sedan,3624.209
+CID738,OH,4303,Graduate,270813,F,Auto,1,Self Auto,85,MUV,3634.388
+CID892,OH,4314,Not specified,40317,F,Auto,4,Service,10,MUV,3645.873
+CID616,IA,4314,Graduate,45108,M,Auto,2,Service,31,SUV,3647.033
+CID225,AL,4325,Not specified,135475,F,Auto,4,Self Auto,55,Medium sized,3648.1
+CID542,TX,4325,Graduate,128763,F,Auto,1,Self Auto,16,Medium sized,3649.273
+CID796,OH,4344,College,214729,M,Auto,2,Self Auto,86,SUV,3673.389
+CID864,TX,4345,Not specified,21380,M,Auto,2,Self Auto,42,SUV,3691.907
+CID450,IA,4362,College,67329,F,Auto,1,Self Auto,35,Sedan,3725.07
+CID978,AL,4363,College,141842,M,Auto,3,Business,46,Medium sized,3726.761
+CID934,AL,4364,Professional,281073,F,Auto,3,Corporate Auto,56,MUV,3727.882
+CID857,TX,4367,High School,299653,M,Auto,2,Self Auto,24,MUV,3759.98
+CID586,IA,4367,Graduate,292133,F,Auto,3,Self Auto,74,Sedan,3768.43
+CID300,AL,4379,College,216357,M,Auto,1,Corporate Auto,63,Medium sized,3769.91
+CID181,TX,4388,High School,120215,F,Auto,4,Corporate Auto,20,Medium sized,3805.556
+CID949,IA,4389,Not specified,254281,M,Auto,4,Corporate Auto,32,SUV,3814.323
+CID582,OH,4397,Not specified,131284,M,Auto,4,Service,10,SUV,3823.246
+CID972,OH,4415,College,203632,M,Auto,4,Service,70,SUV,3837.974
+CID205,IA,4418,College,224897,M,Auto,4,Service,34,SUV,3865.57
+CID030,PH,4421,Graduate,244680,F,Auto,1,Service,9,Medium sized,3870.752
+CID764,IA,4425,Not specified,87404,F,Auto,4,Corporate Auto,6,Medium sized,3879.31
+CID029,IA,4448,High School,100535,F,Auto,2,Service,50,Sedan,3887.45
+CID597,OH,4471,Professional,228133,F,Auto,4,Corporate Auto,4,Medium sized,3899.851
+CID025,OH,4480,Not specified,139689,M,Auto,1,Corporate Auto,79,SUV,3904.49
+CID162,AL,4498,High School,109382,M,Auto,4,Self Auto,21,Medium sized,3905.881
+CID678,TX,4507,Professional,188111,F,Auto,3,Self Auto,74,MUV,3909.91
+CID729,TX,4523,High School,10893,M,Auto,3,Self Auto,66,MUV,3913.2
+CID778,PH,4524,Graduate,163065,F,Auto,4,Corporate Auto,47,Medium sized,3916.13
+CID404,IA,4536,College,116895,F,Auto,2,Business,24,SUV,3947.32
+CID493,TX,4540,High School,28957,M,Auto,1,Corporate Auto,53,Sedan,3948.21
+CID726,OH,4544,Professional,241332,F,Auto,2,Service,94,Medium sized,3967.86
+CID146,PH,4545,Graduate,97470,M,Auto,2,Business,8,SUV,3977.896
+CID516,OH,4562,Not specified,141506,F,Auto,4,Self Auto,73,Medium sized,3980.596
+CID198,PH,4572,High School,159293,M,Auto,1,Business,42,MUV,3988.34
+CID746,PH,4578,High School,250107,F,Auto,1,Business,84,MUV,4008.357
+CID304,OH,4596,Not specified,244334,F,Auto,4,Business,79,Medium sized,4008.84
+CID766,TX,4598,High School,209213,M,Auto,1,Business,66,Medium sized,4009.942
+CID849,OH,4612,Not specified,219872,F,Auto,4,Self Auto,15,SUV,4026.11
+CID536,TX,4623,High School,177703,F,Auto,2,Corporate Auto,68,MUV,4030.43
+CID192,PH,4623,Not specified,25117,F,Auto,4,Corporate Auto,66,MUV,4067.204
+CID664,OH,4659,Not specified,161706,M,Auto,2,Service,89,Medium sized,4088.358
+CID229,OH,4674,Not specified,227422,M,Auto,2,Business,63,Medium sized,4096.71
+CID203,OH,4680,College,299514,F,Auto,4,Business,69,MUV,4101.086
+CID061,OH,4682,Not specified,276910,F,Auto,3,Self Auto,27,Medium sized,4113.897
+CID119,TX,4695,Professional,51977,F,Auto,4,Business,23,Medium sized,4164.417
+CID638,TX,4705,Graduate,248520,F,Auto,4,Corporate Auto,3,Medium sized,4166.042
+CID365,PH,4716,Not specified,189100,F,Auto,3,Business,62,Medium sized,4175.913
+CID765,PH,4723,Graduate,216931,F,Auto,4,Business,22,Medium sized,4188.76
+CID925,AL,4730,Professional,202754,F,Auto,1,Corporate Auto,33,Sedan,4190.613
+CID961,OH,4746,High School,269955,M,Auto,1,Corporate Auto,57,SUV,4223.82
+CID840,OH,4755,College,225351,M,Auto,2,Business,56,Medium sized,4234.183
+CID958,IA,4763,College,136280,F,Auto,3,Business,56,MUV,4241.14
+CID248,OH,4765,Graduate,106452,F,Auto,1,Service,64,Sedan,4242.6
+CID333,TX,4766,Not specified,146149,F,Auto,2,Business,8,Medium sized,4246.62
+CID401,TX,4783,College,168660,M,Auto,1,Self Auto,48,MUV,4246.738
+CID950,IA,4786,Professional,92951,M,Auto,3,Self Auto,71,SUV,4260.552
+CID444,AL,4790,Professional,14421,M,Auto,1,Business,53,Sedan,4261.27
+CID550,PH,4793,College,249293,M,Auto,1,Self Auto,69,Medium sized,4265.09
+CID737,TX,4797,Graduate,224086,F,Auto,1,Corporate Auto,38,Sedan,4265.61
+CID320,AL,4801,Graduate,147540,M,Auto,2,Self Auto,57,SUV,4272.612
+CID712,TX,4804,High School,229860,F,Auto,2,Business,22,Medium sized,4286.903
+CID009,IA,4821,High School,183266,F,Auto,3,Self Auto,65,SUV,4292.17
+CID016,AL,4831,Professional,199879,M,Auto,3,Self Auto,45,Medium sized,4293.919
+CID399,IA,4835,College,29640,F,Auto,1,Self Auto,79,Medium sized,4340.11
+CID090,IA,4841,College,187308,M,Auto,1,Service,39,SUV,4340.149
+CID792,OH,4862,Professional,93049,F,Auto,2,Business,4,Medium sized,4355.022
+CID246,OH,4867,Graduate,175100,M,Auto,4,Business,57,SUV,4376.61
+CID142,PH,4880,High School,27145,F,Auto,1,Business,36,Medium sized,4378.9
+CID602,PH,4884,High School,81451,F,Auto,3,Self Auto,21,Medium sized,4386.269
+CID193,TX,4893,College,119214,M,Auto,1,Service,81,MUV,4390.42
+CID004,TX,4898,College,81331,F,Auto,2,Self Auto,5,Sedan,4406.807
+CID608,TX,4908,Not specified,126748,F,Auto,4,Service,60,Medium sized,4409.261
+CID942,TX,4926,Professional,144467,M,Auto,3,Self Auto,77,MUV,4411.851
+CID574,IA,4927,High School,33933,F,Auto,4,Business,15,MUV,4444.128
+CID957,AL,4932,College,26891,M,Auto,4,Business,81,SUV,4465.76
+CID933,PH,4932,Professional,153283,M,Auto,3,Service,46,SUV,4484.73
+CID141,IA,4937,College,272211,M,Auto,2,Corporate Auto,77,Sedan,4512.909
+CID881,OH,4953,Graduate,229275,M,Auto,3,Service,56,MUV,4530.299
+CID224,AL,4972,Graduate,87664,M,Auto,4,Self Auto,78,SUV,4531.221
+CID988,IA,5004,College,245323,F,Auto,1,Service,68,Medium sized,4533.218
+CID226,IA,5008,Professional,154043,F,Auto,1,Service,89,MUV,4541.501
+CID410,PH,5025,College,63540,M,Auto,4,Service,72,MUV,4546.523
+CID100,PH,5041,Not specified,224192,F,Auto,4,Business,44,SUV,4548.328
+CID513,IA,5046,College,58387,M,Auto,2,Business,56,Medium sized,4548.614
+CID547,OH,5061,College,160107,M,Auto,4,Business,49,Medium sized,4565.08
+CID551,TX,5081,Professional,102654,F,Auto,2,Service,77,Sedan,4569.62
+CID049,IA,5086,College,249235,F,Auto,4,Business,66,SUV,4613.602
+CID909,OH,5090,Graduate,262755,M,Auto,1,Business,14,Medium sized,4622.306
+CID294,TX,5091,College,220567,F,Auto,1,Self Auto,84,MUV,4627.717
+CID793,TX,5098,Professional,204965,F,Auto,2,Service,7,MUV,4628.811
+CID635,AL,5101,Professional,297788,M,Auto,4,Service,93,SUV,4640.73
+CID687,IA,5111,Graduate,25616,M,Auto,4,Corporate Auto,44,Medium sized,4646.43
+CID696,IA,5116,Not specified,178112,F,Auto,1,Self Auto,15,Medium sized,4646.894
+CID247,OH,5119,Professional,211576,M,Auto,2,Service,29,Medium sized,4683.01
+CID721,OH,5128,College,213781,F,Auto,4,Corporate Auto,4,Sedan,4687.566
+CID503,PH,5144,High School,102096,F,Auto,1,Service,58,Sedan,4694.928
+CID761,PH,5163,Not specified,42570,F,Auto,1,Service,11,SUV,4703.488
+CID343,PH,5169,Professional,247709,M,Auto,4,Self Auto,64,SUV,4716.14
+CID691,PH,5178,Graduate,106171,F,Auto,1,Corporate Auto,19,Medium sized,4731.518
+CID783,TX,5184,Graduate,286095,M,Auto,4,Self Auto,89,Sedan,4732.61
+CID020,TX,5187,Professional,99200,F,Auto,3,Corporate Auto,71,MUV,4789.93
+CID883,IA,5188,College,66137,M,Auto,2,Corporate Auto,60,MUV,4792.32
+CID843,OH,5194,Graduate,178375,M,Auto,3,Self Auto,28,Sedan,4792.616
+CID836,TX,5200,Not specified,47230,M,Auto,1,Self Auto,2,SUV,4797.428
+CID929,TX,5220,Professional,226826,M,Auto,3,Service,77,SUV,4802.982
+CID055,OH,5240,Graduate,28769,M,Auto,3,Business,37,MUV,4827.69
+CID066,TX,5241,High School,82361,M,Auto,3,Self Auto,17,Medium sized,4842.664
+CID081,TX,5245,Professional,168944,M,Auto,3,Corporate Auto,90,SUV,4844.42
+CID952,IA,5249,High School,264874,F,Auto,1,Self Auto,25,Sedan,4857.5
+CID787,TX,5259,High School,229694,F,Auto,3,Corporate Auto,5,SUV,4895.007
+CID470,TX,5263,College,223276,F,Auto,1,Service,63,SUV,4918.683
+CID236,IA,5270,College,81374,M,Auto,3,Service,53,Medium sized,4928.29
+CID559,IA,5290,High School,217725,F,Auto,4,Business,27,Medium sized,4942.34
+CID971,PH,5308,Not specified,141850,M,Auto,3,Self Auto,57,Medium sized,4947.89
+CID078,PH,5318,Graduate,89609,F,Auto,3,Corporate Auto,46,SUV,4953.1
+CID453,OH,5335,Professional,57227,M,Auto,2,Service,7,SUV,4956.59
+CID435,OH,5371,Not specified,150362,M,Auto,2,Service,41,Medium sized,4956.883
+CID722,AL,5389,Not specified,265572,F,Auto,4,Self Auto,34,Medium sized,4964.466
+CID557,TX,5391,High School,77700,M,Auto,1,Self Auto,36,Sedan,4964.71
+CID150,OH,5393,Graduate,167746,M,Auto,4,Self Auto,34,Medium sized,4981.216
+CID679,IA,5401,Graduate,58291,F,Auto,2,Corporate Auto,4,Sedan,4989.09
+CID543,AL,5405,College,16511,M,Auto,4,Business,93,Sedan,5001.681
+CID828,AL,5410,Not specified,15364,M,Auto,1,Corporate Auto,7,Sedan,5001.918
+CID534,IA,5422,Professional,30162,M,Auto,2,Service,1,MUV,5005.531
+CID133,OH,5437,Not specified,233717,F,Auto,2,Self Auto,33,Medium sized,5007.576
+CID244,IA,5439,High School,108778,M,Auto,1,Service,90,MUV,5025.2
+CID280,OH,5443,Not specified,154470,M,Auto,4,Corporate Auto,62,Medium sized,5025.59
+CID283,PH,5474,Graduate,33790,M,Auto,1,Corporate Auto,77,Medium sized,5055.361
+CID831,TX,5488,Professional,286435,M,Auto,2,Service,68,MUV,5069
+CID504,TX,5499,Graduate,171849,F,Auto,4,Corporate Auto,62,MUV,5073.43
+CID964,PH,5528,Graduate,246637,F,Auto,2,Corporate Auto,81,MUV,5075.007
+CID743,IA,5555,College,260939,M,Auto,4,Business,74,MUV,5076.58
+CID363,AL,5575,College,233860,M,Auto,4,Self Auto,73,MUV,5083.978
+CID180,PH,5579,Not specified,253623,F,Auto,1,Corporate Auto,52,MUV,5089.226
+CID103,AL,5582,Graduate,39674,F,Auto,3,Business,60,SUV,5090.793
+CID902,TX,5589,Professional,19769,M,Auto,2,Service,26,SUV,5097.38
+CID068,AL,5594,Graduate,168170,M,Auto,3,Corporate Auto,23,SUV,5099.86
+CID039,TX,5607,High School,67714,M,Auto,4,Service,64,SUV,5102.73
+CID387,OH,5633,High School,184017,F,Auto,1,Service,62,Medium sized,5115.59
+CID383,AL,5646,Graduate,212079,M,Auto,3,Service,15,Medium sized,5115.61
+CID720,TX,5650,College,171725,M,Auto,3,Self Auto,2,Sedan,5125.91
+CID889,IA,5651,High School,200233,F,Auto,4,Corporate Auto,34,Medium sized,5150.301
+CID167,AL,5654,Professional,165381,F,Auto,2,Business,74,MUV,5165.019
+CID288,PH,5654,College,255702,F,Auto,4,Corporate Auto,93,MUV,5175.533
+CID756,IA,5668,Not specified,109713,M,Auto,3,Self Auto,34,MUV,5180.81
+CID713,OH,5671,High School,162921,F,Auto,3,Self Auto,73,Medium sized,5201.092
+CID829,IA,5676,Not specified,54618,M,Auto,2,Corporate Auto,45,Medium sized,5217.303
+CID437,PH,5681,College,281332,M,Auto,2,Business,88,Medium sized,5263.947
+CID987,AL,5684,College,20125,M,Auto,4,Business,1,MUV,5269.557
+CID552,OH,5697,Not specified,231122,F,Auto,3,Corporate Auto,79,SUV,5281.7
+CID375,PH,5715,High School,264361,M,Auto,3,Corporate Auto,15,MUV,5286.777
+CID735,IA,5716,Professional,1798,F,Auto,3,Self Auto,66,SUV,5292.761
+CID290,OH,5725,Graduate,268236,F,Auto,3,Business,76,Sedan,5301.22
+CID681,IA,5736,Graduate,277873,M,Auto,3,Self Auto,50,Medium sized,5311.94
+CID818,OH,5740,College,67371,F,Auto,4,Service,61,MUV,5334.073
+CID511,PH,5752,Not specified,231262,M,Auto,4,Self Auto,8,Sedan,5346.587
+CID946,PH,5771,High School,153211,F,Auto,3,Self Auto,35,SUV,5350.64
+CID703,IA,5773,Not specified,256329,M,Auto,4,Corporate Auto,29,SUV,5354.841
+CID791,TX,5788,Not specified,279909,F,Auto,3,Service,88,MUV,5360.911
+CID323,TX,5806,Not specified,225650,M,Auto,3,Service,45,Sedan,5372.044
+CID291,AL,5814,High School,199243,F,Auto,2,Business,52,MUV,5375.164
+CID742,OH,5815,College,145640,M,Auto,4,Corporate Auto,28,SUV,5399.988
+CID912,AL,5818,Professional,197128,M,Auto,4,Self Auto,59,Sedan,5405.59
+CID190,AL,5821,High School,206270,F,Auto,2,Self Auto,43,MUV,5409.72
+CID389,IA,5841,Not specified,204390,F,Auto,3,Service,35,MUV,5433.698
+CID397,OH,5871,College,6642,M,Auto,4,Business,44,SUV,5434.093
+CID242,IA,5879,College,157407,F,Auto,1,Service,66,MUV,5435.732
+CID986,TX,5891,High School,57941,F,Auto,4,Self Auto,89,MUV,5441.296
+CID824,PH,5900,Professional,282734,M,Auto,3,Corporate Auto,33,Sedan,5454.824
+CID127,TX,5904,Professional,153116,M,Auto,4,International,72,MUV,5455.62
+CID474,AL,5906,Not specified,180566,F,Auto,4,Corporate Auto,68,Medium sized,5461.183
+CID042,IA,5914,Not specified,56307,F,Auto,4,Business,6,SUV,5462.82
+CID215,IA,5916,College,127141,F,Auto,2,Service,62,MUV,5467.9
+CID426,AL,5923,High School,213948,M,Auto,3,Self Auto,35,Sedan,5470.191
+CID230,AL,5924,Professional,89744,M,Auto,2,Business,89,Sedan,5477.38
+CID733,TX,5935,Professional,220176,M,Auto,1,Self Auto,25,SUV,5496.56
+CID855,OH,5948,High School,244281,M,Auto,2,Corporate Auto,28,Sedan,5501.11
+CID143,TX,5951,College,173162,M,Auto,1,Service,46,SUV,5508.741
+CID360,OH,5958,Professional,295946,F,Auto,2,Service,88,MUV,5513.71
+CID209,AL,5969,Professional,204912,F,Auto,2,Service,93,Medium sized,5524.579
+CID569,OH,5974,Professional,152552,F,Auto,2,Self Auto,7,Medium sized,5549.571
+CID182,OH,5979,Graduate,239606,F,Auto,4,Corporate Auto,31,SUV,5556.554
+CID183,OH,5995,Graduate,235238,M,Auto,2,Service,90,Sedan,5560.91
+CID307,PH,6001,College,153631,M,Auto,4,Self Auto,72,SUV,5561.1
+CID083,PH,6007,College,119429,M,Auto,1,Service,7,Sedan,5589.158
+CID580,PH,6019,Graduate,211352,F,Auto,2,Business,90,Medium sized,5596.467
+CID621,IA,6033,Professional,69761,M,Auto,1,Self Auto,90,SUV,5602.542
+CID613,TX,6042,College,78456,M,Auto,4,Self Auto,31,Sedan,5607.12
+CID287,IA,6048,Not specified,274519,F,Auto,1,Business,44,MUV,5625.26
+CID871,TX,6059,Not specified,53477,F,Auto,2,Self Auto,67,Sedan,5625.563
+CID517,AL,6060,High School,272711,M,Auto,3,Self Auto,94,Sedan,5636.06
+CID040,OH,6067,Professional,163945,M,Auto,3,Business,66,SUV,5640.58
+CID111,TX,6081,College,240339,F,Auto,2,Business,30,MUV,5658.813
+CID208,OH,6083,High School,113262,F,Auto,4,Business,63,Sedan,5675.351
+CID138,OH,6088,Professional,224847,F,Auto,3,Service,66,SUV,5719.82
+CID921,OH,6088,Professional,71269,M,Auto,4,Business,51,MUV,5720.464
+CID186,PH,6096,Professional,215324,M,Auto,3,Corporate Auto,96,MUV,5745.467
+CID730,OH,6098,Professional,124213,M,Auto,1,Self Auto,22,Medium sized,5759.981
+CID640,AL,6105,High School,165292,M,Auto,4,Service,38,SUV,5768.114
+CID077,IA,6106,Not specified,24978,F,Auto,4,Service,18,SUV,5773.09
+CID822,OH,6134,Graduate,113123,M,Auto,1,Corporate Auto,33,Medium sized,5774.3
+CID977,AL,6141,High School,89886,M,Auto,1,Service,28,Sedan,5780.333
+CID677,PH,6157,Not specified,169095,F,Auto,4,Self Auto,43,MUV,5782.303
+CID164,PH,6163,Not specified,8562,F,Auto,3,Self Auto,66,Sedan,5782.322
+CID105,PH,6164,Professional,27364,F,Auto,2,Service,46,Medium sized,5788.94
+CID913,IA,6171,Professional,165828,F,Auto,4,Business,35,SUV,5790.81
+CID990,TX,6174,Not specified,117399,F,Auto,3,Business,24,Sedan,5792.27
+CID484,OH,6183,Professional,4973,M,Auto,1,Self Auto,76,Sedan,5799
+CID098,AL,6185,High School,21740,M,Auto,4,Service,31,Sedan,5822.537
+CID759,AL,6186,Not specified,144530,M,Auto,3,Business,18,MUV,5861.068
+CID937,AL,6190,Not specified,293262,M,Auto,4,Corporate Auto,33,Medium sized,5867.24
+CID553,PH,6199,Graduate,101210,F,Auto,1,Service,64,SUV,5874.783
+CID916,OH,6212,Not specified,86230,M,Auto,1,Service,74,SUV,5886.47
+CID544,IA,6220,Graduate,204138,F,Auto,3,Corporate Auto,1,Sedan,5911.38
+CID680,AL,6237,Graduate,140642,M,Auto,4,Service,91,MUV,5915.213
+CID451,PH,6246,College,135289,F,Auto,3,Corporate Auto,58,SUV,5928.78
+CID522,OH,6264,Professional,155198,M,Auto,1,Business,91,MUV,5932.89
+CID955,IA,6284,Not specified,193242,M,Auto,1,Self Auto,33,SUV,5946.71
+CID898,PH,6296,Graduate,285463,M,Auto,3,Service,43,SUV,5967.48
+CID983,AL,6337,Professional,214852,F,Auto,2,Self Auto,23,Medium sized,5973.066
+CID316,IA,6345,High School,195905,M,Auto,2,Self Auto,6,Sedan,5975.197
+CID156,OH,6352,Not specified,275857,M,Auto,1,Service,59,Medium sized,5990.32
+CID381,TX,6373,High School,75289,M,Auto,3,Corporate Auto,14,MUV,6004.3
+CID097,AL,6386,High School,101927,F,Auto,1,Service,16,MUV,6009.239
+CID175,PH,6390,Not specified,59744,F,Auto,4,Corporate Auto,36,Sedan,6033.16
+CID982,AL,6400,High School,163591,M,Auto,1,Service,37,MUV,6042.82
+CID354,TX,6403,Graduate,288321,F,Auto,1,Corporate Auto,95,Sedan,6067.513
+CID093,TX,6427,Professional,50841,F,Auto,3,Service,94,Sedan,6078.93
+CID480,AL,6430,College,202255,M,Auto,1,Self Auto,48,Sedan,6091.9
+CID273,AL,6447,Professional,273919,M,Auto,3,Business,46,SUV,6097.18
+CID015,OH,6460,College,243154,F,Auto,3,Corporate Auto,89,Medium sized,6108.76
+CID873,AL,6461,College,34924,M,Auto,3,Service,88,Medium sized,6121.573
+CID673,TX,6469,Graduate,217495,M,Auto,2,Self Auto,16,Sedan,6134.292
+CID221,AL,6471,Graduate,238894,F,Auto,2,Service,92,Sedan,6137.51
+CID052,TX,6480,College,92242,M,Auto,2,Corporate Auto,33,Medium sized,6137.612
+CID137,TX,6483,Professional,181887,F,Auto,3,Service,57,Medium sized,6148.417
+CID732,PH,6487,Professional,13687,F,Auto,4,Service,34,MUV,6154.47
+CID462,IA,6508,Not specified,149105,F,Auto,2,Service,37,SUV,6162.4
+CID747,TX,6511,Professional,168805,M,Auto,1,Service,4,Medium sized,6165.64
+CID335,AL,6514,High School,127939,F,Auto,4,Corporate Auto,92,SUV,6168.76
+CID388,AL,6525,Professional,241387,F,Auto,4,Corporate Auto,42,SUV,6187.89
+CID862,IA,6539,Graduate,163727,F,Auto,4,Service,5,Sedan,6188.777
+CID844,PH,6549,High School,134692,M,Auto,3,Business,62,Medium sized,6215.802
+CID220,IA,6553,High School,141068,M,Auto,2,Service,38,SUV,6225.33
+CID739,IA,6556,Graduate,153212,M,Auto,2,Business,9,SUV,6254.49
+CID880,IA,6561,High School,281856,M,Auto,1,Self Auto,72,Medium sized,6271.87
+CID684,IA,6567,Not specified,280497,F,Auto,4,Service,14,SUV,6290.532
+CID656,TX,6584,Graduate,262986,F,Auto,2,Service,36,MUV,6331.714
+CID919,PH,6607,High School,60598,F,Auto,3,Service,94,Sedan,6332.01
+CID948,OH,6624,High School,235607,F,Auto,2,Self Auto,9,SUV,6333.167
+CID962,AL,6638,High School,249003,M,Auto,3,Corporate Auto,42,Medium sized,6335.53
+CID508,TX,6638,Professional,106321,M,Auto,3,Self Auto,40,Sedan,6340.54
+CID907,PH,6660,Graduate,15689,F,Auto,1,Service,76,Medium sized,6342.218
+CID768,IA,6663,Not specified,247017,F,Auto,4,Corporate Auto,10,Medium sized,6358.882
+CID662,PH,6667,Graduate,261124,F,Auto,1,Service,5,MUV,6373.41
+CID342,IA,6675,College,130242,M,Auto,3,Business,30,SUV,6380.419
+CID479,PH,6677,High School,16650,M,Auto,2,Service,36,Sedan,6383.08
+CID634,OH,6699,Professional,138686,M,Auto,2,Service,9,Medium sized,6386.84
+CID674,IA,6720,Professional,192131,F,Auto,4,Corporate Auto,67,Sedan,16390.442
+CID116,IA,6722,High School,85828,F,Auto,1,Corporate Auto,86,Medium sized,6394.259
+CID623,TX,6736,Graduate,71853,F,Auto,4,Self Auto,87,Medium sized,6396.101
+CID963,IA,6738,High School,266348,M,Auto,3,Service,95,Sedan,6429.29
+CID622,PH,6744,College,85449,F,Auto,4,Corporate Auto,50,Sedan,6443.432
+CID841,PH,6745,Not specified,257132,F,Auto,2,Corporate Auto,40,SUV,6462.854
+CID515,TX,6754,Graduate,43344,F,Auto,4,Service,65,MUV,6464.424
+CID286,AL,6762,High School,68948,M,Auto,1,Service,36,Medium sized,6466.152
+CID529,IA,6762,Graduate,176917,F,Auto,2,Self Auto,30,MUV,6468.647
+CID975,AL,6774,Not specified,170689,F,Auto,1,Corporate Auto,17,Sedan,6469.14
+CID894,IA,6778,High School,112234,M,Auto,4,Self Auto,19,Medium sized,6475.63
+CID467,IA,6783,College,54028,M,Auto,3,Business,18,Medium sized,6475.92
+CID531,TX,6801,Professional,166175,M,Auto,1,Self Auto,41,MUV,6485.19
+CID604,OH,6804,Professional,1017,M,Auto,2,Self Auto,28,MUV,6496.29
+CID364,IA,6807,College,38515,M,Auto,4,Corporate Auto,12,Medium sized,6499.14
+CID341,AL,6816,High School,237088,M,Auto,3,Business,85,Sedan,6524.864
+CID927,PH,6825,Professional,206779,F,Auto,4,Self Auto,75,SUV,6538.519
+CID630,AL,6834,Graduate,119828,F,Auto,2,Self Auto,82,Sedan,6543.1
+CID699,OH,6838,Professional,84875,M,Auto,4,Self Auto,18,MUV,6557.69
+CID858,IA,6839,College,205167,F,Auto,1,Service,35,SUV,6564.432
+CID518,IA,6839,Not specified,97796,M,Auto,1,Service,4,SUV,6565.692
+CID882,AL,6858,Not specified,126690,F,Auto,3,Business,65,Sedan,6576.289
+CID794,PH,6863,Not specified,109410,M,Auto,3,Business,37,SUV,6576.961
+CID446,PH,6865,Professional,173109,F,Auto,1,Corporate Auto,6,SUV,6580.356
+CID189,OH,6867,College,48758,M,Auto,1,Business,53,MUV,6589.693
+CID953,IA,6875,Professional,286723,M,Auto,2,Corporate Auto,89,Sedan,6590.91
+CID802,IA,6883,Professional,273856,M,Auto,4,Corporate Auto,88,SUV,6594.573
+CID852,OH,6898,High School,14399,M,Auto,3,Service,87,Sedan,6606.516
+CID908,TX,6904,Graduate,59893,M,Auto,3,Self Auto,63,MUV,6609.081
+CID412,OH,6917,High School,246699,M,Auto,1,Service,38,Medium sized,6640.151
+CID328,OH,6923,College,224080,M,Auto,4,Self Auto,1,Medium sized,6650.212
+CID441,OH,6931,Professional,292954,M,Auto,4,International,21,MUV,6712.08
+CID667,PH,6932,Not specified,35347,M,Auto,4,Service,82,Medium sized,6717.511
+CID603,TX,6941,Professional,65401,M,Auto,2,Corporate Auto,26,Medium sized,6722.24
+CID804,TX,6957,Professional,136685,F,Auto,1,Service,91,Medium sized,6725.59
+CID268,AL,6959,College,681,M,Auto,4,Service,72,MUV,6729.84
+CID468,TX,6961,Professional,269688,F,Auto,3,Business,78,Sedan,6752.236
+CID278,PH,6980,Not specified,196841,M,Auto,4,Self Auto,75,SUV,6764.851
+CID284,TX,6983,Not specified,119346,M,Auto,3,Business,57,Sedan,6775.6
+CID197,IA,6998,College,77688,M,Auto,3,Business,1,Medium sized,6919.97
+CID094,OH,6999,College,251125,M,Auto,1,Service,67,Medium sized,6927.67
+CID636,PH,7004,High School,197069,F,Auto,1,Corporate Auto,71,SUV,6931.72
+CID144,OH,7023,Graduate,195335,M,Auto,1,Service,21,Medium sized,6943.3
+CID992,AL,7025,Not specified,189772,F,Auto,3,Service,90,Sedan,7047.04
+CID887,OH,7041,Professional,112705,F,Auto,2,Self Auto,16,Sedan,7115.63
+CID917,AL,7052,College,47982,M,Auto,4,Self Auto,70,SUV,7124.03
+CID594,IA,7054,High School,187610,F,Auto,3,Self Auto,46,Medium sized,7144.5
+CID115,AL,7063,High School,121137,F,Auto,4,Service,82,MUV,7155.44
+CID728,PH,7073,High School,1636,M,Auto,4,Service,35,SUV,7252.18
+CID771,AL,7086,High School,78651,F,Auto,2,Business,54,Medium sized,7267.41
+CID965,TX,7087,High School,252956,M,Auto,2,Service,70,MUV,7305.66
+CID939,AL,7088,High School,73910,F,Auto,1,Self Auto,29,MUV,7341.89
+CID612,PH,7089,Professional,208041,F,Auto,4,Business,45,Medium sized,7355.28
+CID830,PH,7091,High School,266620,M,Auto,4,Corporate Auto,33,SUV,7358.71
+CID853,PH,7093,College,147997,F,Auto,3,Self Auto,79,SUV,7407.74
+CID615,AL,7098,Professional,188689,F,Auto,2,Corporate Auto,45,Medium sized,7417.56
+CID351,PH,7107,College,203528,M,Auto,4,Business,18,Medium sized,7425.4
+CID505,OH,7115,Professional,250936,M,Auto,4,Self Auto,89,Sedan,7474.79
+CID486,IA,7132,College,157266,M,Auto,2,Self Auto,83,MUV,7589.96
+CID409,IA,7138,College,261698,M,Auto,3,Self Auto,82,SUV,7634.03
+CID124,AL,7152,College,84072,M,Auto,1,Business,35,Sedan,7634.42
+CID959,PH,7154,College,79232,F,Auto,1,Self Auto,3,MUV,7661.08
+CID985,IA,7155,College,260196,F,Auto,2,Service,65,Medium sized,7687.79
+CID019,PH,7159,College,261250,M,Auto,4,International,17,SUV,7691.42
+CID047,OH,7161,High School,239112,F,Auto,2,Service,30,Sedan,7699.94
+CID895,PH,7186,Graduate,53747,M,Auto,2,Business,69,Medium sized,7780.26
+CID650,AL,7198,Not specified,154877,M,Auto,1,Business,81,Medium sized,0
+CID578,AL,7201,Graduate,283935,M,Auto,3,Corporate Auto,69,Sedan,7800.79
+CID920,TX,7208,Graduate,228029,M,Auto,2,Service,32,SUV,7841.02
+CID050,PH,7215,College,28397,F,Auto,4,Corporate Auto,35,SUV,7847.21
+CID488,TX,7223,College,64577,M,Auto,2,Business,67,Medium sized,7864.13
+CID340,AL,7241,High School,37661,F,Auto,1,Business,41,SUV,7883.02
+CID161,OH,7258,Not specified,58525,M,Auto,3,Business,32,Medium sized,7922.22
+CID173,AL,7260,Not specified,76313,F,Auto,3,Self Auto,9,SUV,7927.73
+CID736,PH,7265,Professional,295950,F,Auto,1,Corporate Auto,88,Sedan,7932.32
+CID071,PH,7271,High School,186677,F,Auto,4,Service,69,SUV,7945.56
+CID104,IA,7274,College,111756,M,Auto,3,Service,30,MUV,7959.94
+CID238,IA,7275,Not specified,129527,M,Auto,1,Self Auto,37,Sedan,7963.78
+CID702,AL,7308,Professional,118060,F,Auto,2,Corporate Auto,96,Sedan,8051.03
+CID924,PH,7325,Graduate,264966,M,Auto,2,Self Auto,49,Medium sized,8057.8
+CID576,TX,7330,College,30386,M,Auto,2,Business,7,Sedan,8144.06
+CID704,IA,7350,High School,192890,F,Auto,3,Corporate Auto,16,Medium sized,8201.94
+CID540,AL,7356,High School,84319,F,Auto,3,Corporate Auto,7,Medium sized,8207.56
+CID369,IA,7370,Graduate,100464,F,Auto,2,Service,40,Medium sized,8280.77
+CID642,AL,7423,Graduate,229025,M,Auto,1,Business,83,Sedan,8343.42
+CID035,TX,7427,Graduate,102128,M,Auto,4,Service,26,SUV,8382.08
+CID874,IA,7439,Professional,84118,M,Auto,3,Business,75,MUV,8421.81
+CID646,IA,7459,Not specified,202472,M,Auto,4,Business,26,MUV,8431.97
+CID396,TX,7463,High School,100307,M,Auto,3,Self Auto,77,Sedan,8496.72
+CID430,OH,7465,Professional,289143,F,Auto,4,Corporate Auto,12,Sedan,8512.19
+CID334,OH,7466,Graduate,32801,M,Auto,4,Business,74,Medium sized,8544.2
+CID235,IA,7475,Graduate,163672,M,Auto,4,Service,6,Sedan,8562.1
+CID076,AL,7475,Professional,132697,F,Auto,1,Corporate Auto,77,SUV,8568.96
+CID448,OH,7481,Professional,242908,M,Auto,4,Business,59,Medium sized,8618.48
+CID798,PH,7498,College,180140,M,Auto,3,Self Auto,69,MUV,8666.62
+CID305,AL,7507,Graduate,155902,F,Auto,1,International,71,SUV,8748.06
+CID374,IA,7510,High School,199171,F,Auto,3,Business,40,MUV,8783.29
+CID112,OH,7518,College,268270,M,Auto,3,Corporate Auto,88,MUV,8837.17
+CID652,PH,7528,Professional,217309,M,Auto,2,Corporate Auto,38,Medium sized,8863.91
+CID067,OH,7543,Graduate,194466,M,Auto,2,Self Auto,9,SUV,8867.14
+CID801,AL,7548,Graduate,253929,M,Auto,1,Self Auto,73,SUV,8903.29
+CID705,IA,7557,Not specified,247404,F,Auto,3,Corporate Auto,76,Medium sized,8931.01
+CID122,OH,7561,Graduate,279502,F,Auto,2,Self Auto,92,Medium sized,8931.82
+CID263,IA,7581,High School,128163,M,Auto,3,Service,43,Sedan,8932.77
+CID734,OH,7586,High School,18252,M,Auto,2,Corporate Auto,50,Sedan,8938.71
+CID763,AL,7586,Not specified,229985,M,Auto,4,Corporate Auto,9,SUV,8945.73
+CID598,PH,7598,Professional,279565,F,Auto,4,Business,30,SUV,8975.47
+CID891,TX,7602,College,116011,M,Auto,4,Business,45,SUV,8988.36
+CID390,PH,7609,Graduate,186190,M,Auto,1,Service,89,MUV,9040.2
+CID900,OH,7628,High School,270342,F,Auto,2,Corporate Auto,95,Medium sized,9049.43
+CID091,PH,7639,Graduate,281626,M,Auto,1,Business,94,Sedan,9054.2
+CID376,TX,7642,Graduate,123223,M,Auto,4,Service,22,MUV,9104.07
+CID471,AL,7656,College,170136,M,Auto,2,Corporate Auto,81,SUV,9147.06
+CID626,IA,7675,Not specified,196432,F,Auto,1,Business,30,MUV,9169.79
+CID256,PH,7676,Graduate,32348,F,Auto,3,Business,76,MUV,9177.69
+CID433,PH,7680,College,32885,M,Auto,4,Corporate Auto,92,Sedan,9186.9
+CID899,TX,7694,Not specified,67701,F,Auto,2,Corporate Auto,94,Medium sized,0
+CID266,IA,7713,High School,110719,F,Auto,4,Self Auto,38,SUV,9292.13
+CID204,AL,7728,College,81332,F,Auto,3,Self Auto,29,MUV,9335.6
+CID758,TX,7731,Not specified,115455,M,Auto,4,Service,82,SUV,9402.24
+CID417,OH,7734,Professional,146889,M,Auto,3,Service,96,Sedan,9414.52
+CID407,OH,7734,Professional,174518,F,Auto,1,Self Auto,12,Medium sized,9445.59
+CID372,OH,7746,Graduate,33171,M,Auto,3,Corporate Auto,82,Sedan,9503.29
+CID627,PH,7749,Professional,68456,F,Auto,3,Corporate Auto,41,Medium sized,9520.42
+CID194,OH,7762,High School,292020,M,Auto,3,Business,43,SUV,9547.69
+CID419,IA,7764,Graduate,45266,F,Auto,3,Business,36,MUV,9569.73
+CID069,IA,7771,Graduate,23634,M,Auto,4,Service,75,MUV,9629.76
+CID941,PH,7813,Graduate,58202,F,Auto,4,Self Auto,24,SUV,9687.62
+CID669,OH,7836,Professional,277722,M,Auto,3,Service,59,Medium sized,9752.18
+CID216,PH,7844,Professional,105021,M,Auto,3,Corporate Auto,18,SUV,9772.29
+CID731,IA,7855,Professional,108336,F,Auto,1,Self Auto,7,MUV,9773.36
+CID686,AL,7873,Professional,217891,M,Auto,2,Business,78,Medium sized,9847.48
+CID007,OH,7896,Graduate,264405,F,Auto,2,Service,11,Sedan,9886.24
+CID593,AL,7911,Graduate,5687,M,Auto,3,Service,61,SUV,9912.11
+CID498,PH,7922,High School,250636,M,Auto,4,Self Auto,24,MUV,9925.61
+CID059,PH,7928,College,113879,M,Auto,4,Business,83,Medium sized,9958.58
+CID995,TX,7946,High School,170246,M,Auto,2,Service,57,SUV,9969.8
+CID458,TX,7947,Not specified,297332,M,Auto,4,Corporate Auto,94,MUV,9992.18
+CID935,TX,7961,High School,108673,M,Auto,2,Business,40,SUV,10041.4
+CID210,IA,7961,Graduate,263703,M,Auto,2,Self Auto,30,MUV,10146.59
+CID789,TX,7963,Graduate,161458,M,Auto,3,Corporate Auto,47,SUV,10161.19
+CID308,TX,7968,College,180183,F,Auto,3,Service,22,Sedan,10167.19
+CID611,IA,7999,High School,79220,F,Auto,2,Self Auto,34,Medium sized,10202.36
+CID715,TX,8000,Professional,10033,F,Auto,3,Business,72,SUV,10206.54
+CID165,TX,8023,Not specified,255015,M,Auto,4,Business,82,Medium sized,10217.69
+CID163,IA,8029,College,36317,M,Auto,1,Self Auto,44,SUV,10226.63
+CID434,TX,8029,Graduate,75858,F,Auto,4,Corporate Auto,64,SUV,10331
+CID329,AL,8035,Not specified,65415,M,Auto,2,Service,57,Medium sized,10365.62
+CID149,TX,8048,College,209251,F,Auto,4,Service,31,Medium sized,10372.21
+CID277,IA,8056,High School,151592,M,Auto,1,Business,71,MUV,10467.52
+CID649,IA,8056,Professional,77465,F,Auto,3,Business,37,SUV,10514.41
+CID811,IA,8062,Graduate,50491,M,Auto,3,Corporate Auto,18,Medium sized,0
+CID267,PH,8072,Not specified,50384,F,Auto,1,Service,42,MUV,10592.26
+CID178,AL,8090,High School,114299,M,Auto,3,Service,67,MUV,10637
+CID989,PH,8095,Not specified,131701,M,Auto,3,Corporate Auto,27,SUV,10687.83
+CID352,TX,8097,College,79669,F,Auto,4,Business,21,MUV,10823.33
+CID827,IA,8101,Professional,83691,F,Auto,2,Business,81,Sedan,10856.7
+CID641,IA,8132,Not specified,72708,F,Auto,4,Self Auto,4,MUV,10938.84
+CID676,IA,8139,Not specified,33520,M,Auto,2,Service,94,Medium sized,10981.11
+CID507,IA,8148,Professional,206146,F,Auto,4,Business,73,Sedan,11021.07
+CID571,IA,8151,Not specified,237027,F,Auto,4,Self Auto,53,Sedan,11052.27
+CID169,PH,8152,High School,184001,F,Auto,4,Self Auto,35,Medium sized,11062.31
+CID596,TX,8154,High School,254203,F,Auto,1,Business,9,Sedan,11298.86
+CID812,PH,8162,Graduate,71544,F,Auto,2,Service,40,Medium sized,11340.98
+CID981,AL,8173,Professional,24239,F,Auto,1,Self Auto,76,SUV,11484.12
+CID038,PH,8180,High School,245578,F,Auto,2,Business,16,MUV,11530.64
+CID391,TX,8186,High School,88151,F,Auto,1,Business,73,Medium sized,11754.94
+CID421,TX,8198,Graduate,76104,F,Auto,1,Corporate Auto,64,SUV,11868.26
+CID918,IA,8223,Not specified,198632,F,Auto,4,Business,90,SUV,11872.86
+CID228,TX,8228,College,237598,F,Auto,2,Service,71,MUV,11883.29
+CID555,AL,8229,High School,104910,F,Auto,1,Service,37,SUV,11912.19
+CID406,TX,8250,High School,278599,M,Auto,2,Corporate Auto,95,SUV,11953.27
+CID663,TX,8251,Professional,240859,M,Auto,4,Service,87,SUV,11986.07
+CID839,TX,8261,Graduate,272322,F,Auto,3,Service,33,SUV,12047.27
+CID254,AL,8262,High School,168905,F,Auto,2,Self Auto,34,Medium sized,1068.79
+CID370,PH,8307,Not specified,165345,F,Auto,3,Business,71,Medium sized,12170.91
+CID896,TX,8309,College,60591,F,Auto,2,Business,89,SUV,12181.12
+CID289,TX,8312,Professional,58129,F,Auto,2,Corporate Auto,35,Sedan,12247.42
+CID158,IA,8319,Not specified,120400,M,Auto,4,Self Auto,73,Sedan,12287.62
+CID960,TX,8322,Not specified,273942,M,Auto,4,Business,6,MUV,12323.94
+CID386,TX,8326,Not specified,14807,M,Auto,1,Business,43,Sedan,12387.77
+CID199,AL,8346,Professional,207666,F,Auto,3,Business,87,MUV,12395.22
+CID379,IA,8353,College,96690,M,Auto,4,Business,56,SUV,12558.71
+CID400,PH,8363,Professional,83706,M,Auto,4,Self Auto,6,Medium sized,12616.6
+CID237,IA,8371,Graduate,49543,F,Auto,4,Business,83,Sedan,12695.63
+CID814,OH,8376,Graduate,195132,F,Auto,4,Corporate Auto,9,MUV,12798.13
+CID714,PH,8378,Professional,119799,M,Auto,1,Self Auto,28,MUV,12827.7
+CID709,TX,8387,College,290846,F,Auto,3,Self Auto,39,Medium sized,13058.41
+CID923,TX,8394,Graduate,280300,F,Auto,2,Service,75,SUV,13206.57
+CID155,TX,8396,High School,150313,M,Auto,1,Self Auto,76,SUV,13303.81
+CID349,OH,8402,Professional,55149,M,Auto,1,Self Auto,93,MUV,13328.44
+CID618,TX,8403,Not specified,160382,F,Auto,1,Service,90,Sedan,13372.14
+CID353,OH,8412,Not specified,118701,F,Auto,2,Service,38,SUV,13399.42
+CID997,IA,8414,College,296283,F,Auto,4,Corporate Auto,84,SUV,13445.26
+CID368,AL,8455,High School,232819,F,Auto,1,Business,65,Sedan,13491.07
+CID619,OH,8471,College,4456,M,Auto,4,International,4,MUV,13562.21
+CID568,PH,8481,High School,84116,M,Auto,1,Self Auto,25,Sedan,13574.33
+CID251,PH,8488,Not specified,46016,F,Auto,2,Self Auto,39,MUV,13585.18
+CID239,IA,8504,Graduate,53966,F,Auto,3,Self Auto,65,Medium sized,13662.3
+CID901,PH,8505,College,26195,M,Auto,4,Self Auto,53,SUV,13682.13
+CID170,TX,8511,Professional,114581,F,Auto,4,Business,60,Sedan,13687.36
+CID826,OH,8540,Not specified,254462,M,Auto,4,Corporate Auto,79,SUV,13687.9
+CID367,OH,8544,Graduate,16645,M,Auto,1,Self Auto,6,Medium sized,13720.16
+CID006,TX,8551,College,265497,M,Auto,1,Corporate Auto,19,MUV,13772.97
+CID070,PH,8553,Not specified,286455,M,Auto,2,Self Auto,43,MUV,13817.44
+CID655,AL,8612,Professional,164957,M,Auto,3,Service,17,Medium sized,13842.07
+CID903,OH,8613,College,158838,M,Auto,1,Corporate Auto,58,SUV,13844.71
+CID786,PH,8614,High School,175597,F,Auto,1,Service,32,SUV,13884.39
+CID610,AL,8679,College,280355,F,Auto,2,Self Auto,71,Sedan,13993.42
+CID528,AL,8687,College,67570,F,Auto,1,Service,89,MUV,13994.18
+CID402,OH,8702,High School,80888,M,Auto,2,Service,16,SUV,14151.18
+CID708,PH,8725,Not specified,156313,M,Auto,2,Self Auto,78,SUV,14232.37
+CID620,AL,8725,Not specified,48945,F,Auto,1,Service,16,MUV,14333.53
+CID324,AL,8741,Professional,21238,F,Auto,4,Self Auto,88,SUV,14374.03
+CID121,TX,8764,Not specified,162170,F,Auto,2,Self Auto,63,Medium sized,14412.29
+CID021,OH,8794,Professional,55936,M,Auto,2,Self Auto,88,MUV,14423.07
+CID477,TX,8811,Not specified,237360,F,Auto,1,Self Auto,12,Medium sized,14444.42
+CID201,PH,8812,Professional,47416,F,Auto,4,Service,38,Medium sized,14482.86
+CID566,TX,8819,Professional,273258,F,Auto,4,Self Auto,74,Sedan,14551.01
+CID065,OH,8828,Professional,226823,M,Auto,2,Service,56,Sedan,14616.58
+CID231,IA,8855,Professional,123733,M,Auto,4,Corporate Auto,35,SUV,14622.21
+CID438,TX,8858,Not specified,90016,F,Auto,2,Service,22,MUV,14736.68
+CID463,TX,8863,Professional,246050,F,Auto,2,Business,32,MUV,14813.42
+CID885,AL,8863,Not specified,82557,F,Auto,3,Corporate Auto,57,Sedan,14825.06
+CID023,PH,8876,Professional,231551,F,Auto,1,Self Auto,43,Sedan,14870.5
+CID954,IA,8882,Professional,36515,M,Auto,1,Self Auto,52,SUV,14885.29
+CID128,OH,8905,Graduate,253533,M,Auto,2,Business,17,MUV,14898.43
+CID114,OH,8915,College,251222,F,Auto,3,Service,3,Sedan,14917.98
+CID509,TX,8915,Not specified,127649,M,Auto,4,Service,29,Sedan,14940.78
+CID048,AL,8923,Graduate,238347,F,Auto,3,Self Auto,43,Sedan,15019.68
+CID556,IA,8924,Professional,263233,M,Auto,4,Self Auto,31,MUV,15103.36
+CID234,OH,8925,Professional,209821,M,Auto,4,Service,3,Medium sized,15111.1
+CID330,IA,8929,Professional,265196,M,Auto,4,Corporate Auto,19,MUV,15282.98
+CID741,TX,8934,College,153661,M,Auto,1,Self Auto,86,Medium sized,15283.42
+CID218,OH,8945,High School,180518,F,Auto,1,Business,27,MUV,15303.51
+CID356,PH,8975,Professional,158525,F,Auto,3,Corporate Auto,65,SUV,15333.36
+CID032,IA,8989,Professional,105427,F,Auto,1,Business,90,Medium sized,15345.17
+CID443,AL,9003,College,243639,F,Auto,2,Corporate Auto,10,Medium sized,15385.5
+CID195,OH,9022,Not specified,132612,F,Auto,4,Service,33,MUV,15409.78
+CID418,AL,9023,Not specified,265962,M,Auto,4,Corporate Auto,50,MUV,15441.69
+CID357,OH,9028,Graduate,233768,M,Auto,2,Service,5,MUV,15504.33
+CID583,PH,9034,College,126896,F,Auto,3,Self Auto,76,Sedan,15507.89
+CID001,AL,9034,Professional,8301,M,Auto,3,Corporate Auto,13,SUV,15592.88
+CID813,TX,9040,Graduate,96600,M,Auto,3,Business,67,Medium sized,15676.74
+CID301,IA,9059,Not specified,145667,F,Auto,4,Business,92,Medium sized,15689.91
+CID710,OH,9061,Graduate,33635,M,Auto,1,Self Auto,73,MUV,15707.93
+CID926,TX,9063,Professional,28900,F,Auto,3,Self Auto,53,SUV,15748.97
+CID815,IA,9070,College,177107,M,Auto,3,Business,18,Sedan,15755.47
+CID530,PH,9071,Professional,267677,F,Auto,1,Service,96,Sedan,15857.61
+CID719,PH,9072,College,89012,F,Auto,1,Corporate Auto,63,Sedan,1883.7
+CID295,OH,9084,High School,220123,M,Auto,4,Service,54,SUV,15911.21
+CID082,OH,9086,Professional,85187,M,Auto,3,Business,42,SUV,15933.4
+CID440,TX,9091,College,166747,F,Auto,3,Corporate Auto,90,Sedan,15992.86
+CID455,PH,9102,High School,55303,F,Auto,1,International,96,Sedan,16055.48
+CID293,PH,9137,College,198801,F,Auto,4,Service,4,MUV,16122.82
+CID179,IA,9139,College,88846,M,Auto,3,Self Auto,29,Medium sized,16164.46
+CID548,AL,9145,College,268974,F,Auto,1,Business,4,Medium sized,16175.66
+CID392,OH,9157,Not specified,296866,M,Auto,3,Self Auto,71,Medium sized,16221.73
+CID512,AL,9158,Professional,243423,F,Auto,1,Corporate Auto,36,MUV,16249.79
+CID148,OH,9158,High School,200827,M,Auto,1,Business,28,SUV,16334.74
+CID591,TX,9167,High School,280469,M,Auto,2,Corporate Auto,74,Sedan,16355.06
+CID496,AL,9173,Graduate,169692,M,Auto,2,Service,77,MUV,16393.64
+CID661,IA,9191,College,131146,M,Auto,1,Corporate Auto,20,MUV,16517.88
+CID222,AL,9200,Professional,117576,F,Auto,2,Corporate Auto,16,Sedan,16542.27
+CID028,AL,9208,College,272570,M,Auto,4,Service,87,SUV,16749.93
+CID420,PH,9224,Professional,262354,F,Auto,3,Corporate Auto,26,Sedan,16996.61
+CID672,PH,9257,Graduate,71158,F,Auto,3,Self Auto,70,SUV,17055.54
+CID411,TX,9261,Not specified,221589,M,Auto,1,Business,21,SUV,17137.17
+CID260,TX,9277,College,32409,M,Auto,3,Service,83,Sedan,17203.17
+CID644,OH,9281,Graduate,67756,F,Auto,1,Business,6,Medium sized,17231.17
+CID464,OH,9282,Professional,218113,M,Auto,1,Corporate Auto,65,SUV,17250.09
+CID361,AL,9284,College,255544,F,Auto,3,Business,37,MUV,17253.42
+CID506,OH,9318,High School,107694,M,Auto,4,Business,72,SUV,17315.47
+CID425,IA,9335,Not specified,8895,F,Auto,2,Self Auto,90,Medium sized,0
+CID147,TX,9353,College,51098,F,Auto,1,Service,76,SUV,17427.69
+CID117,PH,9363,College,290807,M,Auto,4,Service,59,SUV,17472.59
+CID647,PH,9378,Professional,155610,F,Auto,4,Corporate Auto,10,Sedan,17484.99
+CID683,AL,9384,Graduate,35820,M,Auto,2,Service,26,Medium sized,17507.77
+CID057,IA,9387,College,144362,F,Auto,1,Self Auto,92,MUV,17730.94
+CID558,AL,9389,Not specified,277859,M,Auto,4,Service,37,SUV,17736.58
+CID080,PH,9427,College,103449,F,Auto,1,Business,86,SUV,17755.89
+CID922,AL,9473,Professional,48367,M,Auto,1,Service,41,MUV,17784.5
+CID176,TX,9473,Professional,265337,F,Auto,3,Self Auto,4,Medium sized,17800.24
+CID431,AL,9489,College,38903,F,Auto,3,Service,33,MUV,17813.34
+CID833,AL,9503,College,100170,F,Auto,4,Self Auto,24,Sedan,17864.44
+CID276,AL,9514,High School,158969,F,Auto,1,Service,25,Sedan,17904.42
+CID079,PH,9527,High School,35308,F,Auto,1,Corporate Auto,18,MUV,18168.01
+CID191,IA,9568,Graduate,270082,F,Auto,3,Service,21,SUV,18169.5
+CID606,IA,9609,Not specified,191006,M,Auto,2,Service,10,MUV,18205.91
+CID058,PH,9630,Professional,46805,F,Auto,4,Self Auto,58,Medium sized,18348.96
+CID700,OH,9646,Professional,293016,F,Auto,2,Service,45,Medium sized,18354.43
+CID478,PH,9648,Not specified,134268,F,Auto,4,Self Auto,11,Medium sized,18401.12
+CID806,AL,9657,High School,136911,F,Auto,4,Business,38,SUV,18430.3
+CID653,TX,9702,College,133377,F,Auto,2,Business,84,MUV,18487.04
+CID212,TX,9706,Professional,192462,F,Auto,2,Service,24,Medium sized,18502.94
+CID854,TX,9732,Not specified,95955,M,Auto,3,Business,57,MUV,18568.94
+CID145,AL,9880,Not specified,176737,M,Auto,1,Service,7,MUV,0
+CID265,AL,9893,College,56586,F,Auto,1,Self Auto,65,Sedan,18776.01
+CID658,TX,9894,High School,106329,F,Auto,3,Corporate Auto,56,Sedan,18803.22
+CID465,TX,9895,Not specified,129505,M,Auto,1,Corporate Auto,70,SUV,18806.43
+CID931,AL,9901,Not specified,3751,F,Auto,2,Self Auto,74,SUV,18872.06
+CID024,TX,9914,Graduate,23088,M,Auto,4,Corporate Auto,62,Sedan,19006.64
+CID022,PH,9921,Professional,276304,F,Auto,2,Service,16,Medium sized,19034.77
+CID601,IA,9932,Professional,80110,F,Auto,3,Self Auto,54,Medium sized,19048.08
+CID153,IA,9944,High School,206371,M,Auto,2,Corporate Auto,30,SUV,19057.37
+CID008,AL,9946,Professional,278986,M,Auto,2,Service,50,Medium sized,19182.84
+CID241,IA,9981,Graduate,198841,M,Auto,2,Business,90,MUV,19241.66
+CID481,IA,9865,Not specified,272614,M,Auto,1,Self Auto,38,MUV,19334.51
+CID466,AL,9871,College,291118,M,Auto,1,Self Auto,27,Medium sized,19386.43
+CID177,OH,9735,Graduate,207202,F,Auto,3,Corporate Auto,50,SUV,19492.3
+CID723,IA,9736,Professional,171682,F,Auto,3,Business,39,Medium sized,19506.99
+CID790,PH,9780,High School,160573,F,Auto,3,Corporate Auto,69,Sedan,19580.64
+CID089,AL,9798,Not specified,223622,M,Auto,1,Self Auto,71,SUV,19586.4
+CID876,AL,9812,High School,44293,M,Auto,2,Business,38,MUV,19616.34
+CID832,OH,9815,College,207620,M,Auto,4,Business,56,Sedan,19634.4
+CID243,IA,9827,High School,28758,F,Auto,2,Service,36,MUV,19763.07
+CID449,AL,9828,High School,13599,M,Auto,2,Self Auto,57,SUV,19794.49
+CID428,PH,9850,Graduate,216482,F,Auto,1,International,17,Medium sized,0
+CID755,AL,9865,College,155418,M,Auto,4,Self Auto,85,MUV,19971.06
+CID875,OH,9871,Not specified,70775,M,Auto,1,Corporate Auto,47,Medium sized,19978.97
