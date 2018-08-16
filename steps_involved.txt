@@ -11,6 +11,8 @@
     - whether adequate data is available
     - features and target(s)
     - correlation -- df.corr() or seaborn heatmap
+    - multi-colinearity
+    	- Condition number in statsmodels.api OLS summary
     - distribution -- df.hist()
     - density dist -- df.plot(kind='density', subplots=True, 
                             layout=(3,3), sharex=False)
