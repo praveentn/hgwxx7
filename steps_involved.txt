@@ -16,7 +16,10 @@
     
 3. Imputation
     - strategy for treating missing values
+    	-- use Imputer from sklearn.preprocessing
         -- ffill, bfill, mean, map(key:value)
+	-- df = df.groupby(df.columns, axis = 1)
+		.transform(lambda x: x.fillna(x.mean()))
     - strategy for handling outliers
     	-- cause of outliers
         -- uni/bi variate outliers
