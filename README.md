@@ -18,6 +18,7 @@
 * scipy
 * sklearn
 * statsmodels
+* linearmodels
 * pickle
 * 
 
