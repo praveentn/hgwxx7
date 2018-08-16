@@ -47,6 +47,7 @@
 * 
 ---
 <b>Code review</b>
+* pytest
 * pylint
 * cProfile
 * pstats
