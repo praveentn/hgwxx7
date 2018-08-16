@@ -10,13 +10,6 @@
     - study the data
     - whether adequate data is available
     - features and target(s)
-    - correlation -- df.corr() or seaborn heatmap
-    - multi-colinearity
-    	- Condition number in statsmodels.api OLS summary
-    - distribution -- df.hist()
-    - density dist -- df.plot(kind='density', subplots=True, 
-                            layout=(3,3), sharex=False)
-    - scatter matrix of df
     - 
     
 3. Imputation
@@ -40,14 +33,50 @@
     - bivariate analysis
     - multivariate analysis
     - data cleaning and wrangling (tidying)
+    - correlation -- df.corr() or seaborn heatmap
+    - distribution -- df.hist()
+    - density dist -- df.plot(kind='density', subplots=True, 
+                            layout=(3,3), sharex=False)
+    - scatter matrix of df
     - summarization
     - visualization
     
     
 5. Statistical Modeling + Hypothesis Testing
     - perform required statistical tests
-    - 
-    
+    - multi-colinearity
+    	- Condition number in statsmodels.api OLS summary
+    - OLS summary
+    	- sm.OLS(y, X).fit(), summary
+	# 1st table
+	- Dependent variable
+	- Number of observations
+	- Degrees of freedom
+	- R-squared
+		- percentage of variance, ie., if R²=93.5% then the
+		  model explains 93.5% of the variance in our dependent variable
+		- adding variables to a regression model, in turn increases R²
+		- 
+		
+	# 2nd table
+	- coef of Independent variables ()
+    		- as IV's inc by 1, DV reduces by the corresponding value
+	- Standard error
+		- standard deviation of test statistic (eg. mean)
+	- t-score
+		- significance for hypothesis test
+	- p-values
+		- significance for hypothesis test
+	- confidence intervals
+		- with 95% confidence we predict 
+		that IV's lies between the two values for 0.025 and 0.975
+	
+	# 3rd table
+	- Condition number
+		- larger value indicates multicolinearity
+		- values over 20 are to be concerned of
+	- 
+		
 6. Feature reduction
     - Standardization
         - StandardScaler
