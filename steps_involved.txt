@@ -45,6 +45,9 @@
     - scatter matrix of df
     - summarization
     - visualization
+	- bar, hist, box, scatter, pair, facetgrid, 
+	- kdeplot, heatmap, line, area, dispersion,
+	- lmplot, regplot
     
     
 5. Statistical Modeling + Hypothesis Testing
@@ -86,6 +89,9 @@
     - Standardization
         - StandardScaler
     - PCA, ICA
+    - Linear Discriminant Analysis
+    	- supervised dimensionality reduction technique
+	- similar to PCA, +advantage of tackling overfitting
     - SelectPercentile
     - Combine features 
     - Collinear features
