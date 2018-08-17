@@ -20,6 +20,7 @@
 * statsmodels
 * linearmodels
 * pickle
+* category_encoders
 * 
 
 ---
