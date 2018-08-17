@@ -10,6 +10,7 @@
     - csv, excel, hdfs, stata etc.
     - chunksize, nrows, low_memory, na_values
     - study the data
+    - prepare data dictionary
     - whether adequate data is available
     - features and target(s)
     - 
