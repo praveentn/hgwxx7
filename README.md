@@ -21,6 +21,7 @@
 * linearmodels
 * pickle
 * category_encoders
+* xgboost
 * 
 
 ---
