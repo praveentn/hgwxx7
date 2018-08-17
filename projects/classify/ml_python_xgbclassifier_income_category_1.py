@@ -13,7 +13,7 @@ col_names = ['age', 'work-class', 'fnlwgt', 'education', 'education-num', 'marit
             'occupation', 'relationship', 'race', 'sex', 'capital-gain', 'capital-loss', 
             'hrs-per-week', 'native-country', 'income']
 
-data = pd.read_csv('adult.data.csv', header = None, names = col_names, na_values = " ?")
+data = pd.read_csv('income.csv', header = None, names = col_names, na_values = " ?")
 
 print(data.shape)
 data.head(n = 10)
