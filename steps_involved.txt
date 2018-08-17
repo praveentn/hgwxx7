@@ -43,6 +43,9 @@
     	- might be required to transform
     - data cleaning and wrangling (tidying)
     - correlation -- df.corr() or seaborn heatmap
+    	- Pearson's
+	- Spearman's
+	- Kendall's rank (tau)
     - distribution -- df.hist()
     - density dist -- df.plot(kind='density', subplots=True, 
                             layout=(3,3), sharex=False)
@@ -56,6 +59,12 @@
     
 5. Statistical Modeling + Hypothesis Testing
     - perform required statistical tests
+    - chi-squared
+    	- test whether two categorical variables are related or independent
+    - t-test
+    	- whether the means of 2 independent samples are significantly different
+    - ANOVA
+    	- whether the means of 3 or more independent samples are significantly different
     - multi-colinearity
     	- Condition number in statsmodels.api OLS summary
     - OLS summary
