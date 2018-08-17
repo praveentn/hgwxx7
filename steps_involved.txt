@@ -152,6 +152,19 @@
     - Retrain
     - 
 
+11. Reducing Variance in final model
+	- sources of variance
+		- noise in training data
+		- randomness of ML algorithm
+	- measure Variance introduced by algorithm
+		- repeated runs
+	- measure Variance introduced by training data
+		- train on different samples
+	- ensemble models
+	- sensitivity analysis
+	- more training data
+	- 
+
 Also, note 
 
 *  ROC curve
