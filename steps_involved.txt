@@ -32,12 +32,15 @@
 4. Exploratory Data Analysis
     - analyzing data sets to summarize their main characteristics, often with visual methods
     - central tendency
+    - standard deviation
     - measure of dispersion
     - measure of spread (variance)
     - heatmap of correlation
     - univariate analysis
     - bivariate analysis
     - multivariate analysis
+    - find the skewness
+    	- might be required to transform
     - data cleaning and wrangling (tidying)
     - correlation -- df.corr() or seaborn heatmap
     - distribution -- df.hist()
