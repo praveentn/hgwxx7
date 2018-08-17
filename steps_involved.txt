@@ -107,6 +107,8 @@
     - note label encoded data
     - check the MSE and other errors before and after encoding
     	- for different random_state's
+    - Binary encoder
+    	- 
     
 8. Train test split
     - random state
