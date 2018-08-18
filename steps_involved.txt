@@ -98,7 +98,7 @@
 			- values over 20 are to be concerned of
 		- 
 		
-6. Feature reduction
+6. Feature engineering
     - Standardization
         - StandardScaler
     - Normalization
@@ -169,7 +169,7 @@
 
 Also, note 
 
-*  ROC curve
+*  ROC curve - FP vs TP
 *  Precision = TP / (TP + FP)
 *  Recall    = TP / (TP + FN)
 *  Confusion matrix 
@@ -178,8 +178,6 @@ Also, note
 	AN  [FN, TN]
  
 *  True +ve, False +ve
-
-*  Normalization
  
 *  Model fit and transform
  
