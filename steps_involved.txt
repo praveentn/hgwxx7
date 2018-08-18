@@ -101,6 +101,8 @@
 6. Feature reduction
     - Standardization
         - StandardScaler
+    - Normalization
+    	- MinMaxScaler
     - PCA, ICA
     - Linear Discriminant Analysis
     	- supervised dimensionality reduction technique
