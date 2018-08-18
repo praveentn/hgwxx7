@@ -1,4 +1,5 @@
-# ways to normalize numerical data
+# ways to normalize numerical (min-max scaling) data
+# data is scaled to a fixed range - usually 0 to 1
 
 '''
 Standardizing the features so that they are centered around 0 with 
