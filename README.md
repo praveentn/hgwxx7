@@ -61,8 +61,9 @@
 * os
 * sys
 * glob
-* inspect
+* psutil
 * tkinter
+* inspect
 * builtins
 * zipfile36
 * 
