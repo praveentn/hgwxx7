@@ -5,7 +5,17 @@
     - supervised, unsupervised, reinforcement etc.
     - by examining the 'TARGET' column
     - 
-    
+
+Summary of steps
+- Handling data
+- Exploratory Data Analysis
+- Statistical Modeling + Hypothesis Testing
+- Feature engineering
+- Algorithms
+- Modeling
+- Other steps
+    - Reducing Variance in final model
+
 1. Handling data
     - Import required libraries
     - Load data -> pandas + DataFrame
@@ -171,7 +181,7 @@
     	- RandomForestClassifier().feature_importances_
     - 
 
-7. Modeling
+6. Modeling
     - Train and test
     - Predict
     - Measure Accuracy
@@ -185,7 +195,9 @@
     - Retrain
     - 
 
-11. Reducing Variance in final model
+7. Other steps
+
+   a) Reducing Variance in final model
 	- sources of variance
 		- noise in training data
 		- randomness of ML algorithm
@@ -198,25 +210,25 @@
 	- more training data
 	- 
 
-Also, note 
+    Also, note 
 
-*  ROC curve - FP vs TP
+    *  ROC curve - FP vs TP
 	- guessing model will have ROC of 0.5
 	- 
 	
-*  Precision = TP / (TP + FP)
-*  Recall    = TP / (TP + FN)
-*  Confusion matrix 
+    *  Precision = TP / (TP + FP)
+    *  Recall    = TP / (TP + FN)
+    *  Confusion matrix 
 	    PY   PN
 	AY  [TP, FP]
 	AN  [FN, TN]
  
-*  True +ve, False +ve
+    *  True +ve, False +ve
  
-*  Model fit and transform
+    *  Model fit and transform
  
-*  Variable transformation
-    - scale data
-    - symmetric distribution
-    - complex non-linear relationships into linear relationships
-    - 
+    *  Variable transformation
+    	- scale data
+    	- symmetric distribution
+    	- complex non-linear relationships into linear relationships
+    	- 
