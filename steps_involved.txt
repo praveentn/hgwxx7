@@ -127,9 +127,10 @@
     	- arbitrary ordering
     - One Hot encoding
     	- different columns with 0 and 1
-	
+    - DictVectorizer
     - Binary encoder
-    	- 
+    - judicious combination of OHE with PCA for dim. red. 
+    	can seldom be beat by other encoding schemes 
     
 8. Train test split
     - random state
