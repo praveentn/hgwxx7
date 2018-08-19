@@ -3,6 +3,7 @@
 ### Type of the problem: 
     - Whether regression, classification, clustering etc.
     - supervised, unsupervised, reinforcement etc.
+    - by examining the 'TARGET' column
     - 
     
 1. Import required libraries
@@ -30,6 +31,7 @@
         -- 
         
 4. Exploratory Data Analysis
+    - to learn what data can tell us
     - analyzing data sets to summarize their main characteristics, often with visual methods
     - central tendency
     - standard deviation
@@ -117,10 +119,15 @@
     	- t-Distributed Stochastic Neighbor Embedding (t-SNE)
     -
     
-7. Label encoding or One Hot encoding
+7. Encoding
     - note label encoded data
     - check the MSE and other errors before and after encoding
     	- for different random_state's
+    - Label encoding
+    	- arbitrary ordering
+    - One Hot encoding
+    	- different columns with 0 and 1
+	
     - Binary encoder
     	- 
     
@@ -138,8 +145,10 @@
     - advantages
     - disadvantages
     - calibration
+    - plot feature importances
+    	- RandomForestClassifier().feature_importances_
     - 
-    
+
 10. Modeling
     - Train and test
     - Predict
@@ -170,6 +179,9 @@
 Also, note 
 
 *  ROC curve - FP vs TP
+	- guessing model will have ROC of 0.5
+	- 
+	
 *  Precision = TP / (TP + FP)
 *  Recall    = TP / (TP + FN)
 *  Confusion matrix 
