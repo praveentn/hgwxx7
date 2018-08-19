@@ -40,6 +40,7 @@
 * datetime
 * random
 * time
+* subprocess
 * 
 
 <b>Text processing</b>
