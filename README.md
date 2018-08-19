@@ -22,6 +22,7 @@
 * pickle
 * category_encoders
 * xgboost
+* lightgbm
 * 
 
 ---
@@ -60,6 +61,7 @@
 ---
 <b>Miscellaneous</b>
 * os
+* gc
 * sys
 * glob
 * psutil
