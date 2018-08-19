@@ -101,6 +101,7 @@
 * k Means Clustering
 * Decision Trees
 * Random Forest
+* Gradient Boosting Machine
 * 
 
 
