@@ -16,6 +16,8 @@ Summary of steps
 - Other steps
     - Reducing Variance in final model
 
+Note: report findings and observations at each stage, textually or visually
+
 1. Handling data
     - Import required libraries
     - Load data -> pandas + DataFrame
@@ -175,7 +177,7 @@ Summary of steps
         	- shuffle split
         	- GridSearchCV
         	- cross_val_score
-        	- 		
+        	- 
     - calibration
     - plot feature importances
     	- RandomForestClassifier().feature_importances_
@@ -189,11 +191,14 @@ Summary of steps
 	- r2_score
 	- confusion_matrix
 	- 
+    - baseline model
+    - improved model
+    - model interpretations
+    
     - Cost function
     	- Gradient Descent
     - Parameter Tuning
     - Retrain
-    - 
 
 7. Other steps
 
