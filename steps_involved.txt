@@ -6,32 +6,34 @@
     - by examining the 'TARGET' column
     - 
     
-1. Import required libraries
-2. Load data -> pandas + DataFrame
-    - csv, excel, hdfs, stata etc.
-    - chunksize, nrows, low_memory, na_values
-    - study the data
-    - prepare data dictionary
-    - whether adequate data is available
-    - features and target(s)
-    - 
+1. Handling data
+    - Import required libraries
+    - Load data -> pandas + DataFrame
+    	- csv, excel, hdfs, stata etc.
+    	- chunksize, nrows, low_memory, na_values
+    	- study the data
+    	- prepare data dictionary
+    	- whether adequate data is available
+    	- features and target(s)
+    	- 
     
-3. Imputation
-    - check the importance of outliers/anomailes
-    - strategy for treating missing values
-    	-- use Imputer from sklearn.preprocessing
-        -- ffill, bfill, mean, map(key:value)
-	-- df = df.groupby(df.columns, axis = 1)
-		.transform(lambda x: x.fillna(x.mean()))
-    - strategy for handling outliers
-    	-- cause of outliers
-        -- uni/bi variate outliers
-        -- 2-3 times less or more than S.Dev
-        -- 1.5-2 times IQR
-        -- exclude points below 5th percentiles & above 95th 
-        -- 
+    Missing values & outliers
+    	Imputation
+    	- check the importance of outliers/anomalies
+    	- strategy for treating missing values
+    		-- use Imputer from sklearn.preprocessing
+        	-- ffill, bfill, mean, map(key:value)
+		-- df = df.groupby(df.columns, axis = 1)
+			.transform(lambda x: x.fillna(x.mean()))
+    	- strategy for handling outliers
+		-- cause of outliers
+		-- uni/bi variate outliers
+		-- 2-3 times less or more than S.Dev
+		-- 1.5-2 times IQR
+		-- exclude points below 5th percentiles & above 95th 
+		-- 
         
-4. Exploratory Data Analysis
+2. Exploratory Data Analysis
     - to learn what data can tell us
     - analyzing data sets to summarize their main characteristics, often with visual methods
     - central tendency
@@ -59,8 +61,27 @@
 	- kdeplot, heatmap, line, area, dispersion,
 	- lmplot, regplot
     
-    
-5. Statistical Modeling + Hypothesis Testing
+    Encoding
+    	- note label encoded data
+    	- check the MSE and other errors before and after encoding
+		- for different random_state's
+    	- before encoding, ensure that missing values are handled
+
+    	- Label encoding
+		- arbitrary ordering
+    	- One Hot encoding
+		- different columns with 0 and 1
+		- get_dummies(<pandas dataframe>)
+		-
+
+    	- DictVectorizer
+    	- Binary encoder
+    	- judicious combination of OHE with PCA for dim. red. 
+		can seldom be beat by other encoding schemes 
+    	- inverse_transform 
+		- going back from numerical to string
+
+3. Statistical Modeling + Hypothesis Testing
     - perform required statistical tests
     - chi-squared
     	- test whether two categorical variables are related or independent
@@ -101,7 +122,7 @@
 			- values over 20 are to be concerned of
 		- 
 		
-6. Feature engineering
+4. Feature engineering
     - make sure data is as relevant to the task as possible
     - different types
     	- identifying relevant features
@@ -131,46 +152,26 @@
     - Dimensionality reduction with t-SNE
     	- t-Distributed Stochastic Neighbor Embedding (t-SNE)
     -
-    
-7. Encoding
-    - note label encoded data
-    - check the MSE and other errors before and after encoding
-    	- for different random_state's
-    - before encoding, ensure that missing values are handled
-    
-    - Label encoding
-    	- arbitrary ordering
-    - One Hot encoding
-    	- different columns with 0 and 1
-	- get_dummies(<pandas dataframe>)
-	-
-	
-    - DictVectorizer
-    - Binary encoder
-    - judicious combination of OHE with PCA for dim. red. 
-    	can seldom be beat by other encoding schemes 
-    - inverse_transform 
-    	- going back from numerical to string
-	
-8. Train test split
-    - random state
-    - test size
-    - cross validation cv
-        - shuffle split
-        - GridSearchCV
-        - cross_val_score
-        - 
-        
-9. Algorithms
+    	
+5. Algorithms
     - choice of algorithms
     - advantages
     - disadvantages
+    
+    Train test split
+    	- random state
+    	- test size
+    	- cross validation cv
+        	- shuffle split
+        	- GridSearchCV
+        	- cross_val_score
+        	- 		
     - calibration
     - plot feature importances
     	- RandomForestClassifier().feature_importances_
     - 
 
-10. Modeling
+7. Modeling
     - Train and test
     - Predict
     - Measure Accuracy
