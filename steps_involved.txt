@@ -17,6 +17,7 @@
     - 
     
 3. Imputation
+    - check the importance of outliers/anomailes
     - strategy for treating missing values
     	-- use Imputer from sklearn.preprocessing
         -- ffill, bfill, mean, map(key:value)
@@ -101,6 +102,18 @@
 		- 
 		
 6. Feature engineering
+    - make sure data is as relevant to the task as possible
+    - different types
+    	- identifying relevant features
+	- creating new features
+	- polynomial features
+	    - degree of the polynomial
+	    	- as degree increases, so does overfitting
+	    - interaction terms
+	      eg. features x1, x2 -> x1*x2^2
+	- domain knowledge features
+	- 
+	
     - Standardization
         - StandardScaler
     - Normalization
@@ -123,6 +136,8 @@
     - note label encoded data
     - check the MSE and other errors before and after encoding
     	- for different random_state's
+    - before encoding, ensure that missing values are handled
+    
     - Label encoding
     	- arbitrary ordering
     - One Hot encoding
