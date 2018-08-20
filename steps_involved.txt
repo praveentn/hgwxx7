@@ -216,6 +216,11 @@ Note: report findings and observations at each stage, textually or visually
 	- 
 
     Also, note 
+    
+    *  Optimizing errors/loss functions
+	- cross entropy
+	- MSE
+	- 
 
     *  ROC curve - FP vs TP
 	- guessing model will have ROC of 0.5
