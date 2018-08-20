@@ -65,6 +65,7 @@
 * gc
 * sys
 * glob
+* ctypes
 * psutil
 * tkinter
 * inspect
