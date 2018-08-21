@@ -1,13 +1,19 @@
 # load libraries
 
-impor numpy as np
+import numpy as np
+import seaborn as sns
 
 # asusming you have a dataframe df
 correlations = df.corr()
 
 # Generate a mask for the upper triangle
 mask = np.zeros_like(correlations, dtype=np.bool)
+# array([[False, False],
+#       [False, False]])
+
 mask[np.triu_indices_from(mask)] = True
+# array([[ True,  True],
+#       [False,  True]])
 
 # Set up the matplotlib figure
 f, ax = plt.subplots(figsize=(17, 13))
