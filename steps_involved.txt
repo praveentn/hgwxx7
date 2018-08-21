@@ -78,13 +78,15 @@ Note: report findings and observations at each stage, textually or visually
     	- check the MSE and other errors before and after encoding
 		- for different random_state's
     	- before encoding, ensure that missing values are handled
+	
+	- get_dummies(<pandas dataframe>)
+	- factorize columns (<pd.factorize(df['Gender'])>)
 
     	- Label encoding
 		- arbitrary ordering
     	- One Hot encoding
-		- different columns with 0 and 1
-		- get_dummies(<pandas dataframe>)
-		-
+		- non-arbitrary encoding
+		- 
 
     	- DictVectorizer
     	- Binary encoder
