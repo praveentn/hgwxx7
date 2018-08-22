@@ -104,6 +104,7 @@
 * Decision Trees
 * Random Forest
 * Gradient Boosting Machine
+* Mean Shift Clustering
 * 
 
 
