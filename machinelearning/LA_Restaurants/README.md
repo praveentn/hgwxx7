@@ -1,2 +1,0 @@
-# LA Restaurants Data
-
