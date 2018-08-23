@@ -43,6 +43,7 @@
 * time
 * subprocess
 * threading
+* functools
 * 
 
 <b>Text processing</b>
