@@ -1,4 +1,4 @@
-# Data Science &amp; Machine Learning 
+# Data Science, Machine Learning &amp; Deep Learning
 ---
 ## Topics
 ---
