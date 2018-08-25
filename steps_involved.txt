@@ -4,7 +4,8 @@
     - Whether regression, classification, clustering etc.
     - supervised, unsupervised, reinforcement etc.
     - by examining the 'TARGET' column
-    - 
+    - Model types
+    	- logical, geometric or probabilistic
 
 Summary of steps
 - Handling data
@@ -203,10 +204,11 @@ Note: report findings and observations at each stage, textually or visually
     - Retrain
     - Overfitting/underfitting
 	- underfitting - a decision boundary that hasn't latched onto the true border enough, 
+		 ie., when it doesn't take into consideration enough information to accurately model the actual data
 	- overfitting - as opposed to being too tightly wrapped against individual points
-    	- overfitting is observed numerically when the testing error does not reflect the training error
-	- model has too many parameters, it is susceptible to overfitting
-	- avoid overfitting by adding more iterations/more parameters
+    		- it's observed numerically when the testing error does not reflect the training error
+		- model has too many parameters, it is susceptible to overfitting
+		- avoid overfitting by adding more iterations/more parameters
     - 
 
 7. Other steps
