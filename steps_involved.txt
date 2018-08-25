@@ -48,6 +48,7 @@ Note: report findings and observations at each stage, textually or visually
         
 2. Exploratory Data Analysis
     - to learn what data can tell us
+    - Data mining to gain unknown insights
     - analyzing data sets to summarize their main characteristics, often with visual methods
     - central tendency
     - standard deviation
@@ -98,6 +99,7 @@ Note: report findings and observations at each stage, textually or visually
 
 3. Statistical Modeling + Hypothesis Testing
     - perform required statistical tests
+    - to reach valid conclusions (rather than predictions ~ ML)
     - chi-squared
     	- test whether two categorical variables are related or independent
     - t-test
@@ -253,3 +255,13 @@ Note: report findings and observations at each stage, textually or visually
     	- symmetric distribution
     	- complex non-linear relationships into linear relationships
     	- 
+
+    * Relation between RMSE and MAE
+    	- Mean Square Error or RMSE & Mean Absolute Error
+	- MSE has more statistical grounding with variance
+	- MAE is more intuitive and less sensitive to outliers
+    	- In regression, if the RMSE is close to the MAE, the model makes many relatively small errors
+	- If the RMSE is close to the MAE^2, the model makes a few but large errors
+	- Compute NMSE and NMAE
+	- 
+
