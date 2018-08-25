@@ -199,7 +199,8 @@ Note: report findings and observations at each stage, textually or visually
     - baseline model
     - improved model
     - model interpretations
-    
+    - feature importances
+    	- xgboost
     - Cost function
     	- Gradient Descent
     - Parameter Tuning
