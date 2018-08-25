@@ -97,17 +97,55 @@
   
 ### Algorithms
 
-* Linear Regression
-* Logistic Regression
-* k Nearest Neighbors
-* Support Vector Machine
-* k Means Clustering
-* Decision Trees
-* Random Forest
-* Gradient Boosting Machine
-* Mean Shift Clustering
-* 
+Based on...
 
+#### Bayesian Methods
+  - <i>for classification and regression problems; probability model</i>
+  - Naive Bayes
+  - Bayesian Belief Network
+
+#### Clustering Methods
+  - K-Means
+  - Expectation Maximization
+  - Gaussian Mixture Models (GMM)
+  - Mean Shift
+  - Agglomerative /Heirarchical
+  
+#### Decision Tree 
+  - <i>for classification and regression problems</i>
+  - Random forest
+  - Classification and Regression Tree (CART)
+  - C4.5 and C5.0
+  - Gradient boosting machines (GBM)
+  - Decision stump
+  - Multivariate adaptive regression splines (MARS)
+  - Chi-square, Chi-Squared Automatic Interaction Detection (CHAID)
+
+#### Ensemble Methods
+  - AdaBoost
+  - Bagging
+  - Blending (Stacked generalization)
+  - Boosting (Bootstrapped Aggregation)
+  - Gradient Boosting Machine
+  - Random Forest
+  - 
+
+#### Instance based
+  - k-NN
+  - Learning Vector Quantization
+  - 
+  
+#### Kernel Methods
+  - <i>geometric model</i>
+  - SVM
+  - LDA
+
+#### Regression based
+  - Linear Regression
+    - OLS, Penalized Ridge, Lasso
+  - Logistic Regression
+  - Multivariate adaptive regression splines (MARS)
+  - Stepwise Regression
 
 
 Creation Date: 31/05/2018 <br/>
