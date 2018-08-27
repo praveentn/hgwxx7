@@ -1,7 +1,7 @@
 # Data Science, Machine Learning &amp; Deep Learning
----
+
 ## Topics
----
+
 1. Statistical Modeling
 2. Hypothesis Testing
 3. Data Analysis
@@ -147,6 +147,11 @@ Based on...
   - Multivariate adaptive regression splines (MARS)
   - Stepwise Regression
 
+![alt text](https://s3.amazonaws.com/MLMastery/MachineLearningAlgorithms.png?__s=cfxyzoumz2rsxq8s1qwd)
+
+Image credits: <i> Jason @ ML Mastery jason@machinelearningmastery.com </i>
+
+---
 
 Creation Date: 31/05/2018 <br/>
 Created By: Praveen T N <br/>
