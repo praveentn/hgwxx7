@@ -83,6 +83,12 @@
   - tree
   - utils
   - metrics
+    - recall_score
+    - accuracy_score
+    - scorer.make_scorer
+    - classification_report
+    - 
+    
   - pipeline
   - datasets
   - manifold
@@ -93,7 +99,19 @@
   - linear_model
   - preprocessing
   - model_selection
+    - KFold
+    - GridSearchCV
+    - cross_validate
+    - cross_val_score
+    - cross_val_predict
+    - train_test_split
+    - 
   - feature_selection
+    - f_classif
+    - SelectKBest
+    - SelectFromModel
+    - VarianceThreshold
+    - 
   - 
   
 ### Algorithms
