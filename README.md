@@ -85,6 +85,7 @@
   - metrics
     - recall_score
     - accuracy_score
+    - confusion_matrix
     - scorer.make_scorer
     - classification_report
     - 
