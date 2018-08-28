@@ -1,135 +1,128 @@
 # Data Science | Machine Learning
 
 ## Summary of steps
- 0) Understand the problem, type etc.
- 1) Handling data
- 2) Exploratory Data Analysis
- 3) Statistical Modeling + Hypothesis Testing
- 4) Feature engineering to create a dataset for machine learning
- 5) Compare several baseline machine learning models
- 6) Try more complex machine learning models
- 7) Optimize the selected model
- 8) Investigate model predictions in context of problem
- 9) Draw conclusions and lay out next steps
+	1) Understand the problem, type etc.
+	2) Handling data
+	3) Exploratory Data Analysis
+	4) Statistical Modeling + Hypothesis Testing
+	5) Feature engineering to create a dataset for machine learning
+	6) Compare several baseline machine learning models
+	7) Try more complex machine learning models
+	8) Optimize the selected model
+	9) Investigate model predictions in context of problem
+	10) Draw conclusions and lay out next steps
 ---
 #### Note: report findings and observations at each stage, textually or visually
 ---
 
-0. Understand the problem, type etc.
-    - problem statement
+1) Understand the problem, type etc.
+	- problem statement
 	- type of problem
-	    - Whether regression, classification, clustering etc.
-	    - supervised, unsupervised, reinforcement etc.
-	    - one class, multi-class classification
-	    - novelty detection
-	    - continuous variable prediction
-	    - by examining the features and target(s)
-	- Model types
-	    - logical, geometric or probabilistic
-    	- study the data
-    	- prepare data dictionary
-    	- whether adequate data is available
-    	- 
-
-    - metrics
-    	- what needs to be measured?
-    	- f1 score
-    	- ROC curve
-    	- precision
-    	- recall
-    	- accuracy
-    	- 
+		- by examining the features and target(s)
+		- Whether regression, classification, clustering etc.
+		- supervised, unsupervised, reinforcement etc.
+		- one class, multi-class classification
+		- novelty detection
+		- continuous variable prediction
+	- model types
+		- logical, geometric or probabilistic
+	- study the data
+	- prepare data dictionary
+	- whether adequate data is available
+	- metrics
+		- what needs to be measured?
+		- f1 score
+		- ROC curve
+		- precision
+		- recall
+		- accuracy 
 	
-1. Handling data
-    - memory
-    - cpu requirements
-    - Import required libraries
-    - Load data -> pandas + DataFrame
-    	- csv, excel, hdfs, stata etc.
-    	- chunksize, nrows, low_memory
-	- missing value treatment while loading (na_values)
-	- 
-    
-    ##### Missing values & outliers
-    ##### Imputation
-    	- check the importance of outliers/anomalies
-	- strategy for treating missing values
-		-- use Imputer from sklearn.preprocessing
-		-- ffill, bfill, mean, map(key:value)
-		-- df = df.groupby(df.columns, axis = 1)
-			.transform(lambda x: x.fillna(x.mean()))
-    	- strategy for handling outliers
-		-- cause of outliers
-		-- uni/bi variate outliers
-		-- 2-3 times less or more than S.Dev
-		-- 1.5-2 times IQR
-		-- exclude points below 5th percentiles & above 95th 
-		-- 
+2) Handling data
+	- memory
+	- cpu requirements
+	- import required libraries
+	- load data -> pandas + dataframe
+		- csv, excel, hdfs, stata etc.
+		- chunksize, nrows, low_memory
+		- missing value treatment while loading (na_values)
+	
+	- missing values
+		- imputation
+		- check the importance of outliers/anomalies
+		- strategy for treating missing values
+			- use Imputer from sklearn.preprocessing
+			- ffill, bfill, mean, map(key:value)
+			- df = df.groupby(df.columns, axis = 1).transform(lambda x: x.fillna(x.mean()))
+	- strategy for handling outliers
+		- cause of outliers
+		- uni/bi variate outliers
+		- 2-3 times less or more than S.Dev
+		- 1.5-2 times IQR
+		- exclude points below 5th percentiles & above 95th 
+		- 
         
-2. Exploratory Data Analysis
-    - to learn what data can tell us
-    - Data mining to gain unknown insights
-    - analyzing data sets to summarize their main characteristics, often with visual methods
-    - central tendency
-    - standard deviation
-    - measure of dispersion
-    - measure of spread (variance)
-    - heatmap of correlation
-    - univariate analysis
-    - bivariate analysis
-    - multivariate analysis
-    - find the skewness
-    	- might be required to transform
-    - data cleaning and wrangling (tidying)
-    - correlation -- df.corr() or seaborn heatmap
-    	- Pearson's
-	- Spearman's
-	- Kendall's rank (tau)
-    - distribution -- df.hist()
-    - density dist -- df.plot(kind='density', subplots=True, 
-                            layout=(3,3), sharex=False)
-    - scatter matrix of df
-    - summarization
-    - visualization
-	- bar, hist, box, scatter, pair, facetgrid, 
-	- kdeplot, heatmap, line, area, dispersion,
-	- lmplot, regplot
-    
-    Encoding
-    	- note label encoded data
-    	- check the MSE and other errors before and after encoding
-		- for different random_state's
-    	- before encoding, ensure that missing values are handled
+3) Exploratory Data Analysis
+	- to learn what data can tell us
+	- Data mining to gain unknown insights
+	- analyzing data sets to summarize their main characteristics, often with visual methods
+		- central tendency
+		- standard deviation
+		- measure of dispersion
+		- measure of spread (variance)
+	- heatmap of correlation
+	- univariate analysis
+	- bivariate analysis
+	- multivariate analysis
+	- find the skewness
+		- might be required to transform
+	- data cleaning and wrangling (tidying)
+	- correlation
+		- df.corr() or seaborn heatmap
+		- Pearson's
+		- Spearman's
+		- Kendall's rank (tau)
+	- distribution
+		- df.hist()
+	- density dist
+		- df.plot(kind='density', subplots=True, layout=(3,3), sharex=False)
+	- scatter matrix of df
+	- summarization
+	- visualization
+		- bar, hist, box, scatter, pair, facetgrid, 
+		- kdeplot, heatmap, line, area, dispersion,
+		- lmplot, regplot
 	
+	- encoding
+		- note label encoded data
+		- check the MSE and other errors before and after encoding
+		- for different random_state's
+		- before encoding, ensure that missing values are handled
 	- get_dummies(<pandas dataframe>)
 	- factorize columns (<pd.factorize(df['Gender'])>)
-
-    	- Label encoding
-		- arbitrary ordering
-    	- One Hot encoding
-		- non-arbitrary encoding
-		- 
-
-    	- DictVectorizer
-    	- Binary encoder
-    	- judicious combination of OHE with PCA for dim. red. 
-		can seldom be beat by other encoding schemes 
-    	- inverse_transform 
+	- label encoding
+	- arbitrary ordering
+	- one hot encoding
+	- non-arbitrary encoding
+	- DictVectorizer
+	- binary encoder
+	- judicious combination of OHE with PCA for dim. red. can seldom be beat by other encoding schemes 
+	- inverse_transform 
 		- going back from numerical to string
 
-3. Statistical Modeling + Hypothesis Testing
-    - perform required statistical tests
-    - to reach valid conclusions (rather than predictions ~ ML)
-    - chi-squared
-    	- test whether two categorical variables are related or independent
-    - t-test
-    	- whether the means of 2 independent samples are significantly different
-    - ANOVA
-    	- whether the means of 3 or more independent samples are significantly different
-    - multi-colinearity
-    	- Condition number in statsmodels.api OLS summary
-    - OLS summary
-    	- sm.OLS(y, X).fit(), summary
+4) Statistical Modeling + Hypothesis Testing
+	- perform required statistical tests
+	- to reach valid conclusions (rather than predictions ~ ML)
+	- chi-squared
+		- test whether two categorical variables are related or independent
+	- t-test
+		- whether the means of 2 independent samples are significantly different
+	- ANOVA
+		- whether the means of 3 or more independent samples are significantly different
+	- multi-colinearity
+		- Condition number in statsmodels.api OLS summary
+	- OLS summary
+		- sm.OLS(y, X).fit(), summary
+
 	##### 1st table
 		- Dependent variable
 		- Number of observations
@@ -159,38 +152,34 @@
 			- values over 20 are to be concerned of
 		- 
 		
-4. Feature engineering
-    - make sure data is as relevant to the task as possible
-    - different types
-    	- identifying relevant features
+5) Feature engineering
+	- make sure data is as relevant to the task as possible
+	- different types
+	- identifying relevant features
 	- creating new features
 	- polynomial features
-	    - degree of the polynomial
-	    	- as degree increases, so does overfitting
-	    - interaction terms
-	      eg. features x1, x2 -> x1*x2^2
+	- degree of the polynomial
+		- as degree increases, so does overfitting
+	- interaction terms (eg. features x1, x2 -> x1*x2^2)
 	- domain knowledge features
-	- 
 	
-    - Standardization
-        - StandardScaler
-    - Normalization
-    	- MinMaxScaler
-    - PCA, ICA
-    - Linear Discriminant Analysis
-    	- supervised dimensionality reduction technique
-	- similar to PCA, +advantage of tackling overfitting
-    - SelectPercentile
-    - Combine features 
-    - Collinear features
-    - Ignore unwanted features
-    - Data with low variance can't help in prediction
-        [1,2,1,1,3,1,1,2,1,2,1,1,2,1,1]
-    - Dimensionality reduction with t-SNE
-    	- t-Distributed Stochastic Neighbor Embedding (t-SNE)
-    - 
+	- Standardization
+		- StandardScaler
+	- Normalization
+		- MinMaxScaler
+	- PCA, ICA
+	- Linear Discriminant Analysis
+		- supervised dimensionality reduction technique
+		- similar to PCA, +advantage of tackling overfitting
+	- SelectPercentile
+	- Combine features 
+	- Collinear features
+	- Ignore unwanted features
+	- Data with low variance can't help in prediction
+	- Dimensionality reduction with t-SNE
+		- t-Distributed Stochastic Neighbor Embedding (t-SNE)
     	
-5. Comapre Models
+6) Comapre Models
     - choice of algorithms
     - advantages
     - disadvantages
@@ -208,7 +197,7 @@
     	- RandomForestClassifier().feature_importances_
     - 
 
-6. Complex Models + 7. Optimization
+7) Complex Models
     - Train and test
     - Predict
     - Measure Accuracy
@@ -223,6 +212,8 @@
     	- xgboost
     - Cost function
     	- Gradient Descent
+
+8) Optimization
     - Parameter Tuning
     - Retrain
     - Overfitting/underfitting
@@ -234,7 +225,7 @@
 		- avoid overfitting by adding more iterations/more parameters
     - 
 
-8. Investigate model predictions in context of problem
+9) Investigate model predictions in context of problem
 
    a) Reducing Variance in final model
 	- sources of variance
@@ -286,6 +277,6 @@
 	- Compute NMSE and NMAE
 	- 
 
-9. Draw conclusions and lay out next steps
+10) Draw conclusions and lay out next steps
 
 
