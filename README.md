@@ -23,6 +23,7 @@
 * category_encoders
 * xgboost
 * lightgbm
+* multiprocessing
 * 
 
 ---
@@ -91,8 +92,8 @@
   - naive_bayes
   - linear_model
   - preprocessing
-  - cross_validation
   - model_selection
+  - feature_selection
   - 
   
 ### Algorithms
@@ -130,7 +131,7 @@ Based on...
   - Random Forest
   - 
 
-#### Instance based
+#### Instance 
   - k-NN
   - Learning Vector Quantization
   - 
@@ -140,7 +141,7 @@ Based on...
   - SVM
   - LDA
 
-#### Regression based
+#### Regression 
   - Linear Regression
     - OLS, Penalized Ridge, Lasso
   - Logistic Regression
