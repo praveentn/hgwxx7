@@ -1,41 +1,61 @@
-# Python | Data Science | Machine Learning
+# Data Science | Machine Learning
 
-### Type of the problem: 
-    - Whether regression, classification, clustering etc.
-    - supervised, unsupervised, reinforcement etc.
-    - by examining the 'TARGET' column
-    - Model types
-    	- logical, geometric or probabilistic
+## Summary of steps
+ 0) Understand the problem, type etc.
+ 1) Handling data
+ 2) Exploratory Data Analysis
+ 3) Statistical Modeling + Hypothesis Testing
+ 4) Feature engineering to create a dataset for machine learning
+ 5) Compare several baseline machine learning models
+ 6) Try more complex machine learning models
+ 7) Optimize the selected model
+ 8) Investigate model predictions in context of problem
+ 9) Draw conclusions and lay out next steps
+---
+#### Note: report findings and observations at each stage, textually or visually
+---
 
-Summary of steps
-- Handling data
-- Exploratory Data Analysis
-- Statistical Modeling + Hypothesis Testing
-- Feature engineering
-- Algorithms
-- Modeling
-- Other steps
-    - Reducing Variance in final model
-
-Note: report findings and observations at each stage, textually or visually
-
-1. Handling data
-    - Import required libraries
-    - Load data -> pandas + DataFrame
-    	- csv, excel, hdfs, stata etc.
-    	- chunksize, nrows, low_memory, na_values
+0. Understand the problem, type etc.
+    - problem statement
+	- type of problem
+	    - Whether regression, classification, clustering etc.
+	    - supervised, unsupervised, reinforcement etc.
+	    - one class, multi-class classification
+	    - novelty detection
+	    - continuous variable prediction
+	    - by examining the features and target(s)
+	- Model types
+	    - logical, geometric or probabilistic
     	- study the data
     	- prepare data dictionary
     	- whether adequate data is available
-    	- features and target(s)
     	- 
+
+    - metrics
+    	- what needs to be measured?
+    	- f1 score
+    	- ROC curve
+    	- precision
+    	- recall
+    	- accuracy
+    	- 
+	
+1. Handling data
+    - memory
+    - cpu requirements
+    - Import required libraries
+    - Load data -> pandas + DataFrame
+    	- csv, excel, hdfs, stata etc.
+    	- chunksize, nrows, low_memory
+	- missing value treatment while loading (na_values)
+	- 
     
-    Missing values & outliers
-    	Imputation
+    ##### Missing values & outliers
+    ##### Imputation
     	- check the importance of outliers/anomalies
-    	- strategy for treating missing values
-    		-- use Imputer from sklearn.preprocessing
-        	-- ffill, bfill, mean, map(key:value)
+	- strategy for treating missing values
+		-- use Imputer from sklearn.preprocessing
+		-- ffill, bfill, mean, map(key:value)
 		-- df = df.groupby(df.columns, axis = 1)
 			.transform(lambda x: x.fillna(x.mean()))
     	- strategy for handling outliers
@@ -110,7 +130,7 @@ Note: report findings and observations at each stage, textually or visually
     	- Condition number in statsmodels.api OLS summary
     - OLS summary
     	- sm.OLS(y, X).fit(), summary
-	# 1st table
+	##### 1st table
 		- Dependent variable
 		- Number of observations
 		- Degrees of freedom
@@ -120,7 +140,7 @@ Note: report findings and observations at each stage, textually or visually
 			- adding variables to a regression model, in turn increases R²
 			- 
 		
-	# 2nd table
+	##### 2nd table
 		- coef of Independent variables ()
     			- as IV's inc by 1, DV reduces by the corresponding value
 		- Standard error
@@ -133,7 +153,7 @@ Note: report findings and observations at each stage, textually or visually
 			- with 95% confidence we predict 
 				that IV's lies between the two values for 0.025 and 0.975
 	
-	# 3rd table
+	##### 3rd table
 		- Condition number
 			- larger value indicates multicolinearity
 			- values over 20 are to be concerned of
@@ -170,7 +190,7 @@ Note: report findings and observations at each stage, textually or visually
     	- t-Distributed Stochastic Neighbor Embedding (t-SNE)
     - 
     	
-5. Algorithms
+5. Comapre Models
     - choice of algorithms
     - advantages
     - disadvantages
@@ -188,7 +208,7 @@ Note: report findings and observations at each stage, textually or visually
     	- RandomForestClassifier().feature_importances_
     - 
 
-6. Modeling
+6. Complex Models + 7. Optimization
     - Train and test
     - Predict
     - Measure Accuracy
@@ -214,7 +234,7 @@ Note: report findings and observations at each stage, textually or visually
 		- avoid overfitting by adding more iterations/more parameters
     - 
 
-7. Other steps
+8. Investigate model predictions in context of problem
 
    a) Reducing Variance in final model
 	- sources of variance
@@ -265,4 +285,7 @@ Note: report findings and observations at each stage, textually or visually
 	- If the RMSE is close to the MAE^2, the model makes a few but large errors
 	- Compute NMSE and NMAE
 	- 
+
+9. Draw conclusions and lay out next steps
+
 
