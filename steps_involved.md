@@ -35,7 +35,9 @@
 		- ROC curve
 		- precision
 		- recall
-		- accuracy 
+		- accuracy
+		- R2 score
+		- 
 	
 2) Handling data
 	- memory
@@ -45,6 +47,8 @@
 		- csv, excel, hdfs, stata etc.
 		- chunksize, nrows, low_memory
 		- missing value treatment while loading (na_values)
+		- missingno
+		- 
 	
 	- missing values
 		- imputation
@@ -167,7 +171,10 @@
 		- StandardScaler
 	- Normalization
 		- MinMaxScaler
-	- PCA, ICA
+	- PCA
+		- finds dimensions of greatest variation
+	- ICA
+		- separate a mutltivariate signal into independent signals
 	- Linear Discriminant Analysis
 		- supervised dimensionality reduction technique
 		- similar to PCA, +advantage of tackling overfitting
@@ -178,6 +185,9 @@
 	- Data with low variance can't help in prediction
 	- Dimensionality reduction with t-SNE
 		- t-Distributed Stochastic Neighbor Embedding (t-SNE)
+	- UMAP
+		- maps data to a low-dimensional manifold but tries to preserve more global structure than t-SNE
+
     	
 6) Comapre Models
     - choice of algorithms
@@ -214,7 +224,14 @@
     	- Gradient Descent
 
 8) Optimization
-    - Parameter Tuning
+    - extracting the best performance from a machine learning model 
+    - by tuning the hyperparameters through cross-validation
+    - Manual
+    - GridSearch
+    - Random Search
+    - Automated optimization
+    	- hyperopt
+	- 
     - Retrain
     - Overfitting/underfitting
 	- underfitting - a decision boundary that hasn't latched onto the true border enough, 
