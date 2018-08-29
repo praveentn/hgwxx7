@@ -24,6 +24,7 @@
 * xgboost
 * lightgbm
 * multiprocessing
+* imblearn
 * 
 
 ---
@@ -34,7 +35,9 @@
 * mglearn
 * graphviz
 * plotly
+* mpl_toolkits
 * 
+
 ---
 <b>Python</b>
 * collections
@@ -74,6 +77,7 @@
 * builtins
 * zipfile36
 * warnings
+* missingno
 * 
 
 ---
@@ -101,6 +105,7 @@
   - preprocessing
   - model_selection
     - KFold
+    - StratifiedKFold
     - GridSearchCV
     - cross_validate
     - cross_val_score
