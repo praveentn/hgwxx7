@@ -42,7 +42,7 @@
 		- 
 	- whether adequate data is available
 	- metrics
-		- what needs to be measured?
+		- <i>what needs to be measured?</i>
 		- f1 score
 		- ROC curve
 		- precision
@@ -61,7 +61,13 @@
 		- missing value treatment while loading (na_values)
 		- missingno
 		- 
-	
+		
+	- 4C's
+		- cleaning (anomalies, outliers)
+		- completing (missing)
+		- converting (data types)
+		- creating (featur engg.)
+		
 	- missing values
 		- imputation
 		- check the importance of outliers/anomalies
