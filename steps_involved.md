@@ -28,6 +28,18 @@
 		- logical, geometric or probabilistic
 	- study the data
 	- prepare data dictionary
+	- create a spreadsheet (for quick reference)
+		- Variable: name
+		- Type: num or cat
+		- Relation: any relation with other columns
+		- Target: variable to predict
+			- measure skewness
+			- kurtosis
+			- fill df.describe(inc all)
+			- correlations
+			- 
+		- Comment: things to keep track of going forward
+		- 
 	- whether adequate data is available
 	- metrics
 		- what needs to be measured?
