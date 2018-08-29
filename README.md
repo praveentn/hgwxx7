@@ -38,6 +38,7 @@
 * graphviz
 * plotly
 * mpl_toolkits
+* wordcloud
 * 
 
 ---
