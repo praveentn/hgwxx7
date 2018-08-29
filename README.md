@@ -93,6 +93,7 @@
   - tree
   - utils
   - metrics
+    - log_loss
     - recall_score
     - roc_auc_score    
     - accuracy_score
