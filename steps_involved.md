@@ -85,6 +85,7 @@
 		- Pearson's
 		- Spearman's
 		- Kendall's rank (tau)
+		- 
 	- distribution
 		- df.hist()
 	- density dist
@@ -94,8 +95,19 @@
 	- visualization
 		- bar, hist, box, scatter, pair, facetgrid, 
 		- kdeplot, heatmap, line, area, dispersion,
-		- lmplot, regplot
-	
+		- lmplot, regplot, jointplot, catplot, gridspecs
+		- 
+		
+	- identifying errors in data
+		- finding the relation between columns is key to identify errors
+		- eg. age, gender, dates, year, height, weight and so on
+		- check whether the values are appropriate
+		- whether common data is same for a particular set of rows (grouped by id for ex.)
+		- also, similar columns -> age is null but dob is available!
+		- state is present but country is not
+		- income of individual members in a household are present but net income is missing
+		- 
+		
 	- encoding
 		- note label encoded data
 		- check the MSE and other errors before and after encoding
