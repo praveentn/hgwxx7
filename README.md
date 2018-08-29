@@ -94,6 +94,7 @@
   - utils
   - metrics
     - recall_score
+    - roc_auc_score    
     - accuracy_score
     - confusion_matrix
     - scorer.make_scorer
