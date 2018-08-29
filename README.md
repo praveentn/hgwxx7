@@ -114,6 +114,7 @@
     - AdaBoostClassifier
     - GradientBoostingClassifier
     - ExtraTreesClassifier
+    - VotingClassifier
     - 
   - neighbors
     - NearestNeighbors
