@@ -108,6 +108,10 @@
   - manifold
   - ensemble
     - RandomForestClassifier
+    - AdaBoostClassifier
+    - GradientBoostingClassifier
+    - ExtraTreesClassifier
+    - 
   - neighbors
     - NearestNeighbors
     - nearest_centroid.NearestCentroid
