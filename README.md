@@ -25,6 +25,7 @@
 * lightgbm
 * multiprocessing
 * imblearn
+* umap
 * 
 
 ---
@@ -93,7 +94,10 @@
     - scorer.make_scorer
     - classification_report
     - 
-    
+  - decomposition
+    - PCA
+    - FastICA
+    - 
   - pipeline
   - datasets
   - manifold
