@@ -103,17 +103,36 @@
     - FastICA
     - 
   - pipeline
+    - Pipeline
   - datasets
   - manifold
   - ensemble
+    - RandomForestClassifier
   - neighbors
+    - NearestNeighbors
+    - nearest_centroid.NearestCentroid
+    - KNeighborsClassifier
+    - 
   - covariance
   - naive_bayes
     - GaussianNB
   - linear_model
+    - Ridge
+    - Lasso
+    - RidgeCV
+    - BayesianRidge
+    - LinearRegression
+    - LogisticRegression
     - LogisticRegressionCV
     - RidgeClassifierCV
+    - RidgeClassifier
+    - SGDClassifier
+    - 
   - preprocessing
+    - Imputer
+    - MinMaxScaler
+    - StandardScaler
+    - 
   - model_selection
     - KFold
     - StratifiedKFold
@@ -131,10 +150,15 @@
     - 
   - exceptions
     - ConvergenceWarning
+    - 
   - discriminant_analysis
     - LinearDiscriminantAnalysis
+    - QuadraticDiscriminantAnalysis
+    - 
   - neural_network
-  - 
+  - kernel_ridge
+    - KernelRidge
+    - 
   
 ### Algorithms
 
