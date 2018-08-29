@@ -42,6 +42,7 @@
 		- 
 	- whether adequate data is available
 	- metrics
+		- <i>list the questions that needs to be answered</i>
 		- <i>what needs to be measured?</i>
 		- f1 score
 		- ROC curve
