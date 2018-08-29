@@ -309,14 +309,19 @@
     	- complex non-linear relationships into linear relationships
     	- 
 
+    * tuning classifiers - stacking
+		- n_estimators: Number of classification trees in your learning model ( set to 10 per default)
+		- max_depth: Maximum depth of tree, or how much a node should be expanded. Beware if set to too high a number would run the risk of overfitting as one would be growing the tree too deep
+		- verbose: Controls whether you want to output any text during the learning process. A value of 0 suppresses all text while a value of 3 outputs the tree learning process at every iteration.
+    
     * Relation between RMSE and MAE
-    	- Mean Square Error or RMSE & Mean Absolute Error
-	- MSE has more statistical grounding with variance
-	- MAE is more intuitive and less sensitive to outliers
-    	- In regression, if the RMSE is close to the MAE, the model makes many relatively small errors
-	- If the RMSE is close to the MAE^2, the model makes a few but large errors
-	- Compute NMSE and NMAE
-	- 
+		- Mean Square Error or RMSE & Mean Absolute Error
+		- MSE has more statistical grounding with variance
+		- MAE is more intuitive and less sensitive to outliers
+		- In regression, if the RMSE is close to the MAE, the model makes many relatively small errors
+		- If the RMSE is close to the MAE^2, the model makes a few but large errors
+		- Compute NMSE and NMAE
+		- 
 
 10) Draw conclusions and lay out next steps
 
