@@ -142,6 +142,7 @@
     - 
   - model_selection
     - KFold
+    - ShuffleSplit
     - StratifiedKFold
     - GridSearchCV
     - cross_validate
