@@ -26,6 +26,7 @@
 * multiprocessing
 * imblearn
 * umap
+* hyperopt
 * 
 
 ---
@@ -46,6 +47,9 @@
 * datetime
 * random
 * time
+* ast
+* csv
+* json
 * subprocess
 * threading
 * functools
@@ -105,7 +109,10 @@
   - neighbors
   - covariance
   - naive_bayes
+    - GaussianNB
   - linear_model
+    - LogisticRegressionCV
+    - RidgeClassifierCV
   - preprocessing
   - model_selection
     - KFold
@@ -122,6 +129,11 @@
     - SelectFromModel
     - VarianceThreshold
     - 
+  - exceptions
+    - ConvergenceWarning
+  - discriminant_analysis
+    - LinearDiscriminantAnalysis
+  - neural_network
   - 
   
 ### Algorithms
