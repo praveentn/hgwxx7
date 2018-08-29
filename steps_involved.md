@@ -232,20 +232,22 @@
     - 
 
 7) Complex Models
-    - Train and test
-    - Predict
-    - Measure Accuracy
-    	- mean_squared_error
-	- r2_score
-	- confusion_matrix
-	- 
-    - baseline model
-    - improved model
-    - model interpretations
-    - feature importances
-    	- xgboost
-    - Cost function
-    	- Gradient Descent
+	- Train and test
+	- Predict
+	- Measure Accuracy
+		- mean_squared_error
+		- r2_score
+		- confusion_matrix
+		- 
+	- baseline model
+	- improved model
+	- model interpretations
+	- feature importances
+		- xgboost
+		- random forest
+		- 
+	- Cost function
+		- Gradient Descent
 
 8) Optimization
     - extracting the best performance from a machine learning model 
