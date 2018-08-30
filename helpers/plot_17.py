@@ -5,7 +5,7 @@
 train.select_dtypes('object')
 
 # sample 1
-train = pd.DataFrame('train.csv')
+train = pd.read_csv('train.csv')
 
 # plot the count of Unique Values in integer Columns
 train.select_dtypes(np.int64).nunique().value_counts().sort_index()
