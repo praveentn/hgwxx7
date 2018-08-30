@@ -99,6 +99,7 @@
     - accuracy_score
     - confusion_matrix
     - scorer.make_scorer
+    - mean_absolute_error
     - classification_report
     - 
   - decomposition
