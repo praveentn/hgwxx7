@@ -206,6 +206,9 @@
 		- finds dimensions of greatest variation
 	- ICA
 		- separate a mutltivariate signal into independent signals
+	- SVD
+		- Singular Value Decomposition for
+		- <i>compressing, denoising, and data reduction</i>
 	- Linear Discriminant Analysis
 		- supervised dimensionality reduction technique
 		- similar to PCA, +advantage of tackling overfitting
