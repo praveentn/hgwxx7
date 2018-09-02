@@ -249,6 +249,10 @@
 		- r2_score
 		- confusion_matrix
 		- 
+	- plot curves
+		- learning curve
+		- validation curve
+		- 
 	- baseline model
 	- improved model
 	- model interpretations
@@ -337,4 +341,9 @@
 
 10) Draw conclusions and lay out next steps
 
-
+	- Learn
+		- Collect real-time performance data
+		- Analyze the data collected when testing the product
+		- Draw conclusions and decide upon what next
+		- Validate learning process by building, testing, and rebuilding based on feedback
+		- Reduce risks by failing fast and cheap, to get closer and closer to what is really needed
