@@ -1,0 +1,139 @@
+To create the Virtual Environment -
+
+> Run the following command from your project directory
+
+Note: honeycomb is the name of the virtual env
+----------------------------------------------------
+Step 1:
+----------------------------------------------------
+E:\Python>virtualenv -v honeycomb
+Creating E:\Python\honeycomb
+Using base prefix 'e:\\python'
+Creating E:\Python\honeycomb\Lib
+Symlinking Python bootstrap modules
+  Copying to E:\Python\honeycomb\lib\os.py
+  Cannot import bootstrap module: posix
+  Copying to E:\Python\honeycomb\lib\posixpath.py
+  Ignoring built-in bootstrap module: nt
+  Copying to E:\Python\honeycomb\lib\ntpath.py
+  Copying to E:\Python\honeycomb\lib\genericpath.py
+  Copying to E:\Python\honeycomb\lib\fnmatch.py
+  Copying to E:\Python\honeycomb\lib\locale.py
+  Copying to E:\Python\honeycomb\lib\encodings
+  Copying to E:\Python\honeycomb\lib\codecs.py
+  Copying to E:\Python\honeycomb\lib\stat.py
+  Cannot import bootstrap module: UserDict
+  Cannot import bootstrap module: readline
+  Cannot import bootstrap module: copy_reg
+  Copying to E:\Python\honeycomb\lib\types.py
+  Copying to E:\Python\honeycomb\lib\re.py
+  Cannot import bootstrap module: sre
+  Copying to E:\Python\honeycomb\lib\sre_parse.py
+  Copying to E:\Python\honeycomb\lib\sre_constants.py
+  Copying to E:\Python\honeycomb\lib\sre_compile.py
+  Ignoring built-in bootstrap module: zlib
+  Cannot import bootstrap module: _abcoll
+  Copying to E:\Python\honeycomb\lib\warnings.py
+  Copying to E:\Python\honeycomb\lib\linecache.py
+  Copying to E:\Python\honeycomb\lib\abc.py
+  Copying to E:\Python\honeycomb\lib\io.py
+  Copying to E:\Python\honeycomb\lib\_weakrefset.py
+  Copying to E:\Python\honeycomb\lib\copyreg.py
+  Copying to E:\Python\honeycomb\lib\tempfile.py
+  Copying to E:\Python\honeycomb\lib\random.py
+  Copying to E:\Python\honeycomb\lib\__future__.py
+  Copying to E:\Python\honeycomb\lib\collections
+  Copying to E:\Python\honeycomb\lib\keyword.py
+  Copying to E:\Python\honeycomb\lib\tarfile.py
+  Copying to E:\Python\honeycomb\lib\shutil.py
+  Copying to E:\Python\honeycomb\lib\struct.py
+  Copying to E:\Python\honeycomb\lib\copy.py
+  Copying to E:\Python\honeycomb\lib\tokenize.py
+  Copying to E:\Python\honeycomb\lib\token.py
+  Copying to E:\Python\honeycomb\lib\functools.py
+  Copying to E:\Python\honeycomb\lib\heapq.py
+  Copying to E:\Python\honeycomb\lib\bisect.py
+  Copying to E:\Python\honeycomb\lib\weakref.py
+  Copying to E:\Python\honeycomb\lib\reprlib.py
+  Copying to E:\Python\honeycomb\lib\base64.py
+  Copying to E:\Python\honeycomb\lib\_dummy_thread.py
+  Copying to E:\Python\honeycomb\lib\hashlib.py
+  Copying to E:\Python\honeycomb\lib\hmac.py
+  Copying to E:\Python\honeycomb\lib\imp.py
+  Copying to E:\Python\honeycomb\lib\importlib
+  Copying to E:\Python\honeycomb\lib\rlcompleter.py
+  Copying to E:\Python\honeycomb\lib\operator.py
+  Copying to E:\Python\honeycomb\lib\_collections_abc.py
+  Copying to E:\Python\honeycomb\lib\_bootlocale.py
+  Copying to E:\Python\honeycomb\lib\enum.py
+Creating E:\Python\honeycomb\Lib\site-packages
+Writing E:\Python\honeycomb\lib\site.py
+Writing E:\Python\honeycomb\lib\orig-prefix.txt
+Writing E:\Python\honeycomb\lib\no-global-site-packages.txt
+Copying to E:\Python\honeycomb\Include
+Creating E:\Python\honeycomb\Scripts
+New python executable in E:\Python\honeycomb\Scripts\python.exe
+Changed mode of E:\Python\honeycomb\Scripts\python.exe to 0o777
+Also created pythonw.exe
+Also created python3.dll
+Also created python36.dll
+Testing executable with E:\Python\honeycomb\Scripts\python.exe -c "import sys;out=sys.stdout;
+getattr(out, "buffer", out).write(sys.prefix.encode("utf-8"))"
+Got sys.prefix result: 'e:\\python\\honeycomb'
+Creating E:\Python\honeycomb\lib\distutils
+Writing E:\Python\honeycomb\lib\distutils\__init__.py
+Writing E:\Python\honeycomb\lib\distutils\distutils.cfg
+Installing setuptools, pip, wheel...
+  Looking in links: e:\python\lib\site-packages, e:\python\lib\site-packages\virtualenv_support, 
+  e:\python\lib\site-packages\virtualenv_support
+  Collecting setuptools
+    Downloading https://files.pythonhosted.org/packages/66/e8/570bb5ca88a8bcd2a1db9c6246bb666157_
+    50663ffaaeada95b04ffe74e12/setuptools-40.2.0-py2.py3-none-any.whl (568kB)
+  Collecting pip
+    Using cached https://files.pythonhosted.org/packages/5f/25/e52d3f31441505a5f3af41213346e5b6c2_
+    21c9e086a166f3703d2ddaf940/pip-18.0-py2.py3-none-any.whl
+  Collecting wheel
+  Installing collected packages: setuptools, pip, wheel
+  Successfully installed pip-18.0 setuptools-40.2.0 wheel-0.31.1
+...Installing setuptools, pip, wheel...done.
+Writing E:\Python\honeycomb\Scripts\activate.bat
+Writing E:\Python\honeycomb\Scripts\deactivate.bat
+Writing E:\Python\honeycomb\Scripts\activate.ps1
+Writing E:\Python\honeycomb\Scripts\activate
+Writing E:\Python\honeycomb\Scripts\activate_this.py
+
+E:\Python>
+
+Note: we'vetwo new filescreated under ..\Scripts directory
+
+Writing E:\Python\honeycomb\Scripts\activate.bat
+Writing E:\Python\honeycomb\Scripts\deactivate.bat
+
+----------------------------------------------------
+Step 2:
+----------------------------------------------------
+Activate your virtualenv:
+
+Run> E:\Python\honeycomb\Scripts>activate.bat
+
+(honeycomb) E:\Python\honeycomb\Scripts>
+
+>>> we can see that the virtual env is now activated!
+
+(honeycomb) E:\Python\honeycomb\Scripts>python.exe
+Python 3.6.3 (v3.6.3:2c5fed8, Oct  3 2017, 18:11:49) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import pandas as pd
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'pandas'
+>>>
+
+----------------------------------------------------
+Step 3:
+----------------------------------------------------
+
+(honeycomb) E:\Python\honeycomb\Scripts>deactivate.bat
+E:\Python\honeycomb\Scripts>
+
+# exiting from virtual env!
