@@ -1,0 +1,153 @@
+Collected packages
+
+Successfully built pandocfilters prometheus-client simplegeneric backcall
+Installing collected packages: decorator, ipython-genutils, traitlets, jupyter-core, tornado, pyzmq, jupyter-client, pickleshare, wcwidth, prompt-toolkit, simplegeneric, backcall, parso, jedi, pygments, ipython, ipykernel, jsonschema, nbformat, pywinpty, terminado, prometheus-client, Send2Trash, mistune, webencodings, html5lib, bleach, defusedxml, pandocfilters, testpath, entrypoints, nbconvert, notebook, widgetsnbextension, ipywidgets, qtconsole, jupyter-console, jupyter
+
+
+Installing Jupyter
+
+E:\Python\Scripts>pip3 install jupyter
+Collecting jupyter
+  Downloading https://files.pythonhosted.org/packages/83/df/0f5dd132200728a86190397e1ea87cd76244e42d39ec5e88efd25b2abd7e/jupyter-1.0.0-py2.py3-none-any.whl
+Collecting ipykernel (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/7a/de/a03a5c1f8b743675add3c98f1eb877c67bb29c5196ee6ce54e9c839d23cc/ipykernel-4.9.0-py3-none-any.whl (110kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 112kB 149kB/s
+Collecting ipywidgets (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/ea/c5/0482342559f0fd24909572fe00bb59b2bae98b22d90aac7950f51a98f555/ipywidgets-7.4.1-py2.py3-none-any.whl (110kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 112kB 413kB/s
+Collecting qtconsole (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/ff/1f/b340d52dee46fbbe8a097dce76d1197258bb599692159d94c80921fef9eb/qtconsole-4.4.1-py2.py3-none-any.whl (112kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 112kB 1.5MB/s
+Collecting nbconvert (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/b5/bb/94c493051d60e5b9c0f7f9a368b324201818c1b1c4cae85d1e49a41846c7/nbconvert-5.4.0-py2.py3-none-any.whl (405kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 409kB 839kB/s
+Collecting jupyter-console (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/77/82/6469cd7fccf7958cbe5dce2e623f1e3c5e27f1bb1ad36d90519bc2d5d370/jupyter_console-5.2.0-py2.py3-none-any.whl
+Collecting notebook (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/5e/7c/7fd8e9584779d65dfcad9fa2e09c76131a41f999f853a9c7026ed8585586/notebook-5.6.0-py2.py3-none-any.whl (8.9MB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 8.9MB 361kB/s
+Collecting jupyter-client (from ipykernel->jupyter)
+  Downloading https://files.pythonhosted.org/packages/94/dd/fe6c4d683b09eb05342bd2816b7779663f71762b4fa9c2d5203d35d17354/jupyter_client-5.2.3-py2.py3-none-any.whl (89kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 92kB 521kB/s
+Collecting traitlets>=4.1.0 (from ipykernel->jupyter)
+  Downloading https://files.pythonhosted.org/packages/93/d6/abcb22de61d78e2fc3959c964628a5771e47e7cc60d53e9342e21ed6cc9a/traitlets-4.3.2-py2.py3-none-any.whl (74kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 81kB 952kB/s
+Collecting tornado>=4.0 (from ipykernel->jupyter)
+  Downloading https://files.pythonhosted.org/packages/8b/d6/4e4a9282a3fb8555dca2369e827bd844c7f2d1a59c5790d3bfd97eb66206/tornado-5.1-cp36-cp36m-win_amd64.whl (450kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 450kB 557kB/s
+Collecting ipython>=4.0.0 (from ipykernel->jupyter)
+  Downloading https://files.pythonhosted.org/packages/f7/62/2fef7db3a7b75e8099c3d9db2630ae5ba0b9eefefd91f7497862393d90e8/ipython-6.5.0-py3-none-any.whl (748kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 757kB 607kB/s
+Collecting widgetsnbextension~=3.4.0 (from ipywidgets->jupyter)
+  Downloading https://files.pythonhosted.org/packages/3c/9a/9a690e18e335fc4470a2fa38163774940159375798ba6cce043d5cd94bae/widgetsnbextension-3.4.1-py2.py3-none-any.whl (2.2MB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 2.2MB 604kB/s
+Collecting nbformat>=4.2.0 (from ipywidgets->jupyter)
+  Downloading https://files.pythonhosted.org/packages/da/27/9a654d2b6cc1eaa517d1c5a4405166c7f6d72f04f6e7eea41855fe808a46/nbformat-4.4.0-py2.py3-none-any.whl (155kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 163kB 604kB/s
+Collecting jupyter-core (from qtconsole->jupyter)
+  Downloading https://files.pythonhosted.org/packages/1d/44/065d2d7bae7bebc06f1dd70d23c36da8c50c0f08b4236716743d706762a8/jupyter_core-4.4.0-py2.py3-none-any.whl (126kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 133kB 553kB/s
+Collecting ipython-genutils (from qtconsole->jupyter)
+  Downloading https://files.pythonhosted.org/packages/fa/bc/9bd3b5c2b4774d5f33b2d544f1460be9df7df2fe42f352135381c347c69a/ipython_genutils-0.2.0-py2.py3-none-any.whl
+Collecting pygments (from qtconsole->jupyter)
+  Downloading https://files.pythonhosted.org/packages/02/ee/b6e02dc6529e82b75bb06823ff7d005b141037cb1416b10c6f00fc419dca/Pygments-2.2.0-py2.py3-none-any.whl (841kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 849kB 441kB/s
+Collecting mistune>=0.8.1 (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/c8/8c/87f4d359438ba0321a2ae91936030110bfcc62fef752656321a72b8c1af9/mistune-0.8.3-py2.py3-none-any.whl
+Collecting bleach (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/94/aa/0f7ce53f8688bb9f80c0cffacc3964ddfe08321c509c0bfe5062848951f9/bleach-2.1.4-py2.py3-none-any.whl
+Collecting defusedxml (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/87/1c/17f3e3935a913dfe2a5ca85fa5ccbef366bfd82eb318b1f75dadbf0affca/defusedxml-0.5.0-py2.py3-none-any.whl
+Collecting pandocfilters>=1.4.1 (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/4c/ea/236e2584af67bb6df960832731a6e5325fd4441de001767da328c33368ce/pandocfilters-1.4.2.tar.gz
+Collecting testpath (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/15/19/d7bc380c479a184e4a5a9ce516e4e2a773165f89b445f7cdced83d94de25/testpath-0.3.1-py2.py3-none-any.whl (161kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 163kB 554kB/s
+Requirement already satisfied: jinja2 in e:\python\lib\site-packages (from nbconvert->jupyter) (2.10)
+Collecting entrypoints>=0.2.2 (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/cc/8b/4eefa9b47f1910b3d2081da67726b066e379b04ca897acfe9f92bac56147/entrypoints-0.2.3-py2.py3-none-any.whl
+Collecting prompt-toolkit<2.0.0,>=1.0.0 (from jupyter-console->jupyter)
+  Downloading https://files.pythonhosted.org/packages/04/d1/c6616dd03701e7e2073f06d5c3b41b012256e42b72561f16a7bd86dd7b43/prompt_toolkit-1.0.15-py3-none-any.whl (247kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 256kB 245kB/s
+Collecting terminado>=0.8.1 (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/2e/20/a26211a24425923d46e1213b376a6ee60dc30bcdf1b0c345e2c3769deb1c/terminado-0.8.1-py2.py3-none-any.whl
+Collecting prometheus-client (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/a1/b1/08de091b392fec31da9bd3f5edd9214ec1c6931dd81641610ac20f3ff934/prometheus_client-0.3.1.tar.gz
+Collecting Send2Trash (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/49/46/c3dc27481d1cc57b9385aff41c474ceb7714f7935b1247194adae45db714/Send2Trash-1.5.0-py3-none-any.whl
+Collecting pyzmq>=17 (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/86/0b/c3583486820c01cb9c228708923004f380400ddb9064178772965067f689/pyzmq-17.1.2-cp36-cp36m-win_amd64.whl (991kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 993kB 270kB/s
+Requirement already satisfied: python-dateutil>=2.1 in e:\python\lib\site-packages (from jupyter-client->ipykernel->jupyter) (2.7.2)
+Collecting decorator (from traitlets>=4.1.0->ipykernel->jupyter)
+  Downloading https://files.pythonhosted.org/packages/bc/bb/a24838832ba35baf52f32ab1a49b906b5f82fb7c76b2f6a7e35e140bac30/decorator-4.3.0-py2.py3-none-any.whl
+Requirement already satisfied: six in e:\python\lib\site-packages (from traitlets>=4.1.0->ipykernel->jupyter) (1.11.0)
+Requirement already satisfied: colorama; sys_platform == "win32" in e:\python\lib\site-packages (from ipython>=4.0.0->ipykernel->jupyter) (0.3.9)
+Collecting pickleshare (from ipython>=4.0.0->ipykernel->jupyter)
+  Downloading https://files.pythonhosted.org/packages/9f/17/daa142fc9be6b76f26f24eeeb9a138940671490b91cb5587393f297c8317/pickleshare-0.7.4-py2.py3-none-any.whl
+Collecting simplegeneric>0.8 (from ipython>=4.0.0->ipykernel->jupyter)
+  Downloading https://files.pythonhosted.org/packages/3d/57/4d9c9e3ae9a255cd4e1106bb57e24056d3d0709fc01b2e3e345898e49d5b/simplegeneric-0.8.1.zip
+Requirement already satisfied: setuptools>=18.5 in e:\python\lib\site-packages (from ipython>=4.0.0->ipykernel->jupyter) (28.8.0)
+Collecting backcall (from ipython>=4.0.0->ipykernel->jupyter)
+  Downloading https://files.pythonhosted.org/packages/84/71/c8ca4f5bb1e08401b916c68003acf0a0655df935d74d93bf3f3364b310e0/backcall-0.1.0.tar.gz
+Collecting jedi>=0.10 (from ipython>=4.0.0->ipykernel->jupyter)
+  Downloading https://files.pythonhosted.org/packages/3d/68/8bbf0ef969095a13ba0d4c77c1945bd86e9811960d052510551d29a2f23b/jedi-0.12.1-py2.py3-none-any.whl (174kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 184kB 310kB/s
+Collecting jsonschema!=2.5.0,>=2.4 (from nbformat>=4.2.0->ipywidgets->jupyter)
+  Downloading https://files.pythonhosted.org/packages/77/de/47e35a97b2b05c2fadbec67d44cfcdcd09b8086951b331d82de90d2912da/jsonschema-2.6.0-py2.py3-none-any.whl
+Collecting html5lib!=1.0b1,!=1.0b2,!=1.0b3,!=1.0b4,!=1.0b5,!=1.0b6,!=1.0b7,!=1.0b8,>=0.99999999pre (from bleach->nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/a5/62/bbd2be0e7943ec8504b517e62bab011b4946e1258842bc159e5dfde15b96/html5lib-1.0.1-py2.py3-none-any.whl (117kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 122kB 323kB/s
+Requirement already satisfied: MarkupSafe>=0.23 in e:\python\lib\site-packages (from jinja2->nbconvert->jupyter) (1.0)
+Collecting wcwidth (from prompt-toolkit<2.0.0,>=1.0.0->jupyter-console->jupyter)
+  Downloading https://files.pythonhosted.org/packages/7e/9f/526a6947247599b084ee5232e4f9190a38f398d7300d866af3ab571a5bfe/wcwidth-0.1.7-py2.py3-none-any.whl
+Collecting pywinpty>=0.5; os_name == "nt" (from terminado>=0.8.1->notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/96/b8/fe0669423dd6a7bbac22fb56bd8a740c674f22e90fd5ecb9ac6c68789a7b/pywinpty-0.5.4-cp36-cp36m-win_amd64.whl (1.3MB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 1.3MB 473kB/s
+Collecting parso>=0.3.0 (from jedi>=0.10->ipython>=4.0.0->ipykernel->jupyter)
+  Downloading https://files.pythonhosted.org/packages/09/51/9c48a46334be50c13d25a3afe55fa05c445699304c5ad32619de953a2305/parso-0.3.1-py2.py3-none-any.whl (88kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 92kB 397kB/s
+Collecting webencodings (from html5lib!=1.0b1,!=1.0b2,!=1.0b3,!=1.0b4,!=1.0b5,!=1.0b6,!=1.0b7,!=1.0b8,>=0.99999999pre->bleach->nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
+Building wheels for collected packages: pandocfilters, prometheus-client, simplegeneric, backcall
+  Running setup.py bdist_wheel for pandocfilters ... done
+  Stored in directory: C:\Users\praveen\AppData\Local\pip\Cache\wheels\39\01\56\f1b08a6275acc59e846fa4c1e1b65dbc1919f20157d9e66c20
+  Running setup.py bdist_wheel for prometheus-client ... done
+  Stored in directory: C:\Users\praveen\AppData\Local\pip\Cache\wheels\04\6b\a4\4ccef2edcc797b5553edc6c8bed4d219dafdb019e225c2c348
+  Running setup.py bdist_wheel for simplegeneric ... done
+  Stored in directory: C:\Users\praveen\AppData\Local\pip\Cache\wheels\a9\28\53\f24776b4c5bcbe91aaf1f1e247bd6fadd17191aa12fac63902
+  Running setup.py bdist_wheel for backcall ... done
+  Stored in directory: C:\Users\praveen\AppData\Local\pip\Cache\wheels\98\b0\dd\29e28ff615af3dda4c67cab719dd51357597eabff926976b45
+Successfully built pandocfilters prometheus-client simplegeneric backcall
+Installing collected packages: decorator, ipython-genutils, traitlets, jupyter-core, tornado, pyzmq, jupyter-client, pickleshare, wcwidth, prompt-toolkit, simplegeneric, backcall, parso, jedi, pygments, ipython, ipykernel, jsonschema, nbformat, pywinpty, terminado, prometheus-client, Send2Trash, mistune, webencodings, html5lib, bleach, defusedxml, pandocfilters, testpath, entrypoints, nbconvert, notebook, widgetsnbextension, ipywidgets, qtconsole, jupyter-console, jupyter
+Successfully installed Send2Trash-1.5.0 backcall-0.1.0 bleach-2.1.4 decorator-4.3.0 defusedxml-0.5.0 entrypoints-0.2.3 html5lib-1.0.1 ipykernel-4.9.0 ipython-6.5.0 ipython-genutils-0.2.0 ipywidgets-7.4.1 jedi-0.12.1 jsonschema-2.6.0 jupyter-1.0.0 jupyter-client-5.2.3 jupyter-console-5.2.0 jupyter-core-4.4.0 mistune-0.8.3 nbconvert-5.4.0 nbformat-4.4.0 notebook-5.6.0 pandocfilters-1.4.2 parso-0.3.1 pickleshare-0.7.4 prometheus-client-0.3.1 prompt-toolkit-1.0.15 pygments-2.2.0 pywinpty-0.5.4 pyzmq-17.1.2 qtconsole-4.4.1 simplegeneric-0.8.1 terminado-0.8.1 testpath-0.3.1 tornado-5.1 traitlets-4.3.2 wcwidth-0.1.7 webencodings-0.5.1 widgetsnbextension-3.4.1
+
+E:\Python\Scripts>
+
+E:\Python>jupyter --version
+4.4.0
+
+
+E:\Python>jupyter notebook
+[W 13:08:34.032 NotebookApp] Error loading server extension jupyterlab
+    Traceback (most recent call last):
+      File "e:\python\lib\site-packages\notebook\notebookapp.py", line 1546, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "e:\python\lib\importlib\__init__.py", line 126, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named 'jupyterlab'
+[I 13:08:34.100 NotebookApp] Serving notebooks from local directory: E:\Python
+[I 13:08:34.100 NotebookApp] The Jupyter Notebook is running at:
+[I 13:08:34.100 NotebookApp] http://localhost:8888/?token=bec476b8443d1e6bf67e7771aa026171831e5dd6d4b683c436f
+[I 13:08:34.100 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 13:08:34.132 NotebookApp]
+
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=bec476b8443d1e6bf67e1aa026171831e5dd6d4b683c436f
+[I 13:08:37.678 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+
+
