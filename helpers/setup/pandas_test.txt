@@ -1,0 +1,63 @@
+E:\Python>python.exe
+Python 3.6.3 (v3.6.3:2c5fed8, Oct  3 2017, 18:11:49) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> import pandas as pd
+>>> pd.__version__
+'0.22.0'
+>>>
+>>> pd.test()
+running: pytest --skip-slow --skip-network E:\Python\lib\site-packages\pandas
+============================= test session starts =============================
+platform win32 -- Python 3.6.3, pytest-3.6.3, py-1.5.4, pluggy-0.6.0
+rootdir: E:\Python, inifile:
+collected 0 items / 1 errors
+
+=================================== ERRORS ====================================
+______________________________ ERROR collecting  ______________________________
+lib\site-packages\_pytest\config\__init__.py:372: in _getconftestmodules
+    return self._path2confmods[path]
+E   KeyError: local('E:\\Python\\lib\\site-packages\\pandas\\tests\\io')
+
+During handling of the above exception, another exception occurred:
+lib\site-packages\_pytest\config\__init__.py:403: in _importconftest
+    return self._conftestpath2mod[conftestpath]
+E   KeyError: local('E:\\Python\\lib\\site-packages\\pandas\\tests\\io\\conftest.py')
+
+During handling of the above exception, another exception occurred:
+lib\site-packages\_pytest\config\__init__.py:409: in _importconftest
+    mod = conftestpath.pyimport()
+lib\site-packages\py\_path\local.py:668: in pyimport
+    __import__(modname)
+lib\site-packages\_pytest\assertion\rewrite.py:226: in load_module
+    py.builtin.exec_(co, mod.__dict__)
+lib\site-packages\pandas\tests\io\conftest.py:3: in <module>
+    import moto
+E   ModuleNotFoundError: No module named 'moto'
+
+During handling of the above exception, another exception occurred:
+lib\site-packages\py\_path\common.py:377: in visit
+    for x in Visitor(fil, rec, ignore, bf, sort).gen(self):
+lib\site-packages\py\_path\common.py:429: in gen
+    for p in self.gen(subdir):
+lib\site-packages\py\_path\common.py:418: in gen
+    dirs = self.optsort([p for p in entries
+lib\site-packages\py\_path\common.py:419: in <listcomp>
+    if p.check(dir=1) and (rec is None or rec(p))])
+lib\site-packages\_pytest\main.py:511: in _recurse
+    ihook = self.gethookproxy(path)
+lib\site-packages\_pytest\main.py:413: in gethookproxy
+    my_conftestmodules = pm._getconftestmodules(fspath)
+lib\site-packages\_pytest\config\__init__.py:386: in _getconftestmodules
+    mod = self._importconftest(conftestpath)
+lib\site-packages\_pytest\config\__init__.py:417: in _importconftest
+    raise ConftestImportFailure(conftestpath, sys.exc_info())
+E   _pytest.config.ConftestImportFailure: ModuleNotFoundError("No module named 'moto'",)
+E     File "E:\Python\lib\site-packages\_pytest\assertion\rewrite.py", line 226, in load_module
+E       py.builtin.exec_(co, mod.__dict__)
+E     File "E:\Python\lib\site-packages\pandas\tests\io\conftest.py", line 3, in <module>
+E       import moto
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 0.61 seconds ===========================
+
+E:\Python>

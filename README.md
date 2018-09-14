@@ -60,6 +60,7 @@
 * nltk
 * gensim
 * tweepy
+* textblob
 * 
 ---
 <b>Code review</b>

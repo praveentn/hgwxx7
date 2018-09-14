@@ -92,6 +92,8 @@
 		- standard deviation
 		- measure of dispersion
 		- measure of spread (variance)
+		- covariance
+		- 
 	- heatmap of correlation
 	- univariate analysis
 	- bivariate analysis

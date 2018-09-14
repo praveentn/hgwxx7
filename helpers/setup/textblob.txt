@@ -1,0 +1,8 @@
+E:\Python\Scripts>pip install textblob
+Collecting textblob
+  Downloading https://files.pythonhosted.org/packages/11/18/7f55c8be6d68ddc4036ffda5382ca51e23a1075987f708b9123712091af1/textblob-0.15.1-py2.py3-none-any.whl (631kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 634kB 242kB/s
+Requirement already satisfied: nltk>=3.1 in e:\python\lib\site-packages (from textblob) (3.3)
+Requirement already satisfied: six in e:\python\lib\site-packages (from nltk>=3.1->textblob) (1.11.0)
+Installing collected packages: textblob
+Successfully installed textblob-0.15.1
