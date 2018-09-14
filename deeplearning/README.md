@@ -15,3 +15,6 @@ This repository contains a bunch of notebooks covering various deep learning top
 - 
 
 
+![neural networks](https://github.com/praveentn/hgwxx7/blob/master/deeplearning/images/neuralnetworks.png)
+
+Reference <a href='http://www.asimovinstitute.org/neural-network-zoo/'>here</a>
