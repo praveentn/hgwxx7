@@ -62,8 +62,15 @@
 * tweepy
 * textblob
 * 
+
+<b>Image processing</b>
+* scikit-image
+* mahotas
+* OpenCV
+* 
+
 ---
-<b>Code review</b>
+<b>Code review & performance</b>
 * pytest
 * pylint
 * cProfile
