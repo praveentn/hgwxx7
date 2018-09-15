@@ -118,3 +118,42 @@ vectorize <class 'numpy.lib.function_base.vectorize'>
 void <class 'numpy.void'>
 void0 <class 'numpy.void'>
 '''
+
+
+# get all classes of current module
+import sys
+
+# set current module to sys modules
+current_module = sys.modules[__name__]
+
+# get all classes
+def get_classes(mod):
+    '''
+	pass required module as param
+	returns/prints the classes
+	'''
+    for name, obj in inspect.getmembers(mod):
+        if inspect.isclass(obj):
+            print(name, obj)
+
+
+# call the function
+get_classes(current_module)
+# __loader__ <class '_frozen_importlib.BuiltinImporter'>
+
+# set current module to pandas DataFrame
+import pandas as pd
+current_module = pd.DataFrame
+
+# call the function
+get_classes(current_module)
+
+'''
+>>> current_module
+<class 'pandas.core.frame.DataFrame'>
+>>> get_classes(current_module)
+__class__ <class 'type'>
+_constructor_sliced <class 'pandas.core.series.Series'>
+plot <class 'pandas.plotting._core.FramePlotMethods'>
+>>>
+'''
