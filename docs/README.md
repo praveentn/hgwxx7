@@ -57,7 +57,7 @@
 	- cpu requirements
 	- import required libraries
 	- load data -> pandas + dataframe
-		- csv, excel, hdfs, stata etc.
+		- csv, excel, hdfs, stata, graphlab etc.
 		- chunksize, nrows, low_memory
 		- missing value treatment while loading (na_values)
 		- missingno
