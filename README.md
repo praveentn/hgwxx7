@@ -27,6 +27,7 @@
 * imblearn
 * umap
 * hyperopt
+* featuretools
 * 
 
 ---
