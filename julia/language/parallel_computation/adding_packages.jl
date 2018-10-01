@@ -12,6 +12,12 @@ julia> Pkg.add("CSV")
   Updating git-repo `https://github.com/JuliaRegistries/General.git`
     Fetching: [===>                                     ]  6.3 %  
 
+# alternately
+# or you can use the Pkg REPL mode by pressing ] (similar to ?, help mode, and ;, shell mode):
+
+(v1.0) pkg> add "CSV"
+
+
 using CSV, DataFrames, BenchmarkTools
 iris = CSV.read(joinpath(dirname(pathof(DataFrames)),"..","test/data/iris.csv"))
 
