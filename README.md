@@ -28,6 +28,7 @@
 * umap
 * hyperopt
 * featuretools
+* catboost
 * 
 
 ---
