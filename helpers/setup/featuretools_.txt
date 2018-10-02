@@ -1,0 +1,4 @@
+E:\Python\Scripts>pip install featuretools
+Collecting featuretools
+  Downloading https://files.pythonhosted.org/packages/a2/e1/91ebeb4ef11a8227a400ee74a14ee7d2f50937b3b3a45b193be727fc98f3/featuretools-0.3.1.tar.gz (139kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 143kB 145kB/s
