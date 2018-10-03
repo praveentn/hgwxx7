@@ -14,3 +14,31 @@ AttributeError: module 'tensorflow' has no attribute 'session'
 >>> s
 <tensorflow.python.client.session.Session object at 0x0000020816B24DA0>
 
+# placeholder
+>>> x = tf.placeholder(tf.float32, shape=[2,2])
+>>> x
+<tf.Tensor 'Placeholder:0' shape=(2, 2) dtype=float32>
+>>>
+
+# identity
+>>> y = tf.identity(x)
+>>> y
+<tf.Tensor 'Identity:0' shape=(2, 2) dtype=float32>
+>>>
+
+# load numpy
+>>> import numpy as np
+
+>>> x_vals = np.random.rand(2,2)
+>>> x_vals
+array([[0.97882811, 0.60712575],
+       [0.18916714, 0.35782924]])
+>>>
+
+# tf run
+>>> s.run(y, feed_dict={x: x_vals})
+array([[0.97882813, 0.60712576],
+       [0.18916714, 0.35782924]], dtype=float32)
+>>>
+
+
