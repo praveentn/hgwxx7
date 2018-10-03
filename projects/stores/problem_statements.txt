@@ -1,0 +1,14 @@
+For the store dataset 
+a)	Which store has the farthest distance to its nearest neighboring store?
+b)	What % of stores are within 1km, 3km and 5km of another store?
+c)	Which store has the most other stores within 10km?
+
+
+For the cities dataset 
+a)	What’s the distance between London and Glasgow?
+b)	What’s the 10th closest city to Exeter with a population greater than 200,000?
+c)	What city with a population less than 100,000 is furthest north?
+d)	Of the 10 cities that are furthest west, which has the highest population?
+
+
+In this city one the coordinates are not given. So we've to find the coordinates first and then work on the problems.
