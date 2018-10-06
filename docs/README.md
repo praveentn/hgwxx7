@@ -350,3 +350,27 @@
 		- Validate learning process by building, testing, and rebuilding based on feedback
 		- Reduce risks by failing fast and cheap, to get closer and closer to what is really needed
 
+
+Key points:
+
+Hyperparameter tuning
+* Gamma is the free parameter of the Gaussian radial basis function
+* A small gamma will give you low bias and high variance 
+* A large gamma will give you higher bias and low variance
+
+The goal of SVM is to find a hyperplane that would leave the widest possible "cushion" between input points from two classes. There is a tradeoff between "narrow cushion, little / no mistakes" and "wide cushion, quite a few mistakes".
+
+1 class svm -> non-gaussian dist
+---
+params => gamma and nu
+kernel => rbf, linear, poly, sigmoid
+gamma => kernel coefficient
+gamma = 1/n; n is the number of features
+a small gamma gives you a pointed bump in the higher dimensions, 
+a large gamma gives you a softer, broader bump
+linear kernel => gamma = 0
+
+regularization is bundled into a separate parameter nu
+default value is 0.5
+
+
