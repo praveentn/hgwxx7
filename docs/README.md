@@ -142,6 +142,7 @@
 	- non-arbitrary encoding
 	- DictVectorizer
 	- binary encoder
+	- factor analysis
 	- judicious combination of OHE with PCA for dim. red. can seldom be beat by other encoding schemes 
 	- inverse_transform 
 		- going back from numerical to string
