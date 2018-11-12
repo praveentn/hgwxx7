@@ -63,6 +63,7 @@
 * gensim
 * tweepy
 * textblob
+* textrank
 * 
 
 <b>Image processing</b>
