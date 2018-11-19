@@ -64,6 +64,8 @@
 * tweepy
 * textblob
 * textrank
+* fastText
+* StarSpace
 * 
 
 <b>Image processing</b>
