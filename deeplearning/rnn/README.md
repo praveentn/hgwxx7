@@ -17,3 +17,5 @@ Keras-Applications==1.0.6<br/>
 Keras-Preprocessing==1.0.5<br/>
 numpy==1.15.4<br/>
 pandas==0.23.4<br/>
+
+Credits: https://github.com/WillKoehrsen/recurrent-neural-networks
