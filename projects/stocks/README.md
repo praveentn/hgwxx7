@@ -13,6 +13,7 @@ Populate the output
 ---
 
 Pandas
+PyTesseract
 Selenium, Chrome Webdriver
 PIL/Image
 Excel Writer
