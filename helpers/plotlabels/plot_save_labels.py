@@ -59,16 +59,14 @@ def show_labeled_image(path, image, output, boxes, labels=None):
     Also displays each box's label if a list of labels is provided.
     If you want to save just use 'plt.savefig(...)' instead of 'plt.show()'
     :param path: path of the image/xml files
-    :param image: The image to plot. If the image is a normalized
-        torch.Tensor object, it will automatically be reverse-normalized
-        and converted to a PIL image for plotting.
+    :param image: The image to plot.
     :type image: numpy.ndarray or torch.Tensor
-    :param boxes: A torch tensor of size (N, 4) where N is the number
-        of boxes to plot, or simply size 4 if N is 1.
-    :type boxes: torch.Tensor
+    :param boxes: A numpy array of size (N, 4) where N is the number
+        of boxes to plot. eg. [[1,2,3,4],[7,8,9,10]]
+    :type boxes: np.array
     :param labels: (Optional) A list of size N giving the labels of
             each box (labels[i] corresponds to boxes[i]). Defaults to None.
-    :type labels: torch.Tensor or None
+    :type labels: list or None
     """
 
     fig, ax = plt.subplots(1)
@@ -94,7 +92,7 @@ def show_labeled_image(path, image, output, boxes, labels=None):
     plt.savefig(path + output)
 
 # set folder paths, output files etc.
-folder = 'C:/Continuum/Anaconda3/envs/innventure/workspace/certificates/test/'
+folder = 'home/images/'
 output_file = folder + 'bounding_boxes.csv'
 
 # dataframe with filename, class, bounding box coordinates etc.
