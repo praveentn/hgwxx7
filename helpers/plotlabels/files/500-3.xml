@@ -1,0 +1,25 @@
+<annotation>
+	<folder>test</folder>
+	<filename>500.jpg</filename>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>400</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>id</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>45</xmin>
+			<ymin>91</ymin>
+			<xmax>253</xmax>
+			<ymax>142</ymax>
+		</bndbox>
+	</object>
+</annotation>

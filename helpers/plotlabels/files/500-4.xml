@@ -1,0 +1,25 @@
+<annotation>
+	<folder>test</folder>
+	<filename>500.jpg</filename>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>400</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>signature</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>473</xmin>
+			<ymin>225</ymin>
+			<xmax>552</xmax>
+			<ymax>264</ymax>
+		</bndbox>
+	</object>
+</annotation>
