@@ -13,7 +13,13 @@
 # limitations under the License.
 # ==============================================================================
 
-# startup script
+# startup script to
+# open folders
+# run commands
+# open url's
+# open applications
+# activate python environments
+# ==============================================================================
 
 # load libraries
 import os
@@ -51,35 +57,44 @@ class PaperGrid():
         self.search_engine = random.choice(self.search_engines)
 
         self.definite_urls = [ "https://quantum-computing.ibm.com/", "https://qiskit.org/textbook/ch-states/introduction.html", \
-                               "https://www.youtube.com/watch?v=b0EChbwSuuQ&feature=emb_logo", 
+                               #"https://www.youtube.com/watch?v=b0EChbwSuuQ&feature=emb_logo", \
+                               #"https://www.youtube.com/watch?v=F_Riqjdh2oM&list=PLWJPmidafEvy9TiFeQevjFzUSU5mFxRoa&index=10&t=0s", \
                              ]
+        self.longreads_urls = [ "https://hedgehogreview.com/", "https://www.popularmechanics.com/", "https://www.lrb.co.uk/", \
+                              "https://benjaminreinhardt.com/", "https://www.nybooks.com/", "https://www.tabletmag.com/", \
+                              "https://restofworld.org/", "http://www.openculture.com/", \
+                            ]
 
-        self.interesting_urls = ["https://studio.azureml.net/", "http://tlas.nautil.us/", "https://www.livescience.com/", "https://scitechdaily.com/", \
+        self.interesting_urls = ["http://tlas.nautil.us/", "https://www.livescience.com/", "https://scitechdaily.com/", \
                 "https://longreads.com/", "https://thebrowser.com/", "https://spectrum.ieee.org/computing", "https://www.pewresearch.org/", \
                 "https://ai.google/", "https://www.wsj.com/news/us/", "https://www.bloomberg.com/", "https://www.academia.edu/", \
                 "http://nautil.us/", "https://aeon.co/", "https://apod.nasa.gov/apod/astropix.html", "https://www.techexplorist.com/", \
                 "https://cosmosmagazine.com/", "http://www.roboticmagazine.com/", "https://scienceillustrated.com.au/blog/", \
-                "http://www.yalescientific.org/", "https://datascience.stackexchange.com/questions?sort=newest", \
                 "https://distill.pub", "https://arxiv.org/", "https://fivethirtyeight.com/", "https://www.syfy.com/", \
-                "https://stackoverflow.com/questions/tagged/python?sort=newest&pageSize=10", "https://stats.stackexchange.com/questions?sort=newest", \
-                "https://eylearning.udemy.com/home/my-courses/learning/", "https://www.wired.com/", "https://futurism.com/", \
-                "https://twitter.com/", "http://mitp.nautil.us/", "https://venturebeat.com/", \
-                "http://abstractions.nautil.us/", "http://poetry.nautil.us/", "https://archpaper.com/", \
+                "https://www.wired.com/", "https://futurism.com/", "https://footystats.org/england/premier-league/", \
+                "https://twitter.com/", "http://mitp.nautil.us/", "https://venturebeat.com/", "https://www.technologyreview.com/", \
+                "http://abstractions.nautil.us/", "http://poetry.nautil.us/", "https://archpaper.com/", "https://www.t3.com/", \
                 "http://maxplanck.nautil.us/", "https://www.worldscientific.com/", "https://www.artificialintelligence-news.com/",\
                 "http://www.irregularwebcomic.net/random.php", "http://cosmos.nautil.us/", "http://alliance.nautil.us/", "https://phys.org/",\
                 "https://www.scientificamerican.com/", "https://science.sciencemag.org/", "https://dailygalaxy.com/", \
-                "https://www.skeptic.com/", "https://mechanixillustrated.technicacuriosa.com/", "https://www.the-scientist.com/", \
-                "https://www.technologyreview.com/", "https://www.t3.com/", "https://www.explainxkcd.com/wiki/index.php/Special:Random", \
-                "https://footystats.org/england/premier-league/", 
+                "https://www.skeptic.com/", "https://www.the-scientist.com/", "https://www.explainxkcd.com/wiki/index.php/Special:Random", \
+                "", \
                 ]
 
-        self.skip_urls = ["https://algorithmia.com/", "https://developerblog.myo.com/", "https://ghost.org/", \
+        self.stack_urls = ["https://datascience.stackexchange.com/questions?sort=newest", \
+                           "https://stackoverflow.com/questions/tagged/python?sort=newest&pageSize=10",  \
+                           "https://stats.stackexchange.com/questions?sort=newest", \
+                           "https://quantumcomputing.stackexchange.com/", \
+                          ]
+
+        self.skip_urls = ["https://algorithmia.com/", "https://developerblog.myo.com/", "https://ghost.org/", "http://www.patentsview.org/", \
             "https://towardsdatascience.com/solving-nlp-task-using-sequence2sequence-model-from-zero-to-hero-c193c1bd03d1", \
             "https://theaisummit.com/", "https://www.superdatascience.com/", "https://analyticsvidhya.com/", \
-            "https://www.office.com/", "http://www.patentsview.org/", "http://sci-hub.tw/", "https://www.livejournal.com/", \
-            "https://link.springer.com/journal/11336", "https://www.adasci.org/", "https://portal.azure.com/", "https://medium.com/", \
+            "https://link.springer.com/journal/11336", "https://www.adasci.org/", "http://sci-hub.tw/", "https://www.livejournal.com/", \
             "https://skymind.ai/wiki/", "http://www.research.att.com/", "https://www.cnet.com/", "https://hai.stanford.edu/", \
+            "http://www.yalescientific.org/", "https://mechanixillustrated.technicacuriosa.com/", \
             ]
+
 
     def get_random_num(self, ):
         return random.randint(39,59)
@@ -91,6 +106,10 @@ class PaperGrid():
             r = self.get_random_num()
             pg += p * r
         return pg
+
+    def open_folders(self, folder):
+        path = os.path.realpath(folder)
+        os.startfile(path)
 
     def open_urls(self, urls):
         shuffle(urls)
@@ -136,6 +155,14 @@ if __name__ == "__main__":
 
     pg.run_commands()
 
+    # open folders
+    folders = ["C:/Users/Praveen.TN/Workspaces/folder1", "C:/Users/Praveen.TN/Workspaces/folder2", \
+
+              ]
+    for folder in folders:
+        pg.open_folders(folder)
+
+    pg.open_urls(pg.longreads_urls)
     pg.open_urls(pg.definite_urls)
     pg.open_urls(pg.interesting_urls)
     pg.open_urls(pg.skip_urls)
