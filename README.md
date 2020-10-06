@@ -9,8 +9,15 @@ Reach Out: @iVanPeer <br/>
 
 <i>probabilism</i>: a theory that certainty is impossible especially in the sciences and that probability suffices to govern belief and action
 
-#### Philosopher's beans
+#### Abstraction
+
+<details><summary><b>Philosopher's <tt>beans</tt></b></summary>
+<p>
 <i>Few beans of this handful are white <br/>
   Most beans in this bag are white <br/>
   Therefore, probably these beans were taken from another bag <br/>
   This is an hypothetical inference!</i>
+</p>
+</details>
+
+
