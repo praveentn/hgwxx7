@@ -20,4 +20,9 @@ Reach Out: @iVanPeer <br/>
 </p>
 </details>
 
+<details><summary><b>QML</b></summary>
 
+<p>
+<i>model space vs. feature space</i>
+</p>
+</details>
