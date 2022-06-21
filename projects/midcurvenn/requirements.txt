@@ -44,7 +44,7 @@ mock==3.0.5
 nbconvert==5.5.0
 nbformat==4.4.0
 notebook==6.0.0
-numpy==1.16.4
+numpy==1.22.0
 olefile==0.46
 pandas==0.25.0
 pandocfilters==1.4.2
